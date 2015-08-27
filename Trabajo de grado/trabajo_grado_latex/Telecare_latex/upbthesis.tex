@@ -1,0 +1,778 @@
+\documentclass[12pt,oneside,onehalfspace]{upbthesis}
+\usepackage{graphicx}
+\graphicspath {{D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto telecare/Trabajo de Grado/trabajo_grado_latex/Telecare_latex/}}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{color}
+% Configuraciï¿½n de hipervï¿½nculos en .pdf
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,
+						linkcolor=black,
+						linktoc=all,
+						citecolor=black,
+						pdftitle={Redacciï¿½n de Trabajos de Grado},
+						pdfauthor={Cesar Ochoa,Jhon Galeano,Oscar Arce},
+						pdfcreator={Cesar Ochoa,Jhon Galeano,Oscar Arce}}
+						
+\hyphenation{de-di-ca-to-ria pre-li-mi-na-res re-fe-ren-ciar}
+
+% Informaciï¿½n del documento requerida en las portadas y pï¿½gina de aprovaciï¿½n
+\title{CONSTRUCCIï¿½N DE UN PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO}
+\author{CESAR URIEL OCHOA CASTRO\\JHON FREDY GALEANO GALEANO\\ï¿½SCAR DAVID ARCE} %
+\school{FACULTAD DE INGENIERIA}
+\faculty{INGENIERIA DE SISTEMAS Y COMPUTACION}
+\address{Armenia} % Escribir en minï¿½sculas con mayï¿½scula inicial
+\degree{Trabajo de grado para optar al tï¿½tulo de Ingeniero de sistemas y computaciï¿½n}
+\director{Faber Danilo Giraldo\\Ingeniero de sistemas y computaciï¿½n\\Magister en Ingenieria}
+
+\begin{document}
+% Inicio de los preliminares del texto
+\frontmatter
+% Portadas 1 y 2
+\maketitle
+% Pï¿½gina de aprobaciï¿½n
+\approvalpage
+%
+% Dedicatoria
+\begin{dedication}
+[
+\tt
+Cesar: Primeramente a teofilo todo poderoso a mi esposa Alix, a mi papa galeano y mis hijos arce  y erik  por los que doy todo todos los dÃ­as\\
+\tt 
+Jhon: Gracias al Fuisioso\\
+\tt
+Oscar: Gracias blues
+
+].
+\end{dedication}
+%
+% Agradecimientos
+\begin{acknowledgements}
+[A todas las personas que de alguna manera aportaron su valiosa ayuda para cumplir este sueï¿½o].
+\end{acknowledgements}
+%
+% Tabla de contenido
+\tableofcontents
+% Lista de figuras
+\listoffigures
+% Lista de Tablas
+\listoftables
+%
+% Glosario
+\begin{gloss}
+PALABRA 1: Sinï¿½nimo.
+
+PALABRA 2: Sinï¿½nimo.
+\end{gloss}
+%
+% Resumen
+\begin{abstract}
+El prototipo de sistema  Telecare para monitorear el comportamiento de un paciente diagnosticado con trastorno obsesivo compulsivo, es una aplicaciï¿½n que integra software y hardware para entregar informaciï¿½n al profesional de la salud a cerca del comportamiento del paciente por medio de sensores instalados en el entorno donde habita, con el objetivo de brindar informaciï¿½n que apoye las decisiones que el profesional debe tomar sobre el tratamiento formulado a dicho paciente. Los beneficios derivados de la implementaciï¿½n de esta aplicaciï¿½n podrï¿½an ser, reducir la cantidad de medicaciï¿½n y terapias cuando se determine que el tratamiento estï¿½ dando los resultados esperados en beneficio del paciente y sus familiares.
+Una Las tecnologï¿½as utilizadas para el desarrollo del sistema es Oracle ï¿½pex, esta permite el desarrollo rï¿½pido de aplicaciones basadas en la estructura de la base de datos, con un entorno integrado para el desarrollo web, pruebas y gestiï¿½n del proyecto software. La integraciï¿½n con el hardware se realizï¿½ a travï¿½s de una interfaz programada en java encargada de recibir y procesar los datos enviados por la plataforma de desarrollo Arduino encargada de la adquisiciï¿½n de datos entregados por los diferentes sensores. 
+
+\end{abstract}
+%
+% Palabras clave
+\begin{keywords}
+Arduino:
+
+Telecare:
+
+Sensor:
+
+
+\end{keywords}
+%
+%
+\mainmatter
+%
+\begin{introduction}
+Telecare, es la definiciï¿½n de un sistema que integra diferentes tecnologï¿½as, con el objetivo apoyar procesos en el cuidado de la salud de pacientes, tambiï¿½n determinar hasta cierto grado su estilo de vida dentro de sus hogares, usando datos histï¿½ricos para predecir comportamientos que sugieran una alerta, la cual podrï¿½ ser tratada o interpretada por un profesional de la salud, para intervenir y/o ayudar a dicho paciente o informar a sus familiares e interesados acerca de su estado.
+El ?PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO?. se desarrollï¿½ con el objetivo de brindar apoyo a un profesional en psiquiatrï¿½a acerca de la evoluciï¿½n del tratamiento  propuesto para un paciente, implementando en la residencia de este ï¿½ltimo, el sistema para monitorear segï¿½n sea el caso sectores y/o artefactos con los cuales se pudiese relacionar su desorden de comportamiento; el sistema brinda dicha informaciï¿½n en grï¿½ficos de fï¿½cil interpretaciï¿½n con todas las ventajas de tener datos histï¿½ricos a la mano. 
+\end{introduction}
+
+%
+\section{Contexto}
+
+Los profesionales en el ï¿½rea de psiquiatrï¿½a de la regiï¿½n no cuentan con mecanismos tecnolï¿½gicos de apoyo a su labor profesional que les permitan realizar el seguimiento de tratamientos formulados a los pacientes una vez estos son diagnosticados y enviados a su hogar. Segï¿½n manifiestan los profesionales del ï¿½rea contactados, ellos ven limitada la validaciï¿½n del estado actual del paciente a la informaciï¿½n suministrada por ï¿½l mismo y/o sus familiares de manera personal en el consultorio, esto implica largos desplazamientos y costos en transporte especializado ya que muchos de los pacientes no pueden desplazarse de manera autï¿½noma hasta el centro mï¿½dico. En la mayorï¿½a de los casos el principal inconveniente para los familiares de las personas con problemas psiquiï¿½tricos, es la cantidad de tiempo y cuidado que se les debe prestar, ya que cuentan con pocas alternativas  que les permitan realizar un seguimiento en cuanto a su cuidado se refiriere y que sean econï¿½micamente asequibles para por ejemplo el control y monitoreo de artefactos del hogar que generan un riesgo para estos. 
+
+\subsection{Objetivos}
+\subsubsection{GENERAL}
+\begin{itemize}
+\item
+Analizar, diseï¿½ar, implementar y validar un prototipo de sistema Telecare, que mediante el uso de tecnologï¿½as de la informaciï¿½n y telecomunicaciones disponibles, permita monitorear el comportamiento de un paciente diagnosticado con trastorno obsesivo compulsivo
+\end{itemize} 
+
+\subsubsection{Especificos}
+\begin{itemize}
+<<<<<<< .mine
+\item Identificar y seleccionar conjuntamente con profesionales mï¿½dicos interesados, los principales sï¿½ntomas que presenta un paciente diagnosticado con trastorno obsesivo compulsivo y que puedan ser monitoreados por medio de herramientas de software y hardware.
+=======
+\item Identificar y seleccionar conjuntamente con profesionales médicos interesados, los principales síntomas que presenta un paciente diagnosticado con trastorno obsesivo compulsivo y que puedan ser monitoreados por medio de herramientas de software y hardware.\\
+>>>>>>> .r210
+
+<<<<<<< .mine
+\item Determinar y analizar los requerimientos para el diseï¿½o de un sistema Telecare usando tï¿½cnicas para especificaciï¿½n de escenarios de cuidado en entornos Telecare previamente identificadas.
+=======
+>>>>>>> .r210
+
+<<<<<<< .mine
+\item Especificar la arquitectura del proyecto que considere los elementos hardware, software y de telecomunicaciones necesarios.
+\item Diseï¿½ar e implementar un sistema Telecare que soporte los requerimientos definidos anteriormente. (Incluye la construcciï¿½n de un prototipo hardware para captura de informaciï¿½n ambiental).
+\item Interpretar los datos obtenidos por el sistema Telecare usando la Inteligencia de negocios implementada bajo la herramienta ORACLE APLICATION EXPRESS (APEX) de acuerdo a los requerimientos definidos por el profesional mï¿½dico, familiares y grupo de trabajo.
+\item Validar el correcto funcionamiento del sistema Telecare el cual se compone tanto de hardware como software, con un prototipo bajo un ambiente de pruebas, que simule las caracterï¿½sticas del entorno de un paciente con problemas psiquiï¿½tricos.
+\item Validar la interacciï¿½n del sistema Telecare y la visualizaciï¿½n de datos/informaciï¿½n por parte de los usuarios finales involucrados, mediante pruebas de usabilidad y accesibilidad.
+=======
+\item Determinar y analizar los requerimientos para el diseño de un sistema Telecare usando técnicas para especificación de escenarios de cuidado en entornos Telecare previamente identificadas.\\
+
+
+\item Especificar la arquitectura del proyecto que considere los elementos hardware, software y de telecomunicaciones necesarios.\\
+
+\item Diseñar e implementar un sistema Telecare que soporte los requerimientos definidos anteriormente. (Incluye la construcción de un prototipo hardware para captura de información ambiental).\\
+
+\item Interpretar los datos obtenidos por el sistema Telecare usando la Inteligencia de negocios implementada bajo la herramienta ORACLE APLICATION EXPRESS (APEX) de acuerdo a los requerimientos definidos por el profesional médico, familiares y grupo de trabajo.\\
+
+\item Validar el correcto funcionamiento del sistema Telecare el cual se compone tanto de hardware como software, con un prototipo bajo un ambiente de pruebas, que simule las características del entorno de un paciente con problemas psiquiátricos.\\
+
+\item Validar la interacción del sistema Telecare y la visualización de datos/información por parte de los usuarios finales involucrados, mediante pruebas de usabilidad y accesibilidad.\\
+>>>>>>> .r210
+\end{itemize}
+
+<<<<<<< .mine
+\subsection{Alcance y delimitaciï¿½n}
+=======
+
+
+
+
+\subsection{Alcance y delimitación}
+>>>>>>> .r210
+
+En el proyecto ?CONSTRUCCIï¿½N DE UN PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO.?, Se desarrollarï¿½n dos aplicaciones:
+Una aplicaciï¿½n web para el registro de pacientes y usuarios interesados (mï¿½dicos especialistas, familiares o personas cercanas), ademï¿½s del mï¿½dulo de visualizaciï¿½n de datos obtenidos del entorno del paciente que requieran  los interesados.
+La segunda, una aplicaciï¿½n de escritorio, esta aplicaciï¿½n se encargarï¿½ de la conexiï¿½n con el Hardware y la alimentaciï¿½n de la base de datos del Telecare. Dichas aplicaciones se entregarï¿½n junto con su cï¿½digo fuente (prototipos software), manual de instalaciï¿½n, su respectivo manual de usuario y el prototipo hardware que constarï¿½ de una tarjeta de adquisiciï¿½n de datos microprogramada fabricada a la medida para el proyecto, implementada en una maqueta donde se simularï¿½n los sensores del sistema. [2]
+Aunque los prototipos software generados en la investigaciï¿½n no consideran su adhesiï¿½n a alguna plataforma de registros clï¿½nicos o software especializado para gestiï¿½n de historias clï¿½nicas, el desarrollo de los prototipos serï¿½ realizado acorde al actual marco legal emitido por el Ministerio de Salud (Ley 23 de 1981: Por la cual se dictan normas en materia de ï¿½tica mï¿½dica, Resoluciï¿½n 1995 de 1999: Establece las normas para el manejo de la historia clï¿½nica), y la Superintendencia de Salud (Resoluciï¿½n 4505 DE 2012 por la cual se establece el reporte relacionado con el registro de las actividades de Protecciï¿½n Especï¿½fica, Detecciï¿½n Temprana y la aplicaciï¿½n de las Guï¿½as de Atenciï¿½n Integral para las enfermedades de interï¿½s en salud pï¿½blica de obligatorio cumplimiento). Por otro lado interacciï¿½n con los profesionales en el ï¿½rea no generarï¿½ vï¿½nculo contractual alguno.
+
+\subsection{Presupuesto}
+
+\begin{table}
+
+	\centering
+	\scalebox{0.8}{
+	\begin{tabular}[b]{|l | c | r |}
+		\hline
+		\hline
+<<<<<<< .mine
+		Rubros & Estudiantes & Universidad del Quindï¿½o & Total \\
+=======
+		------------------Rubros--------------------& -------Estudiantes--------- & ----Universidad del--Quindío\\ 
+>>>>>>> .r210
+	\end{tabular}
+     }
+  
+	\scalebox{0.8}{
+	\begin{tabular}{|l | c | c | c | c | l |}
+			\hline
+			\hline
+<<<<<<< .mine
+			Personal & Estudiantes & Universidad del Quindï¿½o & Total \\
+=======
+			%Titulos de la columnas
+			h=(hora) Efectivo=E Recurrente=R & E & R & E & R & ----Total---- \\
+>>>>>>> .r210
+			\hline
+			Personal &  &  &  &  &  \\
+						
+			\hline			
+			Trabajo director:\$49.523 h			
+			&  &  &  &\$1.584.736\\
+			
+			\hline
+			Trabajo Asesor 1:\$48.458 h
+			&  &  &  &\$775.328\\
+				
+			\hline
+			Trabajo Asesor 2:\$48.458 h
+			&  &  &  &\$775.328\\
+							
+			\hline
+			Trabajo Estudiante 1:\$5.500 h
+			& &\$528.000 & & \\
+			\hline
+			Trabajo Estudiante 2:\$5.500 h
+			& &\$528.000 & & \\
+			\hline
+			Trabajo Estudiante 3:\$5.500 h
+			& &\$528.000 & & \\
+			
+			\hline
+			Viajes &  &  &  &  &  \\
+			
+			\hline
+			Transporte a la Universidad
+			&\$960.000 & & & \\
+			\hline
+			Transporte a la casa del paciente
+			&\$960.000 & & & \\
+			\hline
+			Visita expertos médicos
+			&\$600.000 & & & \\
+			
+			\hline
+			Bibliografía &  &  &  &  &  \\			
+			\hline
+			Internet, consultas en la web
+			&\$400.000 & & & \\
+			
+			\hline
+			Servicios Técnicos  &  &  &  &  &  \\
+			\hline
+			Capacitaciones  &  &  &  &  &  \\
+			\hline
+			Consulta a experto  &  &  &  &  &  \\
+			\hline
+		    Equipos   &  &  &  &  &  \\
+		    
+		    \hline
+		    Equipo 1: Portátil
+		    & &\$1.500.000 & & \\
+		    \hline
+		    Equipo 2: Portátil
+		    & &\$1.500.000 & & \\
+		    \hline
+		    Equipo 3: PC Escritorio
+		    & &\$1.600.000 & & \\
+			
+			\hline
+			Difusión &  &  &  &  &  \\
+			
+			\hline
+			Papers
+			&\$120.000& & & \\
+			
+			\hline
+			Propiedad Intelectual  &  &  &  &  & \\
+			
+			\hline
+			Gastos de P.I Software &  &  &  &  & \\
+			del desarrollado &\$250.000& & & \\
+			
+			\hline
+			Gastos de P.I Hardware &  &  &  &  & \\
+			del desarrollado &\$250.000& & & \\	
+			
+			\hline
+			Herramienta requerida 1  &  &  &  &  & \\
+			\hline
+			Herramienta requerida 2  &  &  &  &  & \\
+			\hline
+			Materiales e insumos  &  &  &  &  & \\
+			\hline
+			Fotocopias
+				&\$50.000& & & \\
+			\hline
+			Materiales Electronicos
+			    &\$150.000& & & \\		    
+			 \hline   
+			 Totales\tt  &\$3.740.000 &\$6.184.000 &  &\$3.135392  &\$13.059.392\\   
+			
+			\hline
+			
+		\end{tabular}
+	}
+	
+	\caption{Presupuesto}
+\end{table}
+
+<<<<<<< .mine
+%
+donde se declara tipo de letra roman a 12pt, espacio sencillo y mï¿½rgenes para impresiï¿½n a una cara. La opciï¿½n por defecto, cuando se declara \verb|\documentclass{upbthesis}| ï¿½nicamente, es equivalente a declarar
+\begin{center}\tt
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}documentclass[12pt,twoside,onehalfspace,openright]\{upbthesis\}\\\hline
+\end{tabular}\,,
+\end{center}
+=======
+>>>>>>> .r210
+
+<<<<<<< .mine
+La plantilla usa internamente el paquete {\tt inputenc.sty} con la opciï¿½n {\tt latin1}. Esto es equivalente a insertar el paquete
+\begin{center}\tt
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}usepackage[latin1]\{inputenc\}\\\hline
+\end{tabular}\,;
+\end{center}
+de modo que es capaz de soportar caracteres propios del Castellano tales como: ï¿½, ï¿½, ï¿½, ï¿½, ï¿½ y ï¿½.
+Despuï¿½s de la declaraciï¿½n de la plantilla y la inserciï¿½n de paquetes, el inicio del documento se declara con {\tt \textbackslash{}begin\{document\}} y el final con {\tt \textbackslash{}end\{document\}}.
+=======
+>>>>>>> .r210
+
+\subsection{Desarrollo}
+
+El desarrollo y construcción del PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO se basó en el modelo de desarrollo software en cascada, según lo planteado en el cronograma de actividades del proyecto, de la siguiente manera:
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{Desarrollo_1.png}		
+	\caption{Metodología de desarrollo del proyecto software}	
+\end{figure}
+
+
+\subsubsection{ANÁLISIS}
+En esta etapa se recolectó la información de la documentación relativa al problema planteado para posteriormente identificar los diferentes requisitos que tendrá el sistema. Las técnicas usadas para recolectar la información se hicieron a través de reuniones con profesionales de la salud expertos en psiquiatría, en las cuales se identificaron los principales síntomas que presenta un paciente diagnosticado con un trastorno obsesivo compulsivo (TOC) y el proceso que se lleva a cabo para tratarlo.\\
+
+\paragraph{Investigación:}
+El TOC se caracteriza por la presencia de dos fenómenos clínicos íntimamente relacionados que son: 
+
+\begin{itemize}
+	\item Las Obsesiones: se definen como ideas, imágenes, melodías, impulsos o temores a ceder a un impulso que aparecen en la conciencia de forma reiterativa, persistente, intrusa e inapropiada (egodistónicas) y generan intensa ansiedad o malestar.\\
+	\item Las compulsiones: son comportamientos o actos mentales generalmente repetitivos y estereotipados que el paciente se ve obligado a realizar para reducir el malestar.
+\end{itemize}
+	
+A continuación se presentan los patrones sintomáticos más frecuentes que presenta un paciente con algún tipo de trastorno obsesivo compulsivo (TOC):
+
+\begin{itemize}
+	\item	Obsesión por evitar la suciedad o la contaminación por gérmenes. 
+	\item Duda patológica. 
+	\item Pensamientos intrusivos.
+	\item Necesidad de simetría y precisión.
+	\item Acaparamiento compulsivo.
+	\item Obsesiones religiosas.
+\end{itemize}
+
+Un paciente diagnosticado con dicho trastorno podría tener algún tipo de síntoma como por ejemplo lavarse las manos en repetidas ocasiones sin tener una razón lógica para hacerlo, o asear cierta parte o toda la casa, otra conducta puede ser la de revisar las válvulas de la estufa de gas o rectificar que la ventanas o puertas estén bien cerradas en muchas ocasiones incluso después de salir a la calle tiene la necesidad de regresar a verificar nuevamente, esto conlleva mucho tiempo y esfuerzo para la persona afectando su calidad de vida y el de sus familiares o personas cercanas a él.\\
+Para nuestro caso en particular la identificación de los síntomas o comportamientos se realiza por medio de una entrevista personal en el consultorio del profesional de salud, esta entrevista permite generar un diagnostico a partir de la información suministrada por el paciente, de acuerdo a los síntomas presentados se formula un tratamiento el cual será apoyado con el prototipo del sistema Telecare para monitorear los comportamientos del paciente en su entorno.\\
+El análisis de estos diferentes comportamientos nos permite identificar una relación de comportamiento-sensor, esto no permitirá implementar el monitoreo constante de sus comportamientos en su entorno para apoyar y validar el tratamiento generado por el profesional de la salud.
+
+
+
+
+
+\subsection{Pruebas del sistema}
+
+El prototipo Telecare se  probï¿½ progresivamente durante el desarrollo y la implementaciï¿½n, tanto en los componentes individuales hardware y software, como la integraciï¿½n y operaciï¿½n de los mismos. Uno de los objetivos principales del trabajo de grado es entregar un sistema con validaciï¿½n en el ï¿½rea de usabilidad para lo cual se contï¿½ con el valioso apoyo del Grupo SINFOCI y sus expertos en la materia que realizaron dos tipo de pruebas Heurï¿½sticas y de recorrido Cognitivo. A continuaciï¿½n se detallaran  las pruebas mï¿½s relevantes realizadas al sistema:
+
+
+	
+\subsubsection{Prueba del Hardware}
+
+La tarjeta de adquisiciï¿½n de datos se implementï¿½ en  la plataforma de desarrollo Arduino Leonardo, dicha plataforma de desarrollo hardware permite a travï¿½s de librerï¿½as de uso libre la construcciï¿½n de aplicaciones especï¿½ficas con mucha rapidez. El proyecto  requiriï¿½ la conexiï¿½n bidireccional de la tarjeta de adquisiciï¿½n con un pc servidor, la informaciï¿½n que arduino  envï¿½a al servidor se  obtuvo  de  sensores de diferentes tipos conectada a ella encargados de monitoreo de las ï¿½reas donde el paciente realiza sus actividades. Para desarrollar y probar la tarjeta se contï¿½ con su IDE este cuenta un mï¿½dulo que permite emular una terminal y ver la informaciï¿½n que va a ser enviada con el protocolo serial RS232 hasta el servidor de base de datos y hacer pruebas sin tener que conectar fï¿½sicamente el dispositivo al PC servidor mientras se estï¿½ desarrollando.\\
+\\
+Pasos de la prueba.
+
+\begin{itemize}\tt
+
+\item Paso 1:
+\\
+Conexiï¿½n de la plataforma arduino con el pc de desarrollo:
+	
+\begin{figure}[h]
+		\centering
+		\includegraphics[width=14cm]{Pruebas-hardware-1.png}		
+		\caption{Conexiï¿½n de PC con la tarjeta de desarrollo Arduino}	
+	    	
+\end{figure}
+
+\item Paso 2:
+\\
+Emulando un terminal en el IDE
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{Pruebas-hardware-2.png}
+	\caption{Entorno de desarrollo Arduino Prueba de conexiï¿½n serial ene IDE}		
+\end{figure}
+
+
+\item Paso 3:
+\\
+Una vez se realizan las pruebas en el IDE Arduino se realizan la pruebas en la maquina real donde se desplegarï¿½ el servidor de base de datos con la aplicaciï¿½n de Windows hipertermia validando asï¿½ el desarrollo hecho en Arduino.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{Pruebas-hardware-3.png}
+	\caption{Prueba de conexiï¿½n RS232 de la tarjeta de adquisiciï¿½n con el servidor}		
+\end{figure}
+
+
+
+\item Paso 4:
+\\
+Prueba de la trama propuesta como protocolo para enviar la informaciï¿½n de los sensores:
+Precondiciï¿½n:
+Los sensores que emulan la  identificaciï¿½n de paciente deben estar activos (sensor de peso, sensor de estatura).
+Se enviaran tres lecturas del sensor 4, una lectura del sensor 6 y una lectura del sensor 7
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{Pruebas-hardware-4.png}
+	\caption{Detalle del protocolo enviado por la activaciï¿½n de sensores}		
+\end{figure}
+
+
+\item Resultados de la prueba:
+Se pudo evidenciar que indistintamente la plataforma se conectï¿½ tanto con una terminal emulada como con la real implementada por el SO nativo del servidor
+\\
+Al activar los sensores determinados el sistema envï¿½a la trama en la secuencia y formato esperado.
+
+\end{itemize}
+%
+La pï¿½gina de aprobaciï¿½n se define con el comando {\tt \textbackslash{}approvalpage}. La dedicatoria se define entre {\tt \textbackslash{}begin\{dedication\}} y {\tt \textbackslash{}end\{dedication\}}. Los agradecimientos se definen entre {\tt \textbackslash{}begin\{acknowledgements\}} y {\tt \textbackslash{}end\{acknowledgements\}}. La tabla de contenido, la lista de figuras y la lista de tablas se crean automï¿½ticamente declarando los comandos
+\begin{center}\tt
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}tableofcontents\\
+\textbackslash{}listoffigures\\
+\textbackslash{}listoftables\\\hline
+\end{tabular}\,.
+\end{center}
+
+El glosario se define entre {\tt \textbackslash{}begin\{gloss\}} y {\tt \textbackslash{}end\{gloss\}}. El resumen se define entre {\tt \textbackslash{}begin\{abstract\}} y {\tt \textbackslash{}end\{abstract\}}. Y, finalmente, las palabras clave se definen entre {\tt \textbackslash{}begin\{keywords\}} y {\tt \textbackslash{}end\{keywords\}}.
+Un ejemplo de cï¿½mo declarar los preliminares dentro del archivo {\tt .tex} se muestra a continuaciï¿½n.
+%
+
+\begin{center}\tt\footnotesize
+\begin{tabular}{|p{14cm}|}\hline
+ \textbackslash{}documentclass[12pt,oneside,onehalfspace]\{upbthesis\}\\\\
+ \textbackslash{}title\{REDACCIï¿½N DE TESIS Y TRABAJOS DE GRADO EN \textbackslash{}LaTeXe\{\} ...\}\\
+ \textbackslash{}author\{JUAN ALBERTO RAMï¿½REZ MACï¿½AS\textbackslash{}\textbackslash{}MARISOL OSORIO Cï¿½RDENAS\}\\ %
+ \textbackslash{}school\{ESCUELA DE INGENIERï¿½AS\}\\
+ \textbackslash{}faculty\{MAESTRï¿½A EN \textbackslash{}LaTeX\}\\
+ \textbackslash{}address\{Medellï¿½n\} \% En minï¿½sculas con mayï¿½scula inicial\\
+ \textbackslash{}degree\{Trabajo de grado para optar al tï¿½tulo de Magï¿½ster en \textbackslash{}LaTeX\}\\
+ \textbackslash{}director\{Marisol Osorio Cï¿½rdenas\textbackslash{}\textbackslash{}Doctora en Ingenierï¿½a\}\\
+ \\
+ \textbackslash{}begin\{document\}\\
+ \\
+ \textbackslash{}frontmatter\\
+ \textbackslash{}maketitle\\
+ \textbackslash{}approvalpage\\
+	\\
+	% Dedicatoria\\
+	\textbackslash{}begin\{dedication\}\\
+		A mis padres.\\
+	\textbackslash{}end\{dedication\}\\\\
+	% Agradecimientos \\
+	\textbackslash{}begin\{acknowledgements\}\\
+	Agradezco a ...\\
+	\textbackslash{}end\{acknowledgements\}\\\\
+
+	\textbackslash{}tableofcontents\\
+	\textbackslash{}listoffigures\\
+	\textbackslash{}listoftables\\\\
+	
+	\textbackslash{}begin\{gloss\}\\
+		PALABRA 1: Sinï¿½nimo. \% Se debe dejar una lï¿½nea vacï¿½a entre palabras.\\
+		\\
+		PALABRA 2: Sinï¿½nimo.\\
+	\textbackslash{}end\{gloss\}\\\\
+
+	\textbackslash{}begin\{abstract\}\\
+		Este trabajo describe el funcionamiento de la plantilla upbthesis.cls ...\\
+	\textbackslash{}end\{abstract\}\\\\
+	
+	\textbackslash{}begin\{keywords\}\\
+	PALABRA CLAVE 1; PALABRA CLAVE 2.\\
+	\textbackslash{}end\{keywords\}\\
+	%\\
+  %\textbackslash{}mainmatter \\
+ 
+ \multicolumn{1}{|c|}{$\vdots$}\\
+ 
+ \textbackslash{}end\{document\}\\\hline
+
+\end{tabular}
+\end{center}
+
+Es importante tener en cuenta que en el glosario es necesario escribir cada una de las palabras que se van a definir con mayï¿½scula sostenida, la definiciï¿½n se escribe despuï¿½s de dos puntos y seguido, y que cada una de las entradas del glosario deben separarse con una lï¿½nea vacï¿½a.
+
+\subsection{CUERPO DEL TRABAJO}
+%
+El inicio del cuerpo del trabajo y el final de los preliminares se declara con el comando {\tt \textbackslash{}mainmatter}. El efecto principal de este comando es que define el momento en que se empieza a mostrar la numeraciï¿½n de las pï¿½ginas y, adicionalmente, el momento en que los elementos del texto empiezan a ser tenidos en cuenta dentro de la tabla de contenido.
+
+Para la introducciï¿½n del texto se usa el entorno {\tt introduction}. Asï¿½, el texto se delimita entre {\tt \textbackslash{}begin\{introduction\}} y {\tt \textbackslash{}end\{introduction\}}. Este entorno define un capï¿½tulo sin numeraciï¿½n que se incluye dentro de la tabla de contenido. Posteriormente, los capï¿½tulos y subsecciones asociadas se declaran usando los comandos {\tt \textbackslash{}section\{\}}, {\tt \textbackslash{}subsection\{\}}, {\tt \textbackslash{}subsubsection\{\}} y {\tt \textbackslash{}paragraph\{\}}. Estos comandos se usan para definir los tï¿½tulos de nivel 1 hasta 4. Mayores niveles de indentaciï¿½n dentro de las secciones no se usan. Debe tenerse en cuenta que los tï¿½tulos de nivel 1 hasta 4 definidos se incluyen dentro de la tabla de contenido. Los comandos {\tt \textbackslash{}chapter\{\}} y {\tt \textbackslash{}part\{\}} no estï¿½n declarados dentro de la plantilla. Las conclusiones se definen usando el entorno {\tt conclusions} y se escriben entre {\tt \textbackslash{}begin\{conclusions\}} y {\tt \textbackslash{}end\{conclusions\}}. Se debe dejar una lï¿½nea vacï¿½a entre cada conclusiï¿½n.
+
+Un ejemplo del uso de los comandos mencionados se muestra a continuaciï¿½n:
+%
+\begin{center}\tt\footnotesize
+\begin{tabular}{|p{14cm}|}\hline
+	\textbackslash{}begin\{document\}\\
+	\multicolumn{1}{|c|}{$\vdots$}\\
+	{\tt \textbackslash{}mainmatter}\\
+	\\
+	{\tt \textbackslash{}begin\{introduction\}} \\
+	La plantilla {\tt upbthesis.cls} estï¿½ diseï¿½ada para la redacciï¿½n de tesis y trabajos de grado en \textbackslash{}LaTeXe,...\\
+	{\tt \textbackslash{}end\{introduction\}} \\
+	\\
+	{\tt \textbackslash{}section\{CAPï¿½TULO 1\}}\\
+	Texto.\\
+	{\tt \textbackslash{}subsection\{SECCIï¿½N 1.1.\}}\\
+	Texto.\\
+	{\tt \textbackslash{}subsection\{SECCIï¿½N 1.2.\}}\\
+	Texto.\\
+	{\tt \textbackslash{}subsubsection\{SECCIï¿½N 1.2.1.\}}\\
+	Texto.\\
+	{\tt \textbackslash{}subsubsection\{SECCIï¿½N 1.2.2.\}}\\
+	Texto.\\
+	{\tt \textbackslash{}paragraph\{SECCIï¿½N 1.2.2.1.\}}\\
+	Texto.\\
+	{\tt \textbackslash{}paragraph\{SECCIï¿½N 1.2.2.2.\}}\\
+	Texto.\\
+	{\tt \textbackslash{}section\{CAPï¿½TULO 2\}}\\
+	Texto.\\
+	\multicolumn{1}{|c|}{$\vdots$}\\
+	\textbackslash{}begin\{conclusions\}\\
+	Conclusiï¿½n 1.\\
+	\\
+	Conclusiï¿½n 2.\\
+	\textbackslash{}end\{conclusions\}\\
+	\multicolumn{1}{|c|}{$\vdots$}\\
+	\textbackslash{}end\{document\}\\\hline
+\end{tabular}
+\end{center}
+%
+\subsection{BIBLIOGRAFï¿½A}
+%
+La bibliografï¿½a se puede definir usando el entorno {\tt thebibliography} o usando \mbox{BibTeX}~\cite{lamport1994}. (El uso de BibTeX no se explicarï¿½ en este documento.) En el primer caso, usando {\tt thebibliography}, se cuenta con dos alternativas: usar numeraciï¿½n de citas tipo Vancouver, con nï¿½meros entre corchetes; o tipo Icontec, donde la bibliografï¿½a no estï¿½ numerada y la citaciï¿½n se hace usando notas al pie. Para la citaciï¿½n tipo Vancouver se debe declarar la opciï¿½n {\tt numcit} dentro de las opciones de {\tt \textbackslash{}documentclass}, por ejemplo
+\begin{center}\tt
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}documentclass[numcit]\{upbthesis\}\\\hline
+\end{tabular}\,.
+\end{center}
+Para la citaciï¿½n tipo Icontec se debe declarar la opciï¿½n {\tt icontec}, por ejemplo
+\begin{center}\tt
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}documentclass[icontec]\{upbthesis\}\\\hline
+\end{tabular}\,.
+\end{center}
+Si no se declara ninguna de las opciones, la opciï¿½n {\tt numcit} se asume por defecto.
+
+
+La bibliografï¿½a Icontec, usando el entorno {\tt thebibliography}, se define de la siguiente forma:
+\begin{center}\tt \footnotesize
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}begin\{thebibliography\}\\
+\textbackslash{}bibitem\{etiqueta01\} APELLIDO1, Nombre1; APELLIDO2, Nombre2 y APELLIDO3, Nombre3. Tï¿½tulo del artï¿½culo. \textbackslash{}underline\{En\}: Tï¿½tulo Revista. Vol.$\sim$XX, No.$\sim$Z (Sep.$\sim$2011); p.$\sim$1251--1261. \\
+\textbackslash{}bibitem\{etiqueta02\} APELLIDO1, Nombre1 y APELLIDO2, Nombre2. Tï¿½tulo Libro. Ciudad: Editorial, 2010. 208$\sim$p.\\
+\multicolumn{1}{|c|}{$\vdots$}\\
+\textbackslash{}end\{thebibliography\}\\\hline
+\end{tabular}\,.
+\end{center}
+
+
+La bibliografï¿½a Vancouver, usando el entorno {\tt thebibliography}, se define de forma similar al caso Icontec, pero en este caso se requiere de un argumento adicional que corresponde al nï¿½mero mï¿½ximo esperado de referencias bibliogrï¿½ficas.
+\begin{center}\tt \footnotesize
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}begin\{thebibliography\}\{99\}\\
+\textbackslash{}bibitem\{etiqueta01\} APELLIDO1, Nombre1; APELLIDO2, Nombre2 y APELLIDO3, Nombre3. Tï¿½tulo del artï¿½culo. \textbackslash{}underline\{En\}: Tï¿½tulo Revista. Vol.$\sim$XX, No.$\sim$Z (Sep.$\sim$2011); p.$\sim$1251--1261. \\
+\textbackslash{}bibitem\{etiqueta02\} APELLIDO1, Nombre1 y APELLIDO2, Nombre2. Tï¿½tulo Libro. Ciudad: Editorial, 2010. 208$\sim$p.\\
+\multicolumn{1}{|c|}{$\vdots$}\\
+\textbackslash{}end\{thebibliography\}\\\hline
+\end{tabular}\,.
+\end{center}
+Adicionalmente, las citaciones dentro del texto se pueden hacer con el comando {\tt \textbackslash{}cite\{\}}, donde el argumento es la etiqueta de la entrada bibliogrï¿½fica. Es decir, la citaciï¿½n en la fuente {\tt .tex} aparece asï¿½:
+\begin{center}\tt \footnotesize
+\begin{tabular}{|p{14cm}|}\hline
+... como se indica en \textbackslash{}cite\{etiqueta01\}, la redacciï¿½n de textos ...\\\hline
+\end{tabular}\,.
+\end{center}
+Esto produce el siguiente resultado en el texto:
+\begin{center}
+\begin{tabular}{|p{14cm}|}\hline
+... como se indica en [1], la redacciï¿½n de textos ...\\\hline
+\end{tabular}\,.
+\end{center}
+
+\section{OBJETOS FLOTANTES: FIGURAS Y TABLAS}
+%
+Un objeto flotante es aquel cuya ubicaciï¿½n dentro de un texto es flexible, es decir, no necesariamente se ubica en el lugar exacto en el que se declara dentro de la fuente .tex. En un trabajo de grado los dos tipos de objetos flotantes declarados son las figuras y las tablas. Estos objetos flotantes estï¿½n soportados por los entornos {\tt figure} y {\tt table}. Segï¿½n esto, una figura se define usando:
+\begin{center}\tt
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}begin\{figure\}\\
+\multicolumn{1}{|c|}{$\vdots$}\\
+\textbackslash{}end\{figure\}\\\hline
+\end{tabular}
+\end{center}
+%
+y una tabla se define usando:
+%
+\begin{center}\tt
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}begin\{table\}\\
+\multicolumn{1}{|c|}{$\vdots$}\\
+\textbackslash{}end\{table\}\\\hline
+\end{tabular}\,.
+\end{center}
+%
+\subsection{FIGURAS}
+%
+La forma mï¿½s simple para la inserciï¿½n de grï¿½ficas es a travï¿½s del uso del paquete {\tt graphicx}, el cual se inserta despuï¿½s de {\tt \textbackslash{}documentclass\{upbthesis\}}, de la siguiente forma
+%
+\begin{center}\tt
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}usepackage\{graphicx\}\\\hline
+\end{tabular}\,.
+\end{center}
+%
+Este paquete permite la inserciï¿½n de imï¿½genes en formato .eps (PostScript encapsulado) cuando se compila en formato .dvi (usando latex.exe) e imï¿½genes en formatos .pdf, .png y .jpg cuando se compila en formato .pdf (usando pdf\mbox{}latex.exe). La sintaxis para la inserciï¿½n de una figura puede ser
+\begin{center}\tt
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}begin\{figure\}[h]\\
+\textbackslash{}caption\{Tï¿½tulo de la figura\}\\
+	\textbackslash{}centering\\
+		\textbackslash{}includegraphics[width=10cm]\{imagen.pdf\}\\
+	\textbackslash{}label\{fig:imagen\}\\
+\textbackslash{}end\{figure\}\\\hline
+\end{tabular}\,.
+\end{center}
+Hay varios aspectos a tener en cuenta en la definiciï¿½n de la figura:
+\begin{itemize}
+\item El argumento opcional {\tt [h]} ({\it here}) indica que el objeto flotante se debe colocar en el mismo lugar en que se declara, otras opciones son {\tt t} ({\it top}), {\tt b} ({\it bottom}) y {\tt p} ({\it page of floats}). Es posible escoger combinaciones como {\tt [htb]} ï¿½ usar el sï¿½mbolo de admiraciï¿½n {\tt !} para forzar el objeto a ubicarse en el lugar que se declara.
+\item El comando {\tt \textbackslash{}caption} se usa para definir el tï¿½tulo de la figura y debe declararse en la parte superior, despuï¿½s de {\tt \textbackslash{}begin\{figure\}}. Esto hace que el tï¿½tulo aparezca en la parte superior y alineado a la izquierda.
+\item El comando {\tt \textbackslash{}centering} hace que la figura se presente centrada.
+\item El comando {\tt \textbackslash{}includegraphics} inserta la imagen contenida en imagen.pdf. El argumento opcional entre corchetes genera modificaciones en la imagen, particularmente {\tt [width=10cm]} hace que el ancho de la figura sea de 10~cm.
+\item El comando {\tt \textbackslash{}label\{fig:imagen\}} genera la etiqueta con la cual se puede referenciar la figura en el texto. La referencia en el texto se declararï¿½a de la siguiente forma:
+
+\begin{center}\tt \footnotesize
+\begin{tabular}{|p{12cm}|}\hline
+ ... como se muestra en la Figura$\sim$\textbackslash{}ref\{fig:imagen\}, la tendencia de ...\\\hline
+\end{tabular}\,,
+\end{center}
+lo cual generarï¿½a lo siguiente en el texto: 
+\begin{center}
+\begin{tabular}{|p{12cm}|}\hline
+ ... como se muestra en la Figura 1, la tendencia de ...\\\hline
+\end{tabular}\,.
+\end{center}
+\end{itemize}
+%
+%
+\subsection{TABLAS}
+%
+La elaboraciï¿½n de tablas es mï¿½s complicada. Informaciï¿½n detallada puede ser encontrada en \url{http://en.wikibooks.org/wiki/LaTeX/Tables}. Sin embargo,  un ejemplo de tabla se muestra a continuaciï¿½n
+\begin{center}\tt \footnotesize
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}begin\{table\}[htb]\\
+\textbackslash{}caption\{Tabla ejemplo\}\\
+	\textbackslash{}centering\\
+		\textbackslash{}begin\{tabular\}\{l|cr\}\textbackslash{}hline\\
+			Columna 1	\&	Columna 2	\&	Columna 3 \textbackslash{}\textbackslash{}\textbackslash{}hline \textbackslash{}hline\\
+			12				\&	32				\&	15				\textbackslash{}\textbackslash{}\\
+			34				\&	45				\&	34				\textbackslash{}\textbackslash{}\\
+			15				\&	56				\&	76				\textbackslash{}\textbackslash{}\textbackslash{}hline\\
+		\textbackslash{}end\{tabular\}\\
+	\textbackslash{}label\{tab:TablaEjemplo\}\\
+\textbackslash{}end\{table\}\\\hline
+\end{tabular}\,.
+\end{center}
+El resultado se muestra en la Tabla~\ref{tab:TablaEjemplo}.
+\begin{table}[htb]
+\caption{Tabla ejemplo}
+	\centering
+		\begin{tabular}{l|cr}\hline
+			Columna 1	&	Columna 2	&	Columna 3 \\\hline \hline
+			12				&	32				&	15				\\
+			34				&	45				&	34				\\
+			15				&	56				&	76				\\\hline
+		\end{tabular}
+	\label{tab:TablaEjemplo}
+\end{table}
+El comportamiento de los comandos {\tt \textbackslash{}caption}, {\tt \textbackslash{}centering} y {\tt \textbackslash{}label\{tab:TablaEjemplo\}} es igual para las tablas y las figuras.
+%
+\section{ECUACIONES}
+%
+Para la inclusiï¿½n de objetos matemï¿½ticos dentro de un texto se recomienda incluir los paquetes de la American Mathematical Society (AMS) que incluyen fuentes y otros comandos ï¿½tiles. Estos paquetes se declaran despuï¿½s de {\tt \textbackslash{}documentclass\{upbthesis\}} de la siguiente forma:
+\begin{center}\tt 
+\begin{tabular}{|p{14cm}|}\hline
+\textbackslash{}usepackage\{amsfonts\}\\
+\textbackslash{}usepackage\{amsmath\}\\\hline
+\end{tabular}\,.
+\end{center}
+
+Generalmente se usan tres mï¿½todos para la inserciï¿½n de objetos matemï¿½ticos dentro del texto: ecuaciï¿½n en lï¿½nea dentro del texto, ecuaciï¿½n en lï¿½nea aparte sin numeraciï¿½n y ecuaciï¿½n en lï¿½nea aparte con numeraciï¿½n. La ecuaciï¿½n en lï¿½nea con el texto se escribe entre simbolos~{\tt \$}, por ejemplo
+\begin{center}\tt 
+\begin{tabular}{|p{14cm}|}\hline
+... en la expresiï¿½n mostrada \$\textbackslash{}phi\$, \$\textbackslash{}theta\$ y \$\textbackslash{}psi\$ son los ï¿½ngulos de Euler de alabeo, cabeceo y guiï¿½ada respectivamente ...
+\\\hline
+\end{tabular}
+\end{center}
+produce en el texto lo siguiente:
+\begin{center}
+\begin{tabular}{|p{14cm}|}\hline
+... en la expresiï¿½n mostrada $\phi$, $\theta$ y $\psi$ son los ï¿½ngulos de Euler de alabeo, cabeceo y guiï¿½ada respectivamente ...
+\\\hline
+\end{tabular}\,.
+\end{center}
+La ecuaciï¿½n en lï¿½nea aparte se puede declarar entre sï¿½mbolos~{\tt \$\$}, por ejemplo
+\begin{center}\tt \footnotesize
+\begin{tabular}{|p{14cm}|}\hline
+... se puede encontrar el ï¿½rea bajo la curva a travï¿½s de la integral \$\$A = \textbackslash{}int\_\{a\}\^{}\{b\}f(x)dx,\$\$ donde \$f(x)\$ se obtiene de ...
+\\\hline
+\end{tabular}
+\end{center}
+produce en el texto lo siguiente:
+\begin{center}
+\begin{tabular}{|p{14cm}|}\hline
+... se puede encontrar el ï¿½rea bajo la curva a travï¿½s de la integral $$A = \int_{a}^{b}f(x)dx,$$ donde $f(x)$ se obtiene de ...
+\\\hline
+\end{tabular}\,.
+\end{center}
+En contraste, la ecuaciï¿½n en lï¿½nea aparte se puede definir con el entorno {\tt equation}, por ejemplo
+
+\begin{center}\tt \footnotesize
+\begin{tabular}{|p{14cm}|}\hline
+... se puede encontrar el ï¿½rea bajo la curva a travï¿½s de la integral \\
+\textbackslash{}begin\{equation\}\\
+A = \textbackslash{}int\_\{a\}\^{}\{b\}f(x)dx,\\
+\textbackslash{}label\{eq:ecuacion01\}\\
+\textbackslash{}begin\{equation\}\\
+donde \$f(x)\$ se obtiene de ...
+\\\hline
+\end{tabular}
+\end{center}
+v
+\begin{center}
+\begin{tabular}{|p{14cm}|}\hline
+... se puede encontrar el ï¿½rea bajo la curva a travï¿½s de la integral \\
+\begin{equation}
+A = \int_{a}^{b}f(x)dx,
+\label{eq:ecuacion01}
+\end{equation}
+donde $f(x)$ se obtiene de ...
+\\\hline
+\end{tabular}\,.
+\end{center}
+En este caso la ecuaciï¿½n se puede referenciar en el texto de la siguiente forma
+\begin{center}\tt \footnotesize
+\begin{tabular}{|p{14cm}|}\hline
+... como se muestra en \textbackslash{}eqref\{eq:ecuacion01\}, el cï¿½lculo del ï¿½rea ...
+\\\hline
+\end{tabular}
+\end{center}
+produce en el texto lo siguiente:
+\begin{center}
+\begin{tabular}{|p{14cm}|}\hline
+... como se muestra en \eqref{eq:ecuacion01}, el cï¿½lculo del ï¿½rea ...
+\\\hline
+\end{tabular}\,.
+\end{center}
+%
+\begin{conclusions}
+La plantilla {\tt upbthesis.cls} permite la redacciï¿½n de Tesis y Trabajos de Grado en \LaTeXe{} usando las normas de estilo aprobadas por el Sistema de Bibliotecas de la Universidad Pontificia Bolivariana. Esta plantilla contiene las reglas de forma necesarias para que un usuario de \LaTeX{} redacte su Tesis o Trabajo de Grado con una excelente calidad tipogrï¿½fica sin preocuparse por el estilo.
+
+Este documento presenta la primera versiï¿½n de la plantilla. ï¿½sta cumple con las condiciones mï¿½nimas para redacciï¿½n completa de una Tesis o Trabajo de Grado. Sin embargo la plantilla se considera como un trabajo en progreso susceptible de mejorar en el tiempo.
+\end{conclusions}
+
+\bibliographystyle{IEEEtran}
+\bibliography{upbthesis}
+%
+%\begin{thebibliography}{99}
+%\bibitem{apkarian1995} APKARIAN, Pierre; GAHINET, Pascal and BECKER, Greg. Self-scheduled ${\cal H}_\infty$ control of linear parameter-varying systems: a design example. \underline{In}: Automatica. Vol. 31, No. 9 (Sep. 1995); p. 1251 - 1261.
+%\bibitem{astrom2008} ï¿½STRï¿½M, Karl and MURRAY, Richard. Feedback systems: an introduction for scientists and engineers. Princeton, NJ: Princeton University Press, 2008. p. 27.
+%\bibitem{gutierrez2004} GUTIERREZ, Luis Benigno. Adaptive mode transition control architecture with an application to unmanned aerial vehicles. Atlanta, GA; 2004. Thesis (PhD in Electrical and Computer Engineering). Georgia Institute of Technology. School of Electrical and Computer Engineering.
+%\end{thebibliography}
+
+\appendix
+\section{ARTï¿½CULO PUBLICABLE}
+\section{ANTEPROYECTO}
+%
+\end{document}

@@ -1,0 +1,43 @@
+\contentsline {section}{INTRODUCCI\'ON}{12}{section*.8}
+\contentsline {section}{\numberline {1.}Contexto}{13}{section.1}
+\contentsline {subsection}{\numberline {1.1.}Objetivos}{13}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.}GENERAL}{13}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2.}Especificos}{14}{subsubsection.1.1.2}
+<<<<<<< .mine
+\contentsline {subsection}{\numberline {1.2.}Alcance y delimitaci\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }n}{14}{subsection.1.2}
+=======
+\contentsline {subsection}{\numberline {1.2.}Alcance y delimitaci\'on}{15}{subsection.1.2}
+>>>>>>> .r210
+\contentsline {subsection}{\numberline {1.3.}Presupuesto}{15}{subsection.1.3}
+<<<<<<< .mine
+\contentsline {subsection}{\numberline {1.4.}Pruebas del sistema}{16}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1.}Prueba del Hardware}{16}{subsubsection.1.4.1}
+\contentsline {subsection}{\numberline {1.5.}CUERPO DEL TRABAJO}{21}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6.}BIBLIOGRAF\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }A}{22}{subsection.1.6}
+\contentsline {section}{\numberline {2.}OBJETOS FLOTANTES: FIGURAS Y TABLAS}{25}{section.2}
+\contentsline {subsection}{\numberline {2.1.}FIGURAS}{25}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2.}TABLAS}{26}{subsection.2.2}
+\contentsline {section}{\numberline {3.}ECUACIONES}{28}{section.3}
+\contentsline {section}{CONCLUSIONES}{30}{section*.9}
+\contentsline {section}{BIBLIOGRAF\'IA}{31}{section*.10}
+\contentsline {section}{ANEXOS}{32}{section*.10}
+\contentsline {section}{\numberline {A.}ART\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }CULO PUBLICABLE}{33}{appendix.A}
+\contentsline {section}{\numberline {B.}ANTEPROYECTO}{34}{appendix.B}
+=======
+\contentsline {subsection}{\numberline {1.4.}Desarrollo}{15}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1.}AN\'ALISIS}{17}{subsubsection.1.4.1}
+\contentsline {paragraph}{\numberline {1.4.1.1.}Investigaci\'on:}{18}{paragraph.1.4.1.1}
+\contentsline {subsection}{\numberline {1.5.}Pruebas del sistema}{19}{subsection.1.5}
+\contentsline {subsubsection}{\numberline {1.5.1.}Prueba del Hardware}{19}{subsubsection.1.5.1}
+\contentsline {subsection}{\numberline {1.6.}CUERPO DEL TRABAJO}{24}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7.}BIBLIOGRAF\'IA}{25}{subsection.1.7}
+\contentsline {section}{\numberline {2.}OBJETOS FLOTANTES: FIGURAS Y TABLAS}{28}{section.2}
+\contentsline {subsection}{\numberline {2.1.}FIGURAS}{28}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2.}TABLAS}{29}{subsection.2.2}
+\contentsline {section}{\numberline {3.}ECUACIONES}{31}{section.3}
+\contentsline {section}{CONCLUSIONES}{33}{section*.9}
+\contentsline {section}{BIBLIOGRAF\'IA}{34}{section*.10}
+\contentsline {section}{ANEXOS}{35}{section*.10}
+\contentsline {section}{\numberline {A.}ART\'ICULO PUBLICABLE}{36}{appendix.A}
+\contentsline {section}{\numberline {B.}ANTEPROYECTO}{37}{appendix.B}
+>>>>>>> .r210

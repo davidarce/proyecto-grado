@@ -1,0 +1,1541 @@
+\documentclass[12pt,oneside,onehalfspace]{upbthesis}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{array,longtable}
+\usepackage{enumerate}
+\usepackage{cite}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xcolor,colortbl}
+\definecolor{gray}{RGB}{190,190,190}
+
+
+
+% Configuración de hipervínculos en .pdf
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,
+						linkcolor=black,
+						linktoc=all,
+						citecolor=black,
+						pdftitle={Redacción de Trabajos de Grado},
+						pdfauthor={Cesar Ochoa,Jhon Galeano,Oscar Arce},
+						pdfcreator={Cesar Ochoa,Jhon Galeano,Oscar Arce}}
+						
+\hyphenation{de-di-ca-to-ria pre-li-mi-na-res re-fe-ren-ciar}
+
+% Información del documento requerida en las portadas y página de aprovación
+\title{CONSTRUCCIÓN DE UN PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO}
+\author{CESAR URIEL OCHOA CASTRO\\JHON FREDY GALEANO GALEANO\\ÓSCAR DAVID ARCE} %
+\school{FACULTAD DE INGENIERIA}
+\faculty{INGENIERIA DE SISTEMAS Y COMPUTACION}
+\address{Armenia} % Escribir en minúsculas con mayúscula inicial
+\degree{Trabajo de grado para optar al título de Ingeniero de sistemas y computación}
+\director{Faber Danilo Giraldo\\Ingeniero de sistemas y computación\\Magister en Ingenieria}
+
+\begin{document}
+% Inicio de los preliminares del texto
+\frontmatter
+% Portadas 1 y 2
+\maketitle
+% Página de aprobación
+\approvalpage
+%
+% Dedicatoria
+\begin{dedication}
+[
+\tt
+Cesar: Primeramente a Dios todo poderoso a mi esposa Carolina y mis hijos Isabella y Juan José por los que doy todo todos los días\\
+\tt 
+Jhon: Gracias\\
+\tt
+Oscar: Gracias
+
+].
+\end{dedication}
+%
+% Agradecimientos
+\begin{acknowledgements}
+[A todas las personas que de alguna manera aportaron su valiosa ayuda para cumplir este sueño].
+\end{acknowledgements}
+%
+% Tabla de contenido
+\tableofcontents
+% Lista de figuras
+\listoffigures
+% Lista de Tablas
+\listoftables
+%
+% Glosario
+\begin{gloss}
+TELECARE: Término utilizado para definir el sistema (combinación de software, hardware y conocimiento humano) encargado de supervisar a personas de la tercera edad, personas con capacidades reducidas o personas con enfermedades que requieran de dicha supervisión.\\
+SENSOR: Un sensor es un dispositivo capaz de detectar magnitudes físicas o químicas, llamadas variables de instrumentación, y transformarlas en variables eléctricas. Las variables de instrumentación pueden ser por ejemplo: temperatura, intensidad lumínica, distancia, aceleración, inclinación, desplazamiento, presión, fuerza, torsión, humedad, movimiento, pH, etc \cite{DLF2007Online}.\\
+TARJETA DE ADQUISICIÓN DE DATOS: Dispositivo electrónico encargado de recibir señales analógicas y digitales para enviarlas a través de un protocolo de comunicaciones hacia un procesador encargado de interpretar dichas señales como información\cite{TAD2014Online}.\\
+TELECARE: Término utilizado para definir el sistema (combinación de software, hardware y conocimiento humano) encargado de supervisar a personas de la tercera edad, personas con capacidades reducidas o personas con enfermedades que requieran de dicha supervisión \cite{vocabularyOnline}.\\
+USUARIO INTERESADO: Persona familiar o allegado al paciente que está comprometida con su supervisión por medio del Telecare y la cual interactúa con el sistema \cite{vocabularyOnline}.\\
+STAKEHOLDER: Son todas las personas que están involucradas en el proyecto, ya sean que afecten éste o que sean afectadas por éste. Se dividen en dos tipos, stakeholder informal y stakeholder formal \cite{vocabularyOnline}.\\
+PSIQUIATRÍA: Es la ciencia que se dedica al estudio y tratamiento de las enfermedades mentales. Su objetivo es prevenir, diagnosticar, tratar y rehabilitar los trastornos de la mente \cite{PsiquiatriaOnline}.\\
+PRUEBAS HEURÍSTICAS:\\
+PRUEBAS DE RECORRIDO COGNITIVO:\\
+PRUEBAS DE COMPONENTE:\\
+ARDUINO:\\
+SINFOCI:\\
+
+\end{gloss}
+%
+
+% Resumen
+\begin{abstract}
+El "PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO", es una aplicación que integra software y hardware para entregar información al profesional de la salud acerca del comportamiento del paciente por medio de sensores instalados en el entorno donde habita, con el objetivo de brindar información que apoye las decisiones que el profesional debe tomar sobre el tratamiento formulado a dicho paciente. Los beneficios derivados de la implementación de esta aplicación podrían ser: reducir la cantidad de medicación y terapias cuando se determine que el tratamiento está dando los resultados esperados en beneficio del paciente y sus familiares.\\
+Una Las tecnologías utilizadas para el desarrollo del sistema es Oracle Ápex, ésta permite el desarrollo rápido de aplicaciones basadas en la estructura de la base de datos, con un entorno integrado para el desarrollo web, pruebas y gestión del proyecto software. La integración con el hardware se realizó a través de una interfaz programada en JAVA encargada de recibir y procesar los datos enviados por la plataforma de desarrollo Arduino encargada de la adquisición de datos entregados por los diferentes sensores.
+\end{abstract}
+
+%\section{Abstract}
+\begin{abstract}
+Telecare prototype system to monitor the behavior of a patient diagnosed with obsessive compulsive disorder patient, is an application that integrates software and hardware to deliver information to the health professional about the behavior of the patient by means of sensors installed in the environment where it lives with the aim of providing information to support decisions that professionals should take on the treatment formulated to said patient. The benefits derived from the implementation of this application could be, reduce the amount of medication and therapy when it is determined that the treatment is yielding the expected results for the benefit of patients and their families.\\
+A The technologies used for the development of the system is Oracle Apex, this enables rapid development of applications based on the structure of the database, with integrated web, testing and project management software application development environment. The hardware integration is performed through a Java programmed to receive and process the data sent by the Arduino development platform responsible for the acquisition of data provided by different sensors interface.
+\end{abstract}
+%
+% Palabras clave
+\begin{keywords}
+Arduino:
+
+Telecare:
+
+Sensor:
+\end{keywords}
+%
+%
+\mainmatter
+%
+\begin{introduction}
+Telecare, es la definición de un sistema que integra diferentes tecnologías, con el objetivo de apoyar procesos en el cuidado de la salud de pacientes, también determinar hasta cierto grado su estilo de vida dentro de sus hogares, usando datos históricos para predecir comportamientos que sugieran una alerta, la cual podrá ser tratada o interpretada por un profesional de la salud, para intervenir y/o ayudar a dicho paciente e informar a sus familiares o interesados acerca de su estado \cite{telecare2013}.
+El "PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO". se desarrolló con el objetivo de brindar apoyo a un profesional en psiquiatría acerca de la evolución del tratamiento  propuesto para un paciente, implementando en la residencia de éste el sistema para monitorear según sea el caso sectores y/o artefactos con los cuales se pudiese relacionar su desorden de comportamiento; el sistema brinda dicha información en gráficos de fácil interpretación con todas las ventajas de tener datos históricos a la mano. 
+\end{introduction}
+%
+\section{Cumplimiento Objetivos}
+
+\begin{center}
+	
+\scalebox{1.5}{
+	\begin{tabular}{|c|c|}
+		\hline Objetivos  & evidencia    \\ 
+		\hline Objetivo 1  & pagina 23 a 25    \\ 
+		\hline Objetivo 2  & pagina 25 a 32  \\ 
+		\hline objetivo 3 & pagina 33 a 45  \\ 
+		\hline objetivo 4 & pagina 46 a 49  \\ 
+		\hline objetivo 5  & paginas 49 a 51  \\ 
+		\hline objetivo 6  & pagina 52 a 57 \\ 
+		\hline objetivo 7  & pagina 58  \\ 
+		\hline 
+		
+	\end{tabular}}
+\end{center}
+	
+\section{Contexto}
+\subsection{Planteamiento del problema}
+Los profesionales en el área de psiquiatría de la región no cuentan con mecanismos tecnológicos de apoyo a su labor profesional que les permitan realizar el seguimiento de tratamientos formulados a los pacientes una vez estos son diagnosticados y enviados a su hogar. Según manifiestan los profesionales del área contactados, ellos ven limitada la validación del estado actual del paciente a la información suministrada por él mismo y/o sus familiares de manera personal en el consultorio, esto implica muchi tiempo por los largos desplazamientos y costos en transporte especializado ya que muchos de los pacientes no pueden desplazarse de manera autónoma hasta el centro médico. En la mayoría de los casos el principal inconveniente para los familiares de las personas con problemas psiquiátricos, es la cantidad de tiempo y cuidado que se les debe prestar, ya que cuentan con pocas alternativas  que les permitan realizar un seguimiento en cuanto a su cuidado se refiriere y que sean económicamente asequibles para por ejemplo el control y monitoreo de artefactos del hogar que generan un riesgo para estas personas. \cite{profesionalSalud}
+
+\subsection{Objetivos}
+
+\subsubsection{General}
+\begin{itemize}
+\item
+Analizar, diseñar, implementar y validar un prototipo de sistema Telecare, que mediante el uso de tecnologías de la información y telecomunicaciones disponibles, permita monitorear el comportamiento de un paciente diagnosticado con trastorno obsesivo compulsivo.
+\end{itemize} 
+
+\subsubsection{Específicos}
+\begin{itemize}
+\item Identificar y seleccionar conjuntamente con profesionales médicos interesados, los principales síntomas que presenta un paciente diagnosticado con trastorno obsesivo compulsivo y que puedan ser monitoreados por medio de herramientas de software y hardware.\\
+
+
+\item Determinar y analizar los requerimientos para el diseño de un sistema Telecare usando técnicas para especificación de escenarios de cuidado en entornos Telecare previamente identificadas.\\
+
+
+\item Especificar la arquitectura del proyecto que considere los elementos hardware, software y de telecomunicaciones necesarios.\\
+
+\item Diseñar e implementar un sistema Telecare que soporte los requerimientos definidos anteriormente. (Incluye la construcción de un prototipo hardware para captura de información ambiental).\\
+
+\item Interpretar los datos obtenidos por el sistema Telecare usando la Inteligencia de negocios implementada bajo la herramienta ORACLE APLICATION EXPRESS (APEX) de acuerdo a los requerimientos definidos por el profesional médico, familiares y grupo de trabajo.\\
+
+\item Validar el correcto funcionamiento del sistema Telecare el cual se compone tanto de hardware como software, con un prototipo bajo un ambiente de pruebas, que simule las características del entorno de un paciente con problemas psiquiátricos.\\
+
+\item Validar la interacción del sistema Telecare y la visualización de datos/información por parte de los usuarios finales involucrados, mediante pruebas de usabilidad y accesibilidad.\\
+\end{itemize}
+
+
+
+
+
+\subsection{Alcance y delimitación}
+
+En el proyecto "CONSTRUCCIÓN DE UN PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO", Se desarrollarán dos aplicaciones:
+Una aplicación web para el registro de pacientes y usuarios interesados (médicos especialistas, familiares o personas cercanas), además del módulo de visualización de datos obtenidos del entorno del paciente que requieran  los interesados.
+La segunda, una aplicación de escritorio, esta aplicación se encargará de la conexión con el Hardware y la alimentación de la base de datos del Telecare. Dichas aplicaciones se entregarán junto con su código fuente (prototipos software), manual de instalación, su respectivo manual de usuario y el prototipo hardware que constará de una tarjeta de adquisición de datos microprogramada fabricada a la medida para el proyecto, implementada en una maqueta donde se simularán los sensores del sistema \cite{directorTG}.
+Aunque los prototipos software generados en la investigación no consideran su adhesión a alguna plataforma de registros clínicos o software especializado para gestión de historias clínicas, el desarrollo de los prototipos será realizado acorde al actual marco legal emitido por el Ministerio de Salud (Ley 23 de 1981: Por la cual se dictan normas en materia de ética médica, Resolución 1995 de 1999: Establece las normas para el manejo de la historia clínica), y la Superintendencia de Salud (Resolución 4505 DE 2012 por la cual se establece el reporte relacionado con el registro de las actividades de Protección Específica, Detección Temprana y la aplicación de las Guías de Atención Integral para las enfermedades de interés en salud pública de obligatorio cumplimiento). Por otro lado interacción con los profesionales en el área no generará vínculo contractual alguno.
+
+\subsection{Presupuesto}
+
+\begin{center}
+	\scalebox{0.9}{	
+  	\begin{tabular}{| p{1.5cm} | p{1.5cm} | p{1.6cm} | p{1.6cm} | p{0.5cm} | p{1.6cm} | p{2cm} |}  		
+  		\hline		
+  		\multicolumn{2}{|c|}{Rubros} & \multicolumn{2}{|c|}{Estudiantes} & \multicolumn{2}{|c|}{Uniquidio}& Total\\		
+  		\hline	
+  		\multicolumn{2}{|c|}{h=hora, Efectivo=E, Recurrente=R} & E & R & E & R & Total\\
+  		\hline	
+  		\multicolumn{2}{|c|}{Personal} &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{	Trabajo director\$49.523 h} &  &  &  &\$1.584.736  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Trabajo Asesor 1\$48.458 h} &  &  &  &\$775.328  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Trabajo Asesor 2\$48.458 h} &  &  &  &\$775.328  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Trabajo Estudiante 1 \$5.500 h} &  &\$528.000  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Trabajo Estudiante 2 \$5.500 h} &  &\$528.000  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Trabajo Estudiante 3 \$5.500 h} &  &\$528.000  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Viajes} &  &  &  &  & \\	
+  		\hline	
+  		\multicolumn{2}{|l|}{Transporte a la Universidad} &\$960.000  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Transporte a la casa del paciente} &\$960.000  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Visita expertos médicos} &\$600.000  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Bibliografía} &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Internet, consultas en la web} &\$400.000  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Servicios Técnicos} &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Capacitaciones} &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Consulta a experto} &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Equipos } &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Equipo 1: Portátil} &  &\$1.500.000  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Equipo 2: Portátil} &  &\$1.500.000  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Equipo 3: PC Escritorio} &  &\$1.600.000  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Difusión} &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Papers} &\$120.000  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Propiedad Intelectualn} &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Gastos de P.I Software del desarrollado  } &\$250.000  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Gastos de P.I Hardware del desarrollado  } &\$250.000  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Herramientas requeridas} &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Materiales e insumos} &  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Fotocopias} &\$50.000  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|l|}{Fotocopias} &\$150.000  &  &  &  & \\	
+  		\hline
+  		\multicolumn{2}{|c|}{Totales\tt} &\$3.740.000  &\$6.184.000  &  &\$3.135392  &\$13.059.392 \\	
+  		\hline
+  		
+  	\end{tabular} }  	
+ 
+  \end{center}	
+
+\subsection{Cronograma}
+
+\begin{center}\tt\footnotesize
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.355]{cronograma_parte_1.png}
+	\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{cronograma_parte_2.png}
+\end{figure}
+
+\end{center}
+
+\section{Desarrollo}
+
+El desarrollo y construcción del "PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO" se basó en el modelo de desarrollo de software en cascada, según lo planteado en el cronograma de actividades del proyecto, de la siguiente manera:\\
+
+\begin{center}
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.85]{Desarrollo_1.png}		
+				\caption{Metodología de desarrollo del proyecto software}	
+			\end{figure}			
+			 
+\end{center}
+
+
+
+%------------Arce--------------------------------------
+\subsection{ANÁLISIS}
+En esta etapa se recolectó la información de la documentación relativa al problema planteado para posteriormente identificar los diferentes requisitos que tendrá el sistema. Las técnicas usadas para recolectar la información se hicieron a través de reuniones con profesionales de la salud expertos en psiquiatría, en las cuales se identificaron los principales síntomas que presenta un paciente diagnosticado con un trastorno obsesivo compulsivo (TOC) y el proceso que se lleva a cabo para tratarlo.
+
+\subsubsection{Investigación}
+El TOC se caracteriza por la presencia de dos fenómenos clínicos íntimamente relacionados que son: \\
+\begin{itemize}
+	\item Las Obsesiones: se definen como ideas, imágenes, melodías, impulsos o temores a ceder a un impulso que aparecen en la conciencia de forma reiterativa, persistente, intrusa e inapropiada (egodistónicas) y generan intensa ansiedad o malestar.
+	\item Las compulsiones: son comportamientos o actos mentales generalmente repetitivos y estereotipados que el paciente se ve obligado a realizar para reducir el malestar.
+\end{itemize} 
+A continuación se presentan los patrones sintomáticos más frecuentes que presenta un paciente con algún tipo de trastorno obsesivo compulsivo (TOC):
+\begin{itemize}
+	\item Obsesión por evitar la suciedad o la contaminación por gérmenes.
+	\item Duda patológica.
+	\item Pensamientos intrusivos.
+	\item Necesidad de simetría y precisión.
+	\item Acaparamiento compulsivo.
+	\item Obsesiones religiosas.
+\end{itemize}
+Un paciente diagnosticado con alguno de éstos síntomas podría presentar un comportamiento como lavarse las manos en repetidas ocasiones sin tener una razón lógica para hacerlo, asear cierta parte o toda la casa, revisar las válvulas de la estufa de gas o rectificar que la ventanas o puertas estén bien cerradas en muchas ocasiones incluso después de salir a la calle se presenta la necesidad de regresar a verificar nuevamente, esto conlleva mucho tiempo y esfuerzo para la persona afectando su calidad de vida y el de sus familiares o personas cercanas a él. \\\\
+Para nuestro caso en particular la identificación de los síntomas o comportamientos se realiza por medio de una entrevista personal en el consultorio del profesional de salud, esta entrevista permite generar un diagnostico a partir de la información suministrada por el paciente, de acuerdo a los síntomas presentados se formula un tratamiento el cual será apoyado con el prototipo del sistema Telecare para monitorear los comportamientos del paciente en su entorno. El análisis de estos diferentes síntomas nos permite identificar una relación de comportamiento-sensor, esto no permitirá implementar el monitoreo constante de sus actividades en su entorno para apoyar y validar el tratamiento generado por el profesional de la salud. \\\\
+A continuación la tabla  representa las relaciones identificadas a partir del análisis de los comportamientos que presenta un paciente:\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.55]{Tabla1.png}		
+	\caption{Tabla relación comportamiento-sensor.}	
+\end{figure}
+
+Los datos recolectados y presentados al profesional de la salud por medio del sistema permiten entre una de sus funcionalidad más importantes la de visualizar la actividad del paciente en su entorno de acuerdo a los síntomas presentados, validando que se cumpla el tratamiento para tomar decisiones o ajustes a éste, y mejorar la calidad de vida del paciente.
+
+\subsection{REQUISITOS}
+La función de este prototipo es principalmente el monitoreo constante y automático a través de sensores electrónicos con el objetivo de realizar un seguimiento del comportamiento a la persona, teniendo un control del entorno y de sus actividades. Las necesidades identificadas deben ser soportadas por el SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO, más adelante se especifican los requerimientos funcionales de la aplicación.
+\subsubsection{Necesidades concretas}
+De acuerdo al análisis de la problemática identificada el sistema deberá apoyar la toma de decisiones del profesional de la salud respecto al tratamiento generado al paciente.
+\begin{itemize}
+	\item El sistema debe considerar el rol Profesional de la salud, Cuidador, Paciente y Administrador del sistema.
+	\item El sistema debe registrar y validar todas las acciones efectuadas de cada rol, como la edición y la consulta.
+	\item El sistema debe registrar la entrevista del paciente para tener un soporte del tratamiento generado por el profesional de la salud.
+	\item Administrar y registrar los sensores asociados a los comportamientos del paciente.
+	\item Implementar un mecanismo de monitoreo de actividades del paciente, que permita visualizarse de manera gráfica en cualquier momento.
+	\item El sistema debe proveer una interfaz de usuario diferente para cada rol, según los privilegios de cada uno.
+	\item La información de la actividad del paciente debe estar disponible 24/7.
+	\item El sistema debe permitirle al usuario seleccionar el tipo de gráfico para presentar la información de la actividad del paciente.
+	\item Añadir observaciones al paciente.
+\end{itemize}
+\subsubsection{Especificación de los casos de uso}
+A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRANSTORNO OBSESIVO COMPULSIVO por medio de la especificación de casos de uso, con el propósito de describir los procesos que tiene el sistema de una manera más detallada, completa y fácil de comprender, en donde se especifican todas las actividades paso a paso y sus responsables.
+\begin{enumerate}[a.]
+	\item \textbf{Registrar paciente.}\\
+	\begin{center}
+		\begin{longtable}{|p{14cm}|}
+			\hline
+			\rowcolor{gray}
+			Breve descripción. \\ 
+			\hline 
+			Este caso de uso describe como un usuario de la aplicación puede registrar un paciente. \\ 
+			\hline
+			\rowcolor{gray}
+			Actores.\\ 
+			\hline 
+			Profesional de la salud.\\ 
+			\hline
+			\rowcolor{gray} 
+			Datos de entrada. \\ 
+			\hline
+			\begin{enumerate}[1.]
+				\item Nombre y apellidos.
+				\item Edad.
+				\item Correo electrónico.
+				\item Teléfono.
+				\item Fecha registro.
+				\item Numero documento.
+				\item Tipo documento.
+			\end{enumerate}\\
+			Opción asociar paciente.\\
+			\begin{enumerate}[1.]
+				\item Paciente.
+				\item Médico.
+				\item Observación.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujo de eventos ? Básico.\\
+			\hline \\
+			\hline
+			\begin{enumerate}[1.]
+				\item El actor selecciona la opción registrar Paciente.
+				\item El sistema muestra un formulario para el ingreso de la información del paciente (Datos de entradas).
+				\item El actor ingresa la información requerida mostrada por pantalla.
+				\item El actor selecciona la opción siguiente.
+				\item El sistema comprueba que la información requerida haya sido ingresada.
+				\item El sistema registra la información del paciente.
+				\item El sistema presenta un formulario (Datos entrada opción asociar paciente) donde se asocia el paciente al médico encargado.
+				\item El actor ingresa la información requerida mostrada en pantalla.
+				\item El actor selecciona la opción siguiente.
+				\item El sistema comprueba que la información requerida haya sido ingresada.
+				\item El sistema presenta un formulario para asociar el cuidador.
+				\item El actor selecciona el cuidador.
+				\item El actor selecciona la opción finalizar.
+				\item El sistema comprueba que la información solicitada haya sido ingresada.
+				\item El sistema registra la asociación entre el médico y el paciente junto con su cuidador.
+				\item El sistema muestra un mensaje de confirmación indicando que el paciente ha sido registrado correctamente.
+				\item Finaliza el caso de uso.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujos alternativos.\\
+			\hline \\
+			\hline
+			Información requerida no ingresada.\\\\
+			Si en el paso 5 el actor no ingresa la información requerida, el sistema muestra un mensaje de información indicando que falta ingresar información requerida para el registro.\\
+			\hline
+			Información requerida no ingresada para la asociación del profesional de la salud.\\\\
+			Si en el paso 10 el actor no ingresa la información requerida, el sistema muestra un mensaje de información indicando que falta ingresar información requerida para el registro.\\
+			\hline
+			Información requerida no ingresada para la asociación del profesional de la salud.\\\\
+			Si en el paso 14 el actor no ingresa la información requerida, el sistema muestra un mensaje de información indicando que falta ingresar información requerida para el registro.\\
+			\hline
+			\rowcolor{gray}
+			Precondiciones.\\
+			\hline
+			Debe existir un cuidador registrado previamente.\\
+			\hline
+			\rowcolor{gray}
+			Poscondiciones.\\
+			\hline
+			El registro de la información del paciente se realizó correctamente.\\
+			\hline
+		\end{longtable}
+	\end{center}
+	
+	%Caso de uso registrar usuario interesado
+	\item \textbf{Registrar usuario interesado.}\\
+	\begin{center}
+		\begin{longtable}{|p{14cm}|}
+			\hline
+			\rowcolor{gray}
+			Breve descripción. \\ 
+			\hline 
+			Este caso de uso describe como un usuario de la aplicación crea o administra la información de un usuario interesado.\\ 
+			\hline
+			\rowcolor{gray}
+			Actores.\\ 
+			\hline 
+			Administrador del sistema.\\ 
+			\hline 
+			\rowcolor{gray}
+			Datos de entrada. \\ 
+			\hline
+			\begin{enumerate}[1.]
+				\item Nombre y apellidos.
+				\item Edad.
+				\item Login.
+				\item Teléfono.
+				\item Fecha registro.
+				\item Estado.
+				\item Tipo usuario.
+				\item Tipo documento.
+				\item Número documento.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujo de eventos ? Básico.\\
+			\hline \\
+			\hline
+			\begin{enumerate}[1.]
+				\item El actor selecciona la opción registrar usuario interesado.
+				\item El sistema presenta un formulario con los datos del usuario interesado.
+				\item El actor ingresa los datos requeridos del usuario interesado (Datos de Entrada).
+				\item El sistema comprueba que se haya ingresado toda la información requerida.
+				\item El sistema registra el usuario interesado y muestra un mensaje de confirmación del registro.
+				\item El caso de uso termina su ejecución.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujos alternativos.\\
+			\hline \\
+			\hline
+			Información requerida no ingresada.\\\\
+			Si el actor no ingresa la información requerida, el sistema muestra un mensaje de información indicando que falta por ingresar información requerida para el registro.\\
+			\hline
+			\rowcolor{gray}
+			Precondiciones\\
+			\hline
+			Debe existir mínimo un paciente registrado para asociarlo al usuario interesado.\\
+			\hline
+			\rowcolor{gray}
+			Poscondiciones.\\
+			\hline
+			La información del usuario interesado es registrada con éxito.\\
+			\hline
+		\end{longtable}
+	\end{center}
+	%Caso de uso registrar entrevista paciente.
+	\item \textbf{Registrar entrevista paciente.}\\
+	\begin{center}
+		\begin{longtable}{|p{14cm}|}
+			\hline
+			\rowcolor{gray}
+			Breve descripción. \\ 
+			\hline 
+			Este caso de uso describe como un actor de la aplicación en este caso el profesional de la salud registra la entrevista realizada a un paciente para dar un diagnóstico del trastorno obsesivo compulsivo.\\ 
+			\hline 
+			\rowcolor{gray}
+			Actores.\\ 
+			\hline 
+			Profesional de la salud.\\ 
+			\hline 
+			\rowcolor{gray}
+			Datos de entrada. \\ 
+			\hline
+			Generales.\\\\
+			\begin{enumerate}[1.]
+				\item Paciente.
+				\item Motivo asesoría.
+				\item Situación familiar.
+				\item Situación social.
+				\item Estudios académicos.
+				\item Trabajo.
+				\item Personal.
+			\end{enumerate}\\\\
+			Resultado valoración.\\\\
+			\begin{enumerate}[1.]
+				\item Análisis diagnostico.
+				\item Observaciones.
+				\item Síntoma.
+			\end{enumerate}\\\\
+			Tratmiento / Receta.\\\\
+			\begin{enumerate}[1.]
+				\item Fecha.
+				\item Medicación.
+				\item Medicamentos.
+				\item Terapia conductual.
+				\item Definición terapia conductual.
+				\item Días a la semana.
+				\item Observación síntomas.
+				\item Posología.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujo de eventos ? Básico.\\
+			\hline \\
+			\hline
+			\begin{enumerate}[1.]
+				\item El actor selecciona la opción ?Entrevista paciente?.
+				\item El sistema con la información del profesional de la salud, consulta la lista de pacientes asociados y los presenta en pantalla.
+				\item El actor selecciona un paciente.
+				\item El sistema presenta un formulario tipo entrevista.
+				\item El actor ingresa la información solicitada de la entrevista (Datos de entrada).
+				\item El actor selecciona la opción ?Guardar entrevista?.
+				\item El sistema comprueba que la información haya sido ingresada correctamente.
+				\item El sistema registra la entrevista asociada al paciente.
+				\item Finaliza la ejecución del caso de uso.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujos alternativos.\\
+			\hline \\
+			\hline
+			Ninguno.\\
+			\hline
+			\rowcolor{gray}
+			Precondiciones\\
+			\hline
+			Deber Existir por lo menos un paciente asociado al profesional de la salud.\\
+			\hline
+			\rowcolor{gray}
+			Poscondiciones.\\
+			\hline
+			El registro de la entrevista se realiza correctamente.\\
+			\hline
+		\end{longtable}
+	\end{center}
+	
+	%Caso de uso registrar observación paciente.
+	\item \textbf{Registrar observación paciente.}\\
+	\begin{center}
+		\begin{longtable}{|p{14cm}|}
+			\hline 
+			\rowcolor{gray}
+			Breve descripción. \\ 
+			\hline 
+			Este caso de uso describe como el profesional de la salud o cuidador registra una observación al paciente.\\ 
+			\hline 
+			\rowcolor{gray}
+			Actores.\\ 
+			\hline 
+			Profesional de la salud.\\ 
+			Cuidador.\\
+			\hline 
+			\rowcolor{gray}
+			Datos de entrada. \\ 
+			\hline
+			\begin{enumerate}[1.]
+				\item Paciente.
+				\item Observación.
+				\item Fecha registro.
+				\item Usuario registra (No visible).
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujo de eventos ? Básico.\\
+			\hline \\
+			\hline
+			\begin{enumerate}[1.]
+				\item El actor selecciona la opción ?registrar observación?.
+				\item El sistema presenta los pacientes asociados al profesional de la salud o cuidador.
+				\item El actor selecciona el paciente a registrar la observación.
+				\item El sistema presenta una interfaz para ingresar la observación al paciente.
+				\item El actor ingresa la información solicitada (Datos de entrada) y selecciona la opción ?registrar?.
+				\item El sistema comprueba que se haya ingresado la información solicitada.
+				\item El sistema registra la observación y muestra un mensaje de información indicando que la observación se registró correctamente.
+				\item Finaliza el caso de uso.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujos alternativos.\\
+			\hline \\
+			\hline
+			Información solicitada no ingresada.\\\\
+			Si en el paso 6 del flujo básico el actor no ingresa los datos requeridos, el sistema muestra un mensaje de información indicando que debe ingresar la información solicitada.\\
+			\hline
+			\rowcolor{gray}
+			Precondiciones\\
+			\hline
+			Debe existir un paciente registrado.\\
+			\hline
+			\rowcolor{gray}
+			Poscondiciones.\\
+			\hline
+			Se registra la observación al paciente seleccionado.\\
+			\hline
+		\end{longtable}
+	\end{center}
+	
+	%Caso de uso Visualizar actividad del paciente
+	\item \textbf{Visualizar actividad del paciente.}\\
+	\begin{center}
+		\begin{longtable}{|p{14cm}|}
+			\hline 
+			\rowcolor{gray}
+			Breve descripción. \\ 
+			\hline 
+			Este caso de uso describe como un actor de la aplicación en este caso el profesional de la salud puede visualizar la actividad del paciente.\\ 
+			\hline 
+			\rowcolor{gray}
+			Actores.\\ 
+			\hline 
+			Profesional de la salud.\\
+			\hline 
+			\rowcolor{gray}
+			Datos de entrada. \\ 
+			\hline
+			\begin{enumerate}[1.]
+				\item Paciente
+				\item Fecha inicio.
+				\item Fecha fin.
+				\item Síntoma.
+				\item Tipo de gráfico.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujo de eventos ? Básico.\\
+			\hline \\
+			\hline
+			\begin{enumerate}[1.]
+				\item El usuario selecciona la opción ?Actividad paciente?.
+				\item El sistema presenta una pantalla para visualizar la actividad del paciente.
+				\item El actor ingresa la información solicitada (Datos de entrada) la cual será el filtro de búsqueda para presentar la actividad.
+				\item El actor selecciona la opción tipo de grafico ?Actividad paciente (barras)?.
+				\item El actor selecciona la opción ?Consultar?.
+				\item El sistema con los datos ingresados, consulta la actividad del paciente.
+				\item El sistema muestra la información de la actividad del paciente (Grafico en barras)
+				\item Finaliza le ejecución del caso de uso.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujos alternativos.\\
+			\hline \\
+			\hline
+			IInformación obligatoria no ingresada.\\\\
+			Si en el paso 3 del flujo básico el actor no ingresa la información marcada como obligatoria, el sistema presenta un mensaje indicando que debe ingresar los datos obligatorios.\\
+			\hline
+			Tipo de grafico seleccionado igual a ?Porcentaje actividad paciente (pastel)?.\\\\
+			\begin{enumerate}[1.]
+				\item Si en el paso 4 del flujo básico el actor selecciona el tipo de grafico ?porcentaje actividad paciente pastel?, el sistema genera un gráfico tipo pastel.
+				\item El sistema regresa al paso 6 del flujo básico.
+			\end{enumerate}\\
+			\hline
+			Tipo de grafico seleccionado igual a ?Tiempo actividad paciente (barras)?.\\\\
+			\begin{enumerate}[1.]
+				\item Si en el paso 4 del flujo básico el actor selecciona el tipo de grafico ?porcentaje actividad paciente pastel?, el sistema genera un gráfico tipo pastel.
+				\item El sistema regresa al paso 6 del flujo básico.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Precondiciones\\
+			\hline
+			Debe existir un paciente registrado.\\
+			\hline
+			\rowcolor{gray}
+			Poscondiciones.\\
+			\hline
+			La información de la actividad del paciente es mostrada correctamente.\\
+			\hline
+		\end{longtable}
+	\end{center}
+	
+	%Caso de uso Administrar sensores.
+	\item \textbf{Administrar sensores.}\\
+	\begin{center}
+		\begin{longtable}{|p{14cm}|}
+			\hline 
+			\rowcolor{gray}
+			Breve descripción. \\ 
+			\hline 
+			Este caso de uso describe como se administran los sensores utilizados en el entorno del Telecare para un paciente diagnosticado con TOC.\\ 
+			\hline 
+			\rowcolor{gray}
+			Actores.\\ 
+			\hline 
+			Administrador del sistema.\\
+			\hline 
+			\rowcolor{gray}
+			Datos de entrada. \\ 
+			\hline
+			Opción crear sensor.\\\\
+			\begin{enumerate}[1.]
+				\item Rango operación.
+				\item Tipo sensor.
+				\item Nombre.
+			\end{enumerate}\\\\
+			Opción asociar sensor.\\\\
+			\begin{enumerate}[1.]
+				\item Paciente.
+				\item Sensor.
+				\item Ubicación sensor.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujo de eventos ? Básico.\\
+			\hline \\
+			\hline
+			\begin{enumerate}[1.]
+				\item El administrador ingresa a la aplicación y selecciona la opción administración sensor.
+				\item El sistema muestra una interfaz para la administración de los sensores.
+				\item El administrador selecciona la opción Crear sensor.
+				\item El sistema presenta un formulario para la creación de un sensor (Datos entrada opción crear sensor).
+				\item El actor ingresa la información solicitada.
+				\item El sistema registra el nuevo sensor.
+				\item Finaliza la ejecución del caso de uso
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujos alternativos.\\
+			\hline \\
+			\hline
+			La opción seleccionada es Listar sensores.\\\\
+			\begin{enumerate}[1.]
+				\item Si, en el paso 3 del flujo básico el administrador selecciona la opción Listar sensores el sistema presenta una lista con todos los sensores instalados en el entorno.
+				\item Finaliza el caso de uso.
+			\end{enumerate}\\
+			\hline
+			La opción seleccionada Asociar sensor.\\\\
+			\begin{enumerate}[1.]
+				\item Si, el paso 3 del flujo básico el administrador selecciona la opción Asociar sensor.
+				\item El sistema presenta un formulario para asociar un sensor a un paciente.
+				\item El actor ingresa la información solicitada (Datos entrada opción asociar sensor).
+				\item El sistema comprueba que la información obligatoria haya sido ingresada.
+				\item El sistema asocia el sensor.
+				\item Finaliza el caso de uso.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Precondiciones\\
+			\hline
+			Ninguna.\\
+			\hline
+			\rowcolor{gray}
+			Poscondiciones.\\
+			\hline
+			Ninguna.\\
+			\hline
+		\end{longtable}
+	\end{center}
+	
+	%Caso de uso Administrar usuarios.
+	\item \textbf{Administrar usuarios.}\\
+	\begin{center}
+		\begin{longtable}{|p{14cm}|}
+			\hline 
+			\rowcolor{gray}
+			Breve descripción. \\ 
+			\hline 
+			Este caso de uso describe como se realiza la administración de los usuarios de la aplicación.\\ 
+			\hline
+			\rowcolor{gray} 
+			Actores.\\ 
+			\hline 
+			Administrador del sistema.\\
+			\hline 
+			\rowcolor{gray}
+			Datos de entrada. \\ 
+			\hline
+			Opción modificar usuario y crear usuario.\\\\
+			\begin{enumerate}[1.]
+				\item Nombre y apellido.
+				\item Edad.
+				\item Login.
+				\item Correo.
+				\item Teléfono.
+				\item Fecha registro.
+				\item Estado.
+				\item Tipo usuario.
+				\item Tipo documento.
+				\item Número documento.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujo de eventos ? Básico.\\
+			\hline \\
+			\hline
+			\begin{enumerate}[1.]
+				\item El sistema lista todos los usuarios del sistema en una tabla.
+				\item El usuario ingresa el filtro de búsqueda y selecciona la ir.
+				\item El sistema con los datos ingresados filtra los usuarios que cumplen con la información ingresada.
+				\item El usuario selecciona la opción modificar usuario.
+				\item El sistema presenta la información del usuario en modo editable.
+				\item El usuario modifica la información del usuario (Datos de entrada) y selecciona la opción actualizar cambios.
+				\item El sistema notifica que la información del usuario ha sido modificada correctamente.
+				\item Finaliza el caso de uso.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Flujos alternativos.\\
+			\hline \\
+			\hline
+			La opción seleccionada es suprimir usuario.\\
+			Si en el paso 6 el actor selecciona la opción suprimir.\\\\
+			\begin{enumerate}[1.]
+				\item El sistema elimina la información del usuario en el sistema.
+				\item Finaliza el caso de uso.
+			\end{enumerate}\\
+			\hline
+			La opción es crear usuario.\\
+			Si en el paso 2 del fuljo básico de eventos el actor selecciona la opción crear.\\\\
+			\begin{enumerate}[1.]
+				\item El sistema presenta un formulario con la información necesaria para crear un usuario (Datos de entrada).
+				\item El actor ingresa la información solicitada.
+				\item El sistema comprueba que la información obligatoria haya sido ingresada
+				\item El actor selecciona la opción crear.
+				\item El sistema registra la información del usuario en el sistema.
+				\item Finaliza el caso de uso.
+			\end{enumerate}\\
+			\hline
+			Información no ingresada.\\
+			Si en el paso 6 del flujo básico o en el paso 2 del flujo alterno crear usuario, el actor no ingresa la información obligatoria solicitada:\\\\
+			\begin{enumerate}[1.]
+				\item El sistema presenta un mensaje indicando que debe ingresar la información obligatoria.
+				\item El sistema vuelve al paso 5 del flujo básico o al paso 1 del flujo alterno.
+			\end{enumerate}\\
+			\hline
+			\rowcolor{gray}
+			Precondiciones\\
+			\hline
+			Ninguna.\\
+			\hline
+			\rowcolor{gray}
+			Poscondiciones.\\
+			\hline
+			Información registrada, eliminada o actualizada correctamente.\\
+			\hline
+		\end{longtable}
+	\end{center}
+	
+\end{enumerate}
+%------------Galeano--------------------------------------
+\subsection{DISEÑO}
+En esta etapa se define la arquitectura del sistema, los componentes hardware y software, diseño de base de datos y protocolo de comunicación entre componentes.
+
+\subsubsection{Diseño del software}
+Se definieron tres capas (vista, controlador y modelo)
+
+\begin{enumerate}[a.]
+ \item \textbf{La capa de persistencia o modelo} administrada por un motor de base de datos Oracle, la cual a través de una aplicación JAVA almacena la información capturada de los sensores.
+ 
+ \item \textbf{La capa de controlador} es gestionada por medio del Framework APEX, y se encarga de obtener información de la base de datos, para generar reportes.
+ 
+ \item \textbf{La capa de presentación o vista} se encarga de la presentación de formularios y reportes al usuario, y esta desarrolla en HTML 5 y CSS 3.
+ 
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{diseno1.png}
+	\caption{Arquitectura APEX}
+\end{figure}
+
+\subsubsection{Diseño de base de datos}
+
+Modelo de lógica de la Base de datos
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[scale=0.3]{diseno2.png}
+	\caption{Diseño de base de datos}
+\end{figure}
+
+Según la entrevista inicial realizada a la psiquiatra, se recogió la siguiente información que será la base del diseño lógico de la base de datos relacional que soportará la aplicación en los aspectos funcionales:
+
+\begin{itemize}
+      \item Existirán cuatro clases de usuario:
+      
+       \begin{enumerate}[a.]
+        \item \textbf{Pacientes:} Podrá ingresar a ver las observaciones realizadas por el médico.
+        \item \textbf{Médico:} Tendrá uno o muchos pacientes, podrá registrar pacientes, visualizar sus datos, ingresar síntomas a un paciente, generar reportes según la información recolectada por los sensores  en un determinado rango de tiempo, el informe puede ser generado en modo gráfico o texto en un archivo pdf, o visualizado en pantalla, también podrá realzar recomendaciones que serán enviadas al usuario por medio de correo electrónico y por la aplicación.
+         \item \textbf{Cuidadores:} Encargado del cuidado del paciente, podrá visualizar las recomendaciones realizadas por el médico, visualizar y editar sus datos.
+         \item \textbf{Administrador del sistema:} Encargado de la configuración de la aplicación, agregar y quitar sensores, agregar o eliminar usuarios.
+       \end{enumerate}
+       
+       \item Los sensores estarán asociados a ubicaciones dentro de la casa del paciente, según su necesidad estos sensores pueden ser de varios tipos y tendrán rangos de valores de medida. Podrán ser activados y desactivados en la medida que el médico considere necesario que dicho sensor ya no sea útil, podrán ajustarse tanto las ubicaciones como los rangos de valores a entregar, las lecturas de los sensores serán almacenadas con fecha y hora.
+      \end{itemize}
+       
+       \subsubsection{Diseño del Modulo de Lectura de sensores (Aplicacion JAVA)}
+       
+       Posee las siguientes funcionalidades:
+       
+       \begin{itemize}
+       	 \item Interpretar los datos obtenidos por el componente hardware y sus sensores asociados, los cuales recolectan esta información y la envían al software, una vez enviada la información el aplicativo convierte los datos en información clara y que pueda ser procesada fácilmente.
+       	 
+       	 \item Almacenar la información procesada en la unidad persistente (BD) para que posteriormente sea presentada al usuario.
+       	
+       \end{itemize}
+       
+       \begin{figure}[H]
+       	\centering
+       	\includegraphics[scale=1]{diseno_3.png}
+       	\caption{Diseño modulo de lectura.}
+       \end{figure}
+       
+\subsubsection{Diseño del Modulo hardware}
+ Así como el diseño de una aplicación se puede iniciar desde los prototipos de interfaz gráfica, también el desarrollo del componente hardware se puede iniciar desde la representación física de su distribución en el entorno del paciente, a continuación se muestra el modelo un entorno propicio para el monitoreo de un paciente con TOC hacia rituales de limpieza, se identificaron los siguientes componentes:
+
+\begin{enumerate}
+\item Sensores para la identificación o reconocimiento del paciente dentro de un entorno con otras personas (sensores de Peso, sensores de estatura).
+\item Sensores de acción sobre los diferentes griferías del entorno (baño) (sensores de humedad sensores de nivel, sensores de posición).
+\end{enumerate}
+
+ \begin{figure}[H]
+       	\centering
+       	\includegraphics[scale=1]{diseno4.png}
+       	\caption{Representación de la distribución y la instalación de sensores en baño de un paciente.}
+       \end{figure}
+\smallskip
+
+Los componentes identificados guardan estrecha relación con el análisis y la investigación cuando se relacionó los comportamientos vs sensores que podrían usarse para monitorearlo, de este punto se puede tener un diseño de componentes de alto nivel como se muestra en la siguiente figura:
+       
+       \begin{figure}[H]
+       	\centering
+       	\includegraphics[scale=0.65]{diseno5.png}
+       	\caption{Modelado de componente hardware}
+       \end{figure}
+A partir del modelo anterior se estableció el funcionamiento básico del sistema:
+\begin{enumerate}
+\item Configurar los sensores que hacen parte del sistema.
+\item Verificar si alguno de los sensores se activó dentro de la casa o entorno de monitoreo.
+\item Si fue así, verificar con los sensores de identificación si es la persona o paciente de interés quien realizó la activación.
+\item De ser así se envía la información con el protocolo establecido.
+\item Se espera hasta que la identificación o el sensor no tenga más lecturas válidas y se envía la parte final de la trama de datos obtenidos.
+\end{enumerate}
+La anterior funcionalidad  se representa en el siguiente diagrama de flujo:
+       
+       \begin{figure}[H]
+       	\centering
+       	\includegraphics[scale=0.65]{diseno6.png}
+       	\caption{Diagrama de flujo envío de datos obtenidos.}
+       \end{figure}
+       
+       Protocolo para el envío de datos:\\
+       \begin{table}
+       	
+       \scalebox{0.65}{
+       \begin{tabular}[H]{|c|c|c|c|c|c|c|}
+       	\hline  Delimitador & Identificador sensor del sensor &   Tipo del sensor & Delimitador & Valor de la medida & Delimitador & Final de la trama \\ 
+       	\hline | & 00-99 & Digital/Análogo & | & 0-1024 &  & 'N' \\ 
+       	\hline | & 1 & A  & | & 1024 & | & 'N' \\ 
+       	\hline | & 2 & D &  & 0 & | & 'N' \\ 
+       	\hline
+       	
+       \end{tabular}}
+        \caption{Protocolo}
+        \end{table}
+\subsubsection{Implantación del hardware} 
+Para implementar el componente Hardware se decidió usar el la plataforma de desarrollo Arduino específicamente "Arduino leonarnardo" que entre otras ventajas se puede mencionar su bajo costo y una comunidad activa de desarrollo, el lenguaje para programar este dispositivo es JAVA con lo cual se unifica el desarrollo de la interfaz de captura de datos como el desarrollo hardware.
+       
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.7]{diseno7.png}
+        	\caption{Arduino Leonardo}
+        \end{figure}
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=1.1]{diseno8.png}
+        	\caption{Conexión y tipos de sensores.}
+        \end{figure} 
+        
+        Sensores de Identificación:
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.7]{diseno9.png}
+        	\caption{Celda de carga, determina el peso de una persona hasta 200 kg.}
+        \end{figure}    
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.7]{diseno10.png}
+        	\caption{Potenciometro lineal, Emular comportamiento.}
+        \end{figure}  
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.7]{diseno12.png}
+        	\caption{Sensor para determinar la estatura del paciente Fotosensor, emulado con un pulsador.}
+        \end{figure}
+      Sensores de Monitoreo:
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.7]{diseno13.png}
+        	\caption{Sensor de inundación.}
+        \end{figure}
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=1]{diseno14.png}
+        	\caption{Seonsor de caudal.}
+        \end{figure}
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.7]{diseno15.png}
+        	\caption{ Montaje hardware implementado para de pruebas del sistema.}
+        \end{figure}
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.5]{diseno16.png}
+        \end{figure}
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.5]{diseno17.png}
+        \end{figure}
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.5]{diseno18.png}
+        \end{figure}
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.5]{diseno19.png}
+        \end{figure}
+        
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[scale=0.5]{diseno20.png}
+        	\caption{Código de la tarjeta de adquisición.}
+        \end{figure}
+
+\subsection{IMPLEMENTACIÓN}
+En esta etapa se realizó el desarrollo de todos los módulos propuestos, siguiendo  el modelo de desarrollo de software mencionado anteriormente.
+\subsubsection{Desarrollo aplicación Web}
+
+\begin{itemize}
+	\item La aplicación web se desarrolló usando el framework de Oracle ápex
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1]{implementacion1.png}
+		\caption{Login}
+	\end{figure}
+	
+	\item El framework cuenta con un espacios de trabajo para cada uno de los desarrolladores, donde deja un registro de auditoria de las acciones realizadas
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{implementacion2.png}
+		\caption{inicio}
+	\end{figure}
+	
+	\item En modo de desarrollo se encuentran los editores de las páginas elaboradas para cada uno de los perfiles (administrador, medico, cuidador), las paginas pueden ser elaboradas partiendo de plantillas (formularios, gráficos, plantillas planas, etc.)
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{implementacion3.png}
+		\caption{Lista Paginas}
+	\end{figure}
+	
+	\item La sección de taller de sql, donde se cuenta con unas tablas de sistema, y se elaboraron las tablas relacionadas con la aplicación
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{implementacion4.png}
+		\caption{Lista tablas}
+	\end{figure}
+	
+	\item En esta sección también se definieron funciones pl/sql, triggers, secuencias, para obtener información que alimenta las paginas 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{implementacion5.png}
+		\caption{editor SQL}
+	\end{figure}
+	
+	\item En la sección Application Builder se elaboraron las rutas de navegación de la aplicación, se configuraron los roles restricciones y accesos de acuerdo a cada perfil, las listas entre otras.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{implementacion6.png}
+		\caption{Application Builder}
+	\end{figure}
+	
+	\item La sección del médico cuenta con las funcionalidades para registrar un paciente, entrevistar un paciente, registrar observaciones y ver la actividad de un paciente
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{implementacion7.png}
+		\caption{Pagina Medico}
+	\end{figure}
+	
+	\item La sección del administrador, cuenta con administración de los sensores, configuración de usuarios y administración del perfil
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{implementacion8.png}
+		\caption{Pagina Administrador}
+	\end{figure}
+	
+	\item La sección del cuidador cuenta, con un registro de observaciones al médico.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{implementacion9.png}
+		\caption{Pagina Cuidador}
+	\end{figure}
+	
+\end{itemize}
+
+\subsubsection{Desarrollo Aplicación JAVA}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{implementacion10.png}
+	\caption{Estructura del código fuente}
+\end{figure}
+\begin{itemize}
+	\item Se elaboraron tres clases de conectores: Mysql, Postgres y Oracle dependiendo de la base de datos que se utilice, en este caso se trabajó con la base de datos ORACLE 11g.
+	
+	\item EL código cuenta con la siguiente estructura de clases:
+	\begin{enumerate}[a.]
+		\item  \textbf{Conversion.java:}  es la clase encargada de obtener los valores normales para las entradas de los sensores, por ejemplo, la temperatura, el pese de una pastilla   en un frasco, para un contador, etc.
+		
+		\item  \textbf{ConexionOracle.java:} es la clase que se conecta a la base de datos y contiene las consultas de inserción y actualización de datos.
+		
+		\item  \textbf{PruebaConexionSerial.java:} esta clase es la encargada de filtrar los valores normales de los sensores, esto significa que filtra la información que se encuentra dentro de un rango normal de actividad registrada por un sensor, y no datos incoherentes o erróneos.
+		
+		\item \textbf{Clases del paquete útil:} son las encargadas de cargar la información de los archivos de propiedades para generar la conexión a la base de datos. 
+		
+		\item \textbf{Librerías:} la aplicación cuenta con librerías de conexión a puerto serial para realizar la lectura de datos de la tarjeta de adquisición.
+		
+	\end{enumerate}   
+	
+\end{itemize}
+
+%---------------------------------------------------
+
+
+
+
+
+\subsection{Pruebas del sistema}
+
+El prototipo Telecare se  probó progresivamente durante el desarrollo y la implementación, tanto en los componentes individuales hardware y software, como la integración y operación de los mismos. Uno de los objetivos principales del trabajo de grado es entregar un sistema con validación en el área de usabilidad para lo cual se contó con el valioso apoyo del Grupo SINFOCI y sus expertos en la materia que realizaron dos tipo de pruebas Heurísticas y de recorrido Cognitivo. A continuación se detallaran  las pruebas más relevantes realizadas al sistema:
+
+
+	
+\subsubsection{Prueba del Hardware}
+
+La tarjeta de adquisición de datos se implementó en  la plataforma de desarrollo Arduino Leonardo, dicha plataforma de desarrollo hardware permite a través de librerías de uso libre la construcción de aplicaciones específicas con mucha rapidez. El proyecto  requirió la conexión bidireccional de la tarjeta de adquisición con un pc servidor, la información que Arduino  envía al servidor se  obtuvo  de  sensores de diferentes tipos conectada a ella encargados de monitoreo de las áreas donde el paciente realiza sus actividades. Para desarrollar y probar la tarjeta se contó con su IDE este cuenta un módulo que permite emular una terminal y ver la información que va a ser enviada con el protocolo serial RS232 hasta el servidor de base de datos y hacer pruebas sin tener que conectar físicamente el dispositivo al PC servidor mientras se está desarrollando.\\
+\\
+Pasos de la prueba:
+
+\begin{itemize}
+
+\item Conexión de la plataforma Arduino con el PC de desarrollo:
+	
+\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.5]{Pruebas-hardware-1.png}		
+		\caption{Conexión de PC con la tarjeta de desarrollo Arduino}	
+	    	
+\end{figure}
+
+\item Emulando un terminal en el IDE
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Pruebas-hardware-2.png}
+	\caption{Entorno de desarrollo Arduino Prueba de conexión serial ene IDE}		
+\end{figure}
+
+
+\item Una vez se realizan las pruebas en el IDE Arduino se realizan la pruebas en la maquina real donde se desplegará el servidor de base de datos con la aplicación de Windows hyperterminal validando así el desarrollo hecho en Arduino.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Pruebas-hardware-3.png}
+	\caption{Prueba de conexión RS232 de la tarjeta de adquisición con el servidor}		
+\end{figure}
+
+\item Prueba de la trama propuesta como protocolo para enviar la información de los sensores:
+Los sensores que emulan la  identificación de paciente deben estar activos (sensor de peso, sensor de estatura). Se enviaran tres lecturas del sensor 4, una lectura del sensor 6 y una lectura del sensor 7.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Pruebas-hardware-4.png}
+	\caption{Detalle del protocolo enviado por la activación de sensores}		
+\end{figure}
+
+
+\item Resultados de la prueba: Se pudo evidenciar que la plataforma se conectó tanto con una terminal emulada como con la real implementada por el Sistema Operativo nativo del servidor. Al activar los sensores determinados, el sistema envía la trama en la secuencia y formato esperado.
+
+\end{itemize}
+
+\subsubsection{Pruebas Usabilidad}
+
+\begin{itemize}
+	\item Pruebas Heurísticas de la aplicación web.
+\end{itemize}
+
+El equipo de trabajo del grupo SINFOCI de la Universidad del Quindío realizó un total de 8 pruebas de éste tipo  y se encontrará como anexo del trabajo, en éste aparte se relacionarán las observaciones más relevantes y las correcciones de dicha evaluación. Para la ejecución de la pruebas el grupo SINFOCI usó la platilla propuesta por el ministerio para realizar este tipo de pruebas. La metodología para mostrar los avances hacia la calidad en cuanto usabilidad serán identificar ítem evaluado, la observación de la  incidencia y como fue corregido he implementada la solución, a continuación se muestran los resultados obtenidos de la evaluación:\\
+
+\textbf{Ítem de evaluación:} Identidad o logotipo significativo, identificable y suficientemente visible.\\
+\textbf{Observación:} No existe logo o algún tipo de identidad.\\
+\textbf{Implantación de la solución:}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{Pruebas-hardware-5.png}
+	\caption{Logo Aplicación Telecare}		
+\end{figure}
+
+\textbf{Ítem evaluación:} Se ofrece información sobre la protección de datos de carácter personal o los derechos de autor de los contenidos del sitio web.\\
+\textbf{Observación:} Está implementado pero no define información alguna.\\
+\textbf{Implantación de la solución:}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{Pruebas-hardware-6.png}
+	\caption{Sección manejo de información aplicación Telecare}		
+\end{figure}
+
+\textbf{Ítem evaluación:} Existe mapa del sitio para acceder directamente a los contenidos sin navegar.\\
+\textbf{Observación:} No hay evidencia de su existencia.\\
+\textbf{Implantación de la solución:}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{Pruebas-hardware-7.png}
+	\caption{Mapa del sitio para usuario administrador }		
+\end{figure}
+
+\textbf{Ítem evaluación:} Se ofrece información sobre el autor, fuentes y fechas de creación y revisión en artículos, noticias, informes.\\
+\textbf{Observación:} No existe evidencia de la fecha de implementación.\\
+\textbf{Implantación de la solución:}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{Pruebas-hardware-8.png}
+	\caption{Versión y fecha de creación aplicación Telecare }		
+\end{figure}
+
+\textbf{Ítem evaluación:} Fácil acceso y retorno al/del sistema de ayuda.\\
+\textbf{Observación:} No hay sistema de ayuda implementado.\\
+\textbf{Implantación de la solución:}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{Pruebas-hardware-9.png}
+	\caption{Sección de ayuda aplicación Telecare  }		
+\end{figure}
+
+\textbf{Ítem evaluación:} Uso correcto del espacio visual de la página.\\
+\textbf{Observación:} El footer es demasiado grande.\\
+\textbf{Implantación de la solución:}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{Pruebas-hardware-10.png}
+	\caption{Manejo de espacios aplicación Telecare  }		
+\end{figure}
+
+\begin{itemize}
+	\item Pruebas de recorrido cognitivo
+\end{itemize}
+
+El recorrido cognitivo es un método de inspección de la usabilidad que se centra en evaluar en un diseño su facilidad de aprendizaje, básicamente por exploración y está motivado por la observación que muchos usuarios prefieren aprender software por exploración \cite{pruebasUsabilidad}.
+
+Para ejecutar esta prueba el experto trabajo sobre las funcionalidades del rol cuidador.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{Pruebas-hardware-13.png}
+	\caption{Resultados recorrido cognitivo}		
+\end{figure}
+
+Observaciones al final de la prueba:\\
+"Los usuarios lograron culminar las tareas de manera satisfactoria en un promedio de 2 minutos, pero no quedaron satisfechas al final de realizar las tareas solicitadas, lo cual se puede observar en las observaciones realizadas por cada uno."
+
+Varias de las observaciones hechas por los usuarios, tienen similitud con las incidencias reportadas en las pruebas heurísticas, resaltaremos aquellas que no se mencionaron en dichas pruebas.
+
+\textbf{Observación:} Implementar la miga de pan para que el usuario siempre sepa donde se encuentra dentro del aplicativo y tenga mejor navegabilidad dentro de él.\\ 
+\textbf{Implantación de la solución:}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.85]{Pruebas-hardware-11.png}
+	\caption{Implementación de miga de pan en la aplicación}		
+\end{figure}
+
+\textbf{Observación:} Buscar contextualizar más el aplicativo, de manera que el usuario solo con ingresar pueda tener una idea de cuál es el objetivo del aplicativo.\\
+\textbf{Implantación de la solución:}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.85]{Pruebas-hardware-12.png}
+	\caption{Contextualización para opciones de actor medico}		
+\end{figure}
+
+\subsubsection{Pruebas de Aceptación}
+Las pruebas  de aceptación son pruebas que realizan los usuarios finales o testers expertos en el manejo de la herramienta o sistema, con el fin validar que cumple con los requerimientos definidos o con las funcionalidades negociadas desde al inicio del proyecto.
+La prueba con el usuario final esta documentada en un vídeo y sera entregada como un anexo del trabajo, se escogieron las funcionalidades mas representativas para ser condensadas en este informe así:
+
+\paragraph{Escenario 1: El actor Medico crea un paciente en el sistema Telecare TOC.}
+
+	\textbf{Tipo de prueba:} Funcional.\\
+	\textbf{Objetivo:} Validar que el sistema cumpla el objetivo de permitir a un médico crear un paciente en el sistema de manera Exitosa.\\
+	\textbf{Actor:} Medico\\
+	\textbf{Precondiciones:}\\
+	El médico debe existir el sistema\\
+	El Cuidador debe existir creado en el sistema\\
+	\textbf{Resultado esperado:} Un Paciente se crea con éxito en el sistema.\\
+	\textbf{Pos-condiciones:}\\
+	Un paciente se crea en el sistema asociado al médico que lo creó.\\
+	\textbf{Pasos de la prueba:}\\
+	El actor: Se autentica en el sistema:\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Pruebas-aceptacion-1.png}		
+\end{figure}
+El sistema: Muestra la interfaz del profesional de la salud.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Pruebas-aceptacion-2.png}		
+\end{figure}
+El actor: Ingresa al menú: Medico/Registrar Paciente\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-3.png}		
+\end{figure}
+El sistema: Despliega un listado con los pacientes asociados al Médico y las respectivas opciones de filtro.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-4.png}		
+\end{figure}
+El actor: Presiona el botón Registrar Paciente\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-5.png}		
+\end{figure}
+El sistema: Muestra un formulario para el ingreso de los datos básicos de un paciente.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-6.png}		
+\end{figure}
+
+El actor: Ingresa la información requerida y pulsa el botón Siguiente.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-7.png}		
+\end{figure}
+
+El sistema: informa del éxito del ingreso y muestra un formulario para realizar la asociación del paciente con el médico.\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{Pruebas-aceptacion-8.png}		
+\end{figure}
+\smallskip
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{Pruebas-aceptacion-9.png}		
+\end{figure}
+
+El sistema: Muestra el éxito del proceso y despliega las opciones para elegir un cuidador o interesado del paciente.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-10.png}		
+\end{figure}
+
+El actor: Elije de la lista desplegable el familiar o interesado en su cuidado y presiona el botón registra.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-11.png}		
+\end{figure}
+El sistema informa que el paciente fue creado con Éxito.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-12.png}		
+\end{figure}
+
+\paragraph{Escenario 2: El actor Médico entrevista un paciente y genera un tratamiento.}
+\textbf{Tipo de prueba:} Funcional\\
+\textbf{Objetivo:} Validar con el usuario final que el sistema permite de manera exitosa registrar una entrevista básica de una consulta psiquiátrica.\\
+\textbf{Actor:} Medico\\
+\textbf{Precondiciones:}\\
+El Medico debe estar creado en el sistema\\
+El médico debe tener asociado por lo menos un paciente y su respectivo cuidador o interesado.\\
+Las patologías más representativas del TOC deben estar parametrizadas en el sistema.
+\textbf{Resultado esperado:} El sistema permite crear con éxito el registro de la entrevista.\\
+\textbf{Postcondiciones:}\\
+El sistema creara la entrevista en BD\\
+El sistema tendrá la información requerida para el análisis y posterior implantación del sistema de monitoreo del paciente.\\
+\textbf{Pasos de la prueba:}\\\\
+El actor: Ingresa al menú: Médico /Entrevistar Paciente
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{Pruebas-aceptacion-13.png}		
+\end{figure}
+El sistema: Despliega una un formulario para el ingreso de la entrevista con el paciente.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{Pruebas-aceptacion-14.png}		
+\end{figure}
+El actor: Ingresa la información requerida así como el tratamiento y pulsa el botón Guardar Entrevista.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{Pruebas-aceptacion-17.png}		
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{Pruebas-aceptacion-18.png}		
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{Pruebas-aceptacion-19.png}		
+\end{figure}
+El sistema: informa que la entrevista se creó con éxito.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-20.png}		
+\end{figure}
+
+\paragraph{Escenario 3: El actor Medico analiza los resultados del monitoreo de un paciente.\\}
+\textbf{Tipo de prueba:} Funcional.\\
+\textbf{Objetivo:} Validar que los resultados arrojados por el sistema para un paciente monitoreado sean de valor para el profesional de la salud a la hora tomar la decisión  de Reducir aumentar o para un tratamiento.\\
+\textbf{Actor:}Medico\\
+\textbf{Precondiciones:}\\
+Tener un Paciente monitoreado (emulado con  el componente electrónico sistema) por el sistema por lo menos un día.\\
+\textbf{Resultado esperado:} El sistema muestra correctamente las gráficas con las métricas definidas por el profesional de la salud.\\
+\textbf{Postcondiciones:}\\
+El sistema registrará en la BD el histórico de lectura del paciente.\\
+\textbf{Pasos de la prueba:}\\\\
+El actor: Ingresa al menú: Medico/Actividad Paciente
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{Pruebas-aceptacion-21.png}		
+\end{figure}
+El sistema: Despliega una un formulario para el ingreso de datos básicos del filtro por paciente y su patología asociada para un intervalo de fechas dado,  así como y la métrica deseada representada en un tipo de gráfico.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-22.png}		
+\end{figure}
+El actor: Ingresa la información requerida y pulsa el botón Consultar.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-23.png}		
+\end{figure}
+El sistema: Muestra una como resultado del filtro ingresado la gráfica pertinente ella se verán los valores normales de comportamiento definidos por el Medico para el paciente.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-24.png}		
+\end{figure}
+Métricas en el mismo intervalo de fechas (Proporción de uso de un sensor específico).\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{Pruebas-aceptacion-25.png}		
+\end{figure}
+Métricas en el mismo intervalo de fechas (Tiempo acumulado en el uso de los sensores monitoreados).\\
+Nota: Las pruebas de aceptación se realizaron con el profesional de la salud usando  el sistema (vídeo adjunto), la contextualización de la entrevista así como la interpretación de estas gráficas es responsabilidad del profesional de la salud por tanto los detalles están el vídeo.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1.2]{Pruebas-aceptacion-26.png}		
+\end{figure}
+ \section{RESULTADOS}
+ 
+ Artefactos generados de la realización de cada uno de los objetivos.
+ 
+ \begin{itemize}
+ 	
+ 	\item Plantilla de encuesta a psiquiatra especialista en trastorno obsesivo compulsivo (TOC).
+ 	
+ 	\item	Entrevista a psiquiatra sobre comportamiento y síntomas de pacientes con TOC.
+ 	
+ 	\item Documento de especificación de casos de uso.
+ 	
+ 	\item Documento de arquitectura.
+ 	
+ 	\item Esquema de base de datos.
+ 	
+ 	\item Código fuente de la aplicación.
+ 	
+ 	\item Pruebas de Usabilidad.
+ 	
+ 	\item Manual de usuario.
+ 	
+ 	\item Manual de instalación de la aplicación.
+ \end{itemize}
+ 
+ \section{CONCLUSIONES Y TRABAJO FUTURO}
+ 
+ En este trabajo de grado se ha implementado un prototipo de sistema telecare para pacientes diagnosticados con trastornos obsesivos compulsivos que resuelven la problemática identificada. A partir de la interdisciplinaridad se puede desarrollar una solución tecnológica que satisface dichas necesidades con la principal característica de que este prototipo es de bajo costo.
+ 
+ Igualmente el prototipo desarrollado permite monitorear los diferentes comportamientos de los pacientes diagnosticados con TOC identificados por el profesional de la salud, al cual se le realizaron pruebas de usabilidad con usuarios expertos evaluando el nivel de satisfacción de uso y de los procesos del sistema. Los resultados de estas pruebas fueron satisfactorios respecto a su uso y los procesos del sistema cumplen con lo acordado para dar solución a la problemática planteada.
+ 
+ El desarrollo de este prototipo se realizó en diferentes entornos respecto al módulo implementado, para el componente hardware se usó el entorno de desarrollo para Arduino, el módulo de comunicación entre el hardware y la aplicación web se realizó bajo el entorno de desarrollo Eclipse y la aplicación web fue útil utilizar la herramienta desarrollo de Oracle Application Express (APEX) por su ágil y fácil desarrollo de páginas web y generación de reportes gráficos, la persistencia de datos esta manejada por el sistema de base de datos Oracle 11g.
+ 
+ Como trabajo futuro se sugiere:
+ 
+ \begin{itemize}
+ 	\item Realizar más pruebas en entornos reales con pacientes diagnosticados con algún TOC para validar que el sistema telecare es eficiente para cualquier comportamiento identificado.
+ 	
+ 	\item Realizar un estudio para identificar si es viable a futuro que estos sistemas se apliquen como una herramienta que apoya la toma de decisiones sobre tratamientos a pacientes diagnosticados con TOC.
+ 	
+ 	\item Implementar en el prototipo la posibilidad de que una red neuronal pueda sugerir un tratamiento efectivo para un tipo de comportamiento identificado por el profesional de la salud, según un aprendizaje previo de la red neuronal con datos históricos de otros pacientes.
+ 	
+ \end{itemize}
+ 
+ Finalmente este proyecto servirá como base teórica y metodológica para trabajos futuros sobre otros sistemas Telecare y trabajos de telemedicina.
+
+\bibliographystyle{unsrt}
+\bibliography{bib/upbthesis}
+
+\section{Anexos}
+%
+\end{document}

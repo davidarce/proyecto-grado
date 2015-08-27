@@ -1,0 +1,12 @@
+<<<<<<< .mine
+\contentsline {figure}{\numberline {1}{\ignorespaces Conexi\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }n de PC con la tarjeta de desarrollo Arduino}}{17}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Entorno de desarrollo Arduino Prueba de conexi\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }n serial ene IDE}}{18}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Prueba de conexi\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }n RS232 de la tarjeta de adquisici\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }n con el servidor}}{19}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Detalle del protocolo enviado por la activaci\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }n de sensores}}{20}{figure.4}
+=======
+\contentsline {figure}{\numberline {1}{\ignorespaces Metodolog\IeC {\'\i }a de desarrollo del proyecto software}}{17}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Conexi\'on de PC con la tarjeta de desarrollo Arduino}}{20}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Entorno de desarrollo Arduino Prueba de conexi\'on serial ene IDE}}{21}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Prueba de conexi\'on RS232 de la tarjeta de adquisici\'on con el servidor}}{22}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Detalle del protocolo enviado por la activaci\'on de sensores}}{23}{figure.5}
+>>>>>>> .r210

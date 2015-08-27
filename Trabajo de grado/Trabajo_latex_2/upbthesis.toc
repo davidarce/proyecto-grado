@@ -1,0 +1,36 @@
+\contentsline {section}{INTRODUCCI\'ON}{17}{section*.9}
+\contentsline {section}{\numberline {1.}Cumplimiento Objetivos}{18}{section.1}
+\contentsline {section}{\numberline {2.}Contexto}{19}{section.2}
+\contentsline {subsection}{\numberline {2.1.}Planteamiento del problema}{19}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2.}Objetivos}{19}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1.}General}{19}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.}Espec\IeC {\'\i }ficos}{20}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3.}Alcance y delimitaci\'on}{21}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4.}Presupuesto}{22}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5.}Cronograma}{23}{subsection.2.5}
+\contentsline {section}{\numberline {3.}Desarrollo}{24}{section.3}
+\contentsline {subsection}{\numberline {3.1.}AN\'ALISIS}{25}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1.}Investigaci\'on}{25}{subsubsection.3.1.1}
+\contentsline {subsection}{\numberline {3.2.}REQUISITOS}{27}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1.}Necesidades concretas}{27}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.}Especificaci\'on de los casos de uso}{28}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3.}DISE\~NO}{41}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1.}Dise\~no del software}{41}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2.}Dise\~no de base de datos}{42}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.}Dise\~no del Modulo de Lectura de sensores (Aplicacion JAVA)}{43}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4.}Dise\~no del Modulo hardware}{44}{subsubsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.5.}Implantaci\'on del hardware}{47}{subsubsection.3.3.5}
+\contentsline {subsection}{\numberline {3.4.}IMPLEMENTACI\'ON}{52}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1.}Desarrollo aplicaci\'on Web}{52}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2.}Desarrollo Aplicaci\'on JAVA}{57}{subsubsection.3.4.2}
+\contentsline {subsection}{\numberline {3.5.}Pruebas del sistema}{58}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1.}Prueba del Hardware}{58}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2.}Pruebas Usabilidad}{61}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3.}Pruebas de Aceptaci\'on}{66}{subsubsection.3.5.3}
+\contentsline {paragraph}{\numberline {3.5.3.1.}Escenario 1: El actor Medico crea un paciente en el sistema Telecare TOC.}{66}{paragraph.3.5.3.1}
+\contentsline {paragraph}{\numberline {3.5.3.2.}Escenario 2: El actor M\'edico entrevista un paciente y genera un tratamiento.}{71}{paragraph.3.5.3.2}
+\contentsline {paragraph}{\numberline {3.5.3.3.}Escenario 3: El actor Medico analiza los resultados del monitoreo de un paciente.\\}{75}{paragraph.3.5.3.3}
+\contentsline {section}{\numberline {4.}RESULTADOS}{79}{section.4}
+\contentsline {section}{\numberline {5.}CONCLUSIONES Y TRABAJO FUTURO}{80}{section.5}
+\contentsline {section}{BIBLIOGRAF\'IA}{82}{section*.10}
+\contentsline {section}{\numberline {6.}Anexos}{83}{section.6}

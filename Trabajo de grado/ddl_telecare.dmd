@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ddl_telecare" id="0DA87516-8306-2E47-EAC8-621316E6A28E" version="3.41">
+   <createdBy>Administrador</createdBy>
+   <createdTime>2014-11-15 20:22:29 UTC</createdTime>
+   <generatorID>Generado por el Usuario</generatorID>
+   <ownerDesignName>ddl_telecare</ownerDesignName>
+   <capitalNames>false</capitalNames>
+   <designId>0DA87516-8306-2E47-EAC8-621316E6A28E</designId>
+</OSDM_Design>

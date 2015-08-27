@@ -1,0 +1,40 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Metodolog\IeC {\'\i }a de desarrollo del proyecto software}}{24}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Tabla relaci\'on comportamiento-sensor.}}{26}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Arquitectura APEX}}{42}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Dise\~no de base de datos}}{42}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Dise\~no modulo de lectura.}}{44}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Representaci\'on de la distribuci\'on y la instalaci\'on de sensores en ba\~no de un paciente.}}{45}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Modelado de componente hardware}}{45}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagrama de flujo env\IeC {\'\i }o de datos obtenidos.}}{46}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Arduino Leonardo}}{47}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Conexi\'on y tipos de sensores.}}{47}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Celda de carga, determina el peso de una persona hasta 200 kg.}}{48}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Potenciometro lineal, Emular comportamiento.}}{48}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Sensor para determinar la estatura del paciente Fotosensor, emulado con un pulsador.}}{48}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Sensor de inundaci\'on.}}{49}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Seonsor de caudal.}}{49}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Montaje hardware implementado para de pruebas del sistema.}}{49}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on.}}{51}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Login}}{52}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces inicio}}{53}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Lista Paginas}}{53}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Lista tablas}}{54}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces editor SQL}}{54}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Application Builder}}{55}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Pagina Medico}}{55}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Pagina Administrador}}{56}{figure.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Pagina Cuidador}}{56}{figure.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Estructura del c\'odigo fuente}}{57}{figure.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Conexi\'on de PC con la tarjeta de desarrollo Arduino}}{59}{figure.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Entorno de desarrollo Arduino Prueba de conexi\'on serial ene IDE}}{59}{figure.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Prueba de conexi\'on RS232 de la tarjeta de adquisici\'on con el servidor}}{60}{figure.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Detalle del protocolo enviado por la activaci\'on de sensores}}{60}{figure.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Logo Aplicaci\'on Telecare}}{61}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Secci\'on manejo de informaci\'on aplicaci\'on Telecare}}{62}{figure.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Mapa del sitio para usuario administrador }}{62}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Versi\'on y fecha de creaci\'on aplicaci\'on Telecare }}{63}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Secci\'on de ayuda aplicaci\'on Telecare }}{63}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Manejo de espacios aplicaci\'on Telecare }}{64}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Resultados recorrido cognitivo}}{64}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Implementaci\'on de miga de pan en la aplicaci\'on}}{65}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Contextualizaci\'on para opciones de actor medico}}{66}{figure.40}

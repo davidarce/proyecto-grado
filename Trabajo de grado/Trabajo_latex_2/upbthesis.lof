@@ -14,27 +14,32 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces Sensor de inundaci\'on.}}{49}{figure.14}
 \contentsline {figure}{\numberline {15}{\ignorespaces Seonsor de caudal.}}{49}{figure.15}
 \contentsline {figure}{\numberline {16}{\ignorespaces Montaje hardware implementado para de pruebas del sistema.}}{49}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on.}}{51}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Login}}{52}{figure.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces inicio}}{53}{figure.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Lista Paginas}}{53}{figure.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Lista tablas}}{54}{figure.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces editor SQL}}{54}{figure.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Application Builder}}{55}{figure.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Pagina Medico}}{55}{figure.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Pagina Administrador}}{56}{figure.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Pagina Cuidador}}{56}{figure.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Estructura del c\'odigo fuente}}{57}{figure.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Conexi\'on de PC con la tarjeta de desarrollo Arduino}}{59}{figure.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Entorno de desarrollo Arduino Prueba de conexi\'on serial ene IDE}}{59}{figure.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Prueba de conexi\'on RS232 de la tarjeta de adquisici\'on con el servidor}}{60}{figure.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Detalle del protocolo enviado por la activaci\'on de sensores}}{60}{figure.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Logo Aplicaci\'on Telecare}}{61}{figure.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Secci\'on manejo de informaci\'on aplicaci\'on Telecare}}{62}{figure.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Mapa del sitio para usuario administrador }}{62}{figure.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Versi\'on y fecha de creaci\'on aplicaci\'on Telecare }}{63}{figure.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Secci\'on de ayuda aplicaci\'on Telecare }}{63}{figure.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Manejo de espacios aplicaci\'on Telecare }}{64}{figure.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Resultados recorrido cognitivo}}{64}{figure.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Implementaci\'on de miga de pan en la aplicaci\'on}}{65}{figure.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Contextualizaci\'on para opciones de actor medico}}{66}{figure.40}
+\contentsline {figure}{\numberline {17}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (a).}}{50}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (b).}}{51}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (c).}}{51}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (d).}}{52}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (e).}}{52}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Login}}{53}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces inicio}}{54}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Lista Paginas}}{54}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Lista tablas}}{55}{figure.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces editor SQL}}{55}{figure.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Application Builder}}{56}{figure.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Pagina M\'edico}}{56}{figure.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Pagina Administrador}}{57}{figure.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Pagina Cuidador}}{57}{figure.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Estructura del c\'odigo fuente}}{58}{figure.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Conexi\'on de PC con la tarjeta de desarrollo Arduino}}{60}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Entorno de desarrollo Arduino Prueba de conexi\'on serial ene IDE}}{60}{figure.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Prueba de conexi\'on RS232 de la tarjeta de adquisici\'on con el servidor}}{61}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Detalle del protocolo enviado por la activaci\'on de sensores}}{61}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Logo Aplicaci\'on Telecare}}{62}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Secci\'on manejo de informaci\'on aplicaci\'on Telecare}}{63}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Mapa del sitio para usuario administrador }}{63}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Versi\'on y fecha de creaci\'on aplicaci\'on Telecare }}{64}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Secci\'on de ayuda aplicaci\'on Telecare }}{64}{figure.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Manejo de espacios aplicaci\'on Telecare }}{65}{figure.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Resultados recorrido cognitivo}}{65}{figure.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Implementaci\'on de miga de pan en la aplicaci\'on}}{66}{figure.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Contextualizaci\'on para opciones de actor m\'edico}}{67}{figure.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Resultado Actividad paciente}}{79}{figure.45}

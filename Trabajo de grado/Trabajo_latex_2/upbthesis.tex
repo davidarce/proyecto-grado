@@ -26,7 +26,7 @@
 
 % Información del documento requerida en las portadas y página de aprovación
 \title{CONSTRUCCIÓN DE UN PROTOTIPO DE SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO}
-\author{CESAR URIEL OCHOA CASTRO\\JHON FREDY GALEANO GALEANO\\ÓSCAR DAVID ARCE} %
+\author{CESAR URIEL OCHOA CASTRO\\JHON FREDY GALEANO GALEANO\\OSCAR DAVID ARCE} %
 \school{FACULTAD DE INGENIERIA}
 \faculty{INGENIERIA DE SISTEMAS Y COMPUTACION}
 \address{Armenia} % Escribir en minúsculas con mayúscula inicial
@@ -49,14 +49,15 @@ Cesar: Primeramente a Dios todo poderoso a mi esposa Carolina y mis hijos Isabel
 \tt 
 Jhon: Gracias\\
 \tt
-Oscar: Gracias
+Oscar: Inicialmente a mis padres, mamá (Cruz Elena Serna), papá (Ramón Urueña) por creer en mi capacidad y apoyarme en los momentos más difíciles y permitirme seguir mis sueños sin ellos nada de esto sería posible, a mi hijo (Thiago Jeronimo) para cuando yo no esté  sepa que este logro ha sido para él y sea motivación para su vida, a la mujer que me ha acampañado y apoyado en momentos de alegría y tristeza sin esperar nada a cambio (Luisa Fernanda Torres) y a mis hermanos y amigos que de una u otra manera me ayudaron a cumplir este sueño.
 
 ].
 \end{dedication}
 %
 % Agradecimientos
 \begin{acknowledgements}
-[A todas las personas que de alguna manera aportaron su valiosa ayuda para cumplir este sueño].
+[Queremos dar las gracias por el apoyo incodicional de todos nuestros profesores, de cada uno aprendimos mucho a lo largo de esta carrera profesional, en especial al Ingeniero Fáber Danilo Giraldo Velásquez, cuyo conocimiento fue de vital importancia para llevar acabo este proyecto de grado.\\\\
+A nuestros padres por creer en nosotros y ayudarnos en nuestra formación personal y profesional, por brindarnos seguridad para enfrentar los retos de cada día.]
 \end{acknowledgements}
 %
 % Tabla de contenido
@@ -363,7 +364,7 @@ A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMP
 			\end{enumerate}\\
 			\hline
 			\rowcolor{gray}
-			Flujo de eventos ? Básico.\\
+			Flujo de eventos - Básico.\\
 			\hline \\
 			\hline
 			\begin{enumerate}[1.]
@@ -443,7 +444,7 @@ A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMP
 			\end{enumerate}\\
 			\hline
 			\rowcolor{gray}
-			Flujo de eventos ? Básico.\\
+			Flujo de eventos - Básico.\\
 			\hline \\
 			\hline
 			\begin{enumerate}[1.]
@@ -521,7 +522,7 @@ A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMP
 			\end{enumerate}\\
 			\hline
 			\rowcolor{gray}
-			Flujo de eventos ? Básico.\\
+			Flujo de eventos - Básico.\\
 			\hline \\
 			\hline
 			\begin{enumerate}[1.]
@@ -582,7 +583,7 @@ A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMP
 			\end{enumerate}\\
 			\hline
 			\rowcolor{gray}
-			Flujo de eventos ? Básico.\\
+			Flujo de eventos - Básico.\\
 			\hline \\
 			\hline
 			\begin{enumerate}[1.]
@@ -590,7 +591,7 @@ A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMP
 				\item El sistema presenta los pacientes asociados al profesional de la salud o cuidador.
 				\item El actor selecciona el paciente a registrar la observación.
 				\item El sistema presenta una interfaz para ingresar la observación al paciente.
-				\item El actor ingresa la información solicitada (Datos de entrada) y selecciona la opción ?registrar?.
+				\item El actor ingresa la información solicitada (Datos de entrada) y selecciona la opción "registrar".
 				\item El sistema comprueba que se haya ingresado la información solicitada.
 				\item El sistema registra la observación y muestra un mensaje de información indicando que la observación se registró correctamente.
 				\item Finaliza el caso de uso.
@@ -643,15 +644,15 @@ A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMP
 			\end{enumerate}\\
 			\hline
 			\rowcolor{gray}
-			Flujo de eventos ? Básico.\\
+			Flujo de eventos - Básico.\\
 			\hline \\
 			\hline
 			\begin{enumerate}[1.]
 				\item El usuario selecciona la opción ?Actividad paciente?.
 				\item El sistema presenta una pantalla para visualizar la actividad del paciente.
 				\item El actor ingresa la información solicitada (Datos de entrada) la cual será el filtro de búsqueda para presentar la actividad.
-				\item El actor selecciona la opción tipo de grafico ?Actividad paciente (barras)?.
-				\item El actor selecciona la opción ?Consultar?.
+				\item El actor selecciona la opción tipo de grafico "Actividad paciente (barras)".
+				\item El actor selecciona la opción "Consultar".
 				\item El sistema con los datos ingresados, consulta la actividad del paciente.
 				\item El sistema muestra la información de la actividad del paciente (Grafico en barras)
 				\item Finaliza le ejecución del caso de uso.
@@ -661,18 +662,18 @@ A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMP
 			Flujos alternativos.\\
 			\hline \\
 			\hline
-			IInformación obligatoria no ingresada.\\\\
+			Información obligatoria no ingresada.\\\\
 			Si en el paso 3 del flujo básico el actor no ingresa la información marcada como obligatoria, el sistema presenta un mensaje indicando que debe ingresar los datos obligatorios.\\
 			\hline
-			Tipo de grafico seleccionado igual a ?Porcentaje actividad paciente (pastel)?.\\\\
+			Tipo de grafico seleccionado igual a "Porcentaje actividad paciente (pastel)".\\\\
 			\begin{enumerate}[1.]
-				\item Si en el paso 4 del flujo básico el actor selecciona el tipo de grafico ?porcentaje actividad paciente pastel?, el sistema genera un gráfico tipo pastel.
+				\item Si en el paso 4 del flujo básico el actor selecciona el tipo de grafico "porcentaje actividad paciente pastel", el sistema genera un gráfico tipo pastel.
 				\item El sistema regresa al paso 6 del flujo básico.
 			\end{enumerate}\\
 			\hline
 			Tipo de grafico seleccionado igual a ?Tiempo actividad paciente (barras)?.\\\\
 			\begin{enumerate}[1.]
-				\item Si en el paso 4 del flujo básico el actor selecciona el tipo de grafico ?porcentaje actividad paciente pastel?, el sistema genera un gráfico tipo pastel.
+				\item Si en el paso 4 del flujo básico el actor selecciona el tipo de grafico "porcentaje actividad paciente pastel", el sistema genera un gráfico tipo pastel.
 				\item El sistema regresa al paso 6 del flujo básico.
 			\end{enumerate}\\
 			\hline
@@ -721,7 +722,7 @@ A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMP
 			\end{enumerate}\\
 			\hline
 			\rowcolor{gray}
-			Flujo de eventos ? Básico.\\
+			Flujo de eventos - Básico.\\
 			\hline \\
 			\hline
 			\begin{enumerate}[1.]
@@ -800,7 +801,7 @@ A continuación se procede a explicar el SISTEMA TELECARE PARA MONITOREAR EL COMP
 			\end{enumerate}\\
 			\hline
 			\rowcolor{gray}
-			Flujo de eventos ? Básico.\\
+			Flujo de eventos - Básico.\\
 			\hline \\
 			\hline
 			\begin{enumerate}[1.]
@@ -1029,27 +1030,31 @@ Para implementar el componente Hardware se decidió usar el la plataforma de desa
         \begin{figure}[H]
         	\centering
         	\includegraphics[scale=0.5]{diseno16.png}
+        	\caption{Código de la tarjeta de adquisición (a).}
         \end{figure}
         
         \begin{figure}[H]
         	\centering
         	\includegraphics[scale=0.5]{diseno17.png}
+        	\caption{Código de la tarjeta de adquisición (b).}
         \end{figure}
         
         \begin{figure}[H]
         	\centering
         	\includegraphics[scale=0.5]{diseno18.png}
+        	\caption{Código de la tarjeta de adquisición (c).}
         \end{figure}
         
         \begin{figure}[H]
         	\centering
         	\includegraphics[scale=0.5]{diseno19.png}
+        	\caption{Código de la tarjeta de adquisición (d).}
         \end{figure}
         
         \begin{figure}[H]
         	\centering
         	\includegraphics[scale=0.5]{diseno20.png}
-        	\caption{Código de la tarjeta de adquisición.}
+        	\caption{Código de la tarjeta de adquisición (e).}
         \end{figure}
 
 \subsection{IMPLEMENTACIÓN}
@@ -1072,7 +1077,7 @@ En esta etapa se realizó el desarrollo de todos los módulos propuestos, siguiend
 		\caption{inicio}
 	\end{figure}
 	
-	\item En modo de desarrollo se encuentran los editores de las páginas elaboradas para cada uno de los perfiles (administrador, medico, cuidador), las paginas pueden ser elaboradas partiendo de plantillas (formularios, gráficos, plantillas planas, etc.)
+	\item En modo de desarrollo se encuentran los editores de las páginas elaboradas para cada uno de los perfiles (administrador, médico, cuidador), las paginas pueden ser elaboradas partiendo de plantillas (formularios, gráficos, plantillas planas, etc.)
 	
 	\begin{figure}[H]
 		\centering
@@ -1109,7 +1114,7 @@ En esta etapa se realizó el desarrollo de todos los módulos propuestos, siguiend
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=14cm]{implementacion7.png}
-		\caption{Pagina Medico}
+		\caption{Pagina Médico}
 	\end{figure}
 	
 	\item La sección del administrador, cuenta con administración de los sensores, configuración de usuarios y administración del perfil
@@ -1316,18 +1321,18 @@ Varias de las observaciones hechas por los usuarios, tienen similitud con las in
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.85]{Pruebas-hardware-12.png}
-	\caption{Contextualización para opciones de actor medico}		
+	\caption{Contextualización para opciones de actor médico}		
 \end{figure}
 
 \subsubsection{Pruebas de Aceptación}
 Las pruebas  de aceptación son pruebas que realizan los usuarios finales o testers expertos en el manejo de la herramienta o sistema, con el fin validar que cumple con los requerimientos definidos o con las funcionalidades negociadas desde al inicio del proyecto.
 La prueba con el usuario final esta documentada en un vídeo y sera entregada como un anexo del trabajo, se escogieron las funcionalidades mas representativas para ser condensadas en este informe así:
 
-\paragraph{Escenario 1: El actor Medico crea un paciente en el sistema Telecare TOC.}
+\paragraph{Escenario 1: El actor Médico crea un paciente en el sistema Telecare TOC.}
 
 	\textbf{Tipo de prueba:} Funcional.\\
 	\textbf{Objetivo:} Validar que el sistema cumpla el objetivo de permitir a un médico crear un paciente en el sistema de manera Exitosa.\\
-	\textbf{Actor:} Medico\\
+	\textbf{Actor:} Médico\\
 	\textbf{Precondiciones:}\\
 	El médico debe existir el sistema\\
 	El Cuidador debe existir creado en el sistema\\
@@ -1346,7 +1351,7 @@ El sistema: Muestra la interfaz del profesional de la salud.\\
 	\centering
 	\includegraphics[scale=0.5]{Pruebas-aceptacion-2.png}		
 \end{figure}
-El actor: Ingresa al menú: Medico/Registrar Paciente\\
+El actor: Ingresa al menú: Médico/Registrar Paciente\\
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{Pruebas-aceptacion-3.png}		
@@ -1405,9 +1410,9 @@ El sistema informa que el paciente fue creado con Éxito.\\
 \paragraph{Escenario 2: El actor Médico entrevista un paciente y genera un tratamiento.}
 \textbf{Tipo de prueba:} Funcional\\
 \textbf{Objetivo:} Validar con el usuario final que el sistema permite de manera exitosa registrar una entrevista básica de una consulta psiquiátrica.\\
-\textbf{Actor:} Medico\\
+\textbf{Actor:} Médico\\
 \textbf{Precondiciones:}\\
-El Medico debe estar creado en el sistema\\
+El Médico debe estar creado en el sistema\\
 El médico debe tener asociado por lo menos un paciente y su respectivo cuidador o interesado.\\
 Las patologías más representativas del TOC deben estar parametrizadas en el sistema.
 \textbf{Resultado esperado:} El sistema permite crear con éxito el registro de la entrevista.\\
@@ -1428,16 +1433,16 @@ El sistema: Despliega una un formulario para el ingreso de la entrevista con el 
 El actor: Ingresa la información requerida así como el tratamiento y pulsa el botón Guardar Entrevista.
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{Pruebas-aceptacion-17.png}		
+	\includegraphics[scale=0.9]{Pruebas-aceptacion-17.png}		
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{Pruebas-aceptacion-18.png}		
+	\includegraphics[scale=0.8]{Pruebas-aceptacion-18.png}		
 \end{figure}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{Pruebas-aceptacion-19.png}		
+	\includegraphics[scale=0.7]{Pruebas-aceptacion-19.png}		
 \end{figure}
 El sistema: informa que la entrevista se creó con éxito.\\
 \begin{figure}[H]
@@ -1445,17 +1450,17 @@ El sistema: informa que la entrevista se creó con éxito.\\
 	\includegraphics[width=10cm]{Pruebas-aceptacion-20.png}		
 \end{figure}
 
-\paragraph{Escenario 3: El actor Medico analiza los resultados del monitoreo de un paciente.\\}
+\paragraph{Escenario 3: El actor Médico analiza los resultados del monitoreo de un paciente.\\}
 \textbf{Tipo de prueba:} Funcional.\\
 \textbf{Objetivo:} Validar que los resultados arrojados por el sistema para un paciente monitoreado sean de valor para el profesional de la salud a la hora tomar la decisión  de Reducir aumentar o para un tratamiento.\\
-\textbf{Actor:}Medico\\
+\textbf{Actor:}Médico\\
 \textbf{Precondiciones:}\\
 Tener un Paciente monitoreado (emulado con  el componente electrónico sistema) por el sistema por lo menos un día.\\
 \textbf{Resultado esperado:} El sistema muestra correctamente las gráficas con las métricas definidas por el profesional de la salud.\\
 \textbf{Postcondiciones:}\\
 El sistema registrará en la BD el histórico de lectura del paciente.\\
 \textbf{Pasos de la prueba:}\\\\
-El actor: Ingresa al menú: Medico/Actividad Paciente
+El actor: Ingresa al menú: Médico/Actividad Paciente
 
 \begin{figure}[H]
 	\centering
@@ -1471,7 +1476,7 @@ El actor: Ingresa la información requerida y pulsa el botón Consultar.\\
 	\centering
 	\includegraphics[width=10cm]{Pruebas-aceptacion-23.png}		
 \end{figure}
-El sistema: Muestra una como resultado del filtro ingresado la gráfica pertinente ella se verán los valores normales de comportamiento definidos por el Medico para el paciente.\\
+El sistema: Muestra una como resultado del filtro ingresado la gráfica pertinente ella se verán los valores normales de comportamiento definidos por el Médico para el paciente.\\
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{Pruebas-aceptacion-24.png}		
@@ -1485,7 +1490,8 @@ Métricas en el mismo intervalo de fechas (Tiempo acumulado en el uso de los sens
 Nota: Las pruebas de aceptación se realizaron con el profesional de la salud usando  el sistema (vídeo adjunto), la contextualización de la entrevista así como la interpretación de estas gráficas es responsabilidad del profesional de la salud por tanto los detalles están el vídeo.\\
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.2]{Pruebas-aceptacion-26.png}		
+	\includegraphics[scale=1.3]{Pruebas-aceptacion-26.png}
+	\caption{Resultado Actividad paciente}		
 \end{figure}
  \section{RESULTADOS}
  
@@ -1495,13 +1501,13 @@ Nota: Las pruebas de aceptación se realizaron con el profesional de la salud usa
  	
  	\item Plantilla de encuesta a psiquiatra especialista en trastorno obsesivo compulsivo (TOC).
  	
- 	\item	Entrevista a psiquiatra sobre comportamiento y síntomas de pacientes con TOC.
- 	
- 	\item Documento de especificación de casos de uso.
+ 	\item Entrevista a psiquiatra sobre comportamiento y síntomas de pacientes con TOC (vídeo).
  	
  	\item Documento de arquitectura.
  	
- 	\item Esquema de base de datos.
+ 	\item Documento de especificación de casos de uso.
+ 	
+ 	\item Modelo entidad relación de base de datos de prototipo.
  	
  	\item Código fuente de la aplicación.
  	
@@ -1509,16 +1515,16 @@ Nota: Las pruebas de aceptación se realizaron con el profesional de la salud usa
  	
  	\item Manual de usuario.
  	
- 	\item Manual de instalación de la aplicación.
+ 	\item Manual de instalación y configuración del prototipo del sistema.
  \end{itemize}
  
  \section{CONCLUSIONES Y TRABAJO FUTURO}
  
- En este trabajo de grado se ha implementado un prototipo de sistema telecare para pacientes diagnosticados con trastornos obsesivos compulsivos que resuelven la problemática identificada. A partir de la interdisciplinaridad se puede desarrollar una solución tecnológica que satisface dichas necesidades con la principal característica de que este prototipo es de bajo costo.
+En este trabajo de grado se ha implementado un prototipo de sistema telecare para pacientes diagnosticados con trastornos obsesivos compulsivos que resuelven la problemática identificada. A partir de la interdisciplinaridad se puede desarrollar una solución tecnológica que satisface dichas necesidades con la principal característica de que este prototipo es de bajo costo.
  
- Igualmente el prototipo desarrollado permite monitorear los diferentes comportamientos de los pacientes diagnosticados con TOC identificados por el profesional de la salud, al cual se le realizaron pruebas de usabilidad con usuarios expertos evaluando el nivel de satisfacción de uso y de los procesos del sistema. Los resultados de estas pruebas fueron satisfactorios respecto a su uso y los procesos del sistema cumplen con lo acordado para dar solución a la problemática planteada.
+Igualmente el prototipo desarrollado permite monitorear los diferentes comportamientos de los pacientes diagnosticados con TOC identificados por el profesional de la salud, al cual se le realizaron pruebas de usabilidad con usuarios expertos evaluando el nivel de satisfacción de uso y de los procesos del sistema. Los resultados de estas pruebas fueron satisfactorios respecto a su uso y los procesos del sistema cumplen con lo acordado para dar solución a la problemática planteada.
  
- El desarrollo de este prototipo se realizó en diferentes entornos respecto al módulo implementado, para el componente hardware se usó el entorno de desarrollo para Arduino, el módulo de comunicación entre el hardware y la aplicación web se realizó bajo el entorno de desarrollo Eclipse y la aplicación web fue útil utilizar la herramienta desarrollo de Oracle Application Express (APEX) por su ágil y fácil desarrollo de páginas web y generación de reportes gráficos, la persistencia de datos esta manejada por el sistema de base de datos Oracle 11g.
+El desarrollo de este prototipo se realizó en diferentes entornos respecto al módulo implementado, para el componente hardware se usó el entorno de desarrollo para Arduino, el módulo de comunicación entre el hardware y la aplicación web se realizó bajo el entorno de desarrollo Eclipse y la aplicación web fue útil utilizar la herramienta desarrollo de Oracle Application Express (APEX) por su ágil y fácil desarrollo de páginas web y generación de reportes gráficos, la persistencia de datos esta manejada por el sistema de base de datos Oracle 11g.
  
  Como trabajo futuro se sugiere:
  
@@ -1531,11 +1537,12 @@ Nota: Las pruebas de aceptación se realizaron con el profesional de la salud usa
  	
  \end{itemize}
  
- Finalmente este proyecto servirá como base teórica y metodológica para trabajos futuros sobre otros sistemas Telecare y trabajos de telemedicina.
+Finalmente este proyecto servirá como base teórica y metodológica para trabajos futuros sobre otros sistemas Telecare y trabajos de telemedicina.
 
 \bibliographystyle{unsrt}
 \bibliography{bib/upbthesis}
 
 \section{Anexos}
+Los anexos están disponibles en la carpeta "Anexos".
 %
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.4)  30 AUG 2015 13:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.4)  30 AUG 2015 15:47
 entering extended mode
 **upbthesis.tex
 
@@ -450,7 +450,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
+Underfull \hbox (badness 10000) in paragraph at lines 57--62
 
  []
 
@@ -489,47 +489,56 @@ is.lot")
  [12
 
 ]
-Overfull \hbox (2.04672pt too wide) in paragraph at lines 75--87
+Overfull \hbox (2.04672pt too wide) in paragraph at lines 70--77
 \OT1/cmr/m/n/12 TARJETA DE ADQUISICI[]ON DE DATOS: Dis-pos-i-tivo electronico 
 en-car-gado de recibir
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--87
+Underfull \hbox (badness 10000) in paragraph at lines 70--77
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13
+[13
 
 ]
-[14]
-Overfull \hbox (3.25258pt too wide) in paragraph at lines 93--96
+Overfull \hbox (3.25258pt too wide) in paragraph at lines 83--86
 \OT1/cmr/m/n/12 TAMIENTO DE UN PA-CIENTE DI-AG-NOS-TI-CADO CON TRASTORNO OB-SES
 IVO
  []
 
-[15
-
-] [16
-
-] [17
-
-
-] [18
+[14
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 148.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ [15
+
+]
+[16] [17
+
+
+] <objetivos.png, id=449, 459.21562pt x 605.26125pt>
+File: objetivos.png Graphic file (type png)
+
+<use objetivos.png>
+Package pdftex.def Info: objetivos.png used on input line 124.
+(pdftex.def)             Requested size: 321.44873pt x 423.67998pt.
+ [18
+
+ <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto telec
+are/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/objetiv
+os.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
@@ -539,32 +548,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
@@ -572,47 +581,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 252--252
+Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/12 $1.584.736| 
  []
 
 
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 252--252
+Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/12 $1.500.000| 
  []
 
 
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 252--252
+Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/12 $1.500.000| 
  []
 
 
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 252--252
+Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/12 $1.600.000| 
  []
 
 
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 252--252
+Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/12 $3.740.000| 
  []
 
 
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 252--252
+Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/12 $6.184.000| 
  []
 
 
-Overfull \hbox (4.73878pt too wide) in paragraph at lines 252--252
+Overfull \hbox (4.73878pt too wide) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/12 $3.135392| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 252--252
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/12 $13.059.392| 
  []
 
 
-Overfull \hbox (4.06073pt too wide) in paragraph at lines 252--253
+Overfull \hbox (4.06073pt too wide) in paragraph at lines 242--243
  [] 
  []
 
@@ -620,25 +629,25 @@ Overfull \hbox (4.06073pt too wide) in paragraph at lines 252--253
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<cronograma_parte_1.png, id=472, 1294.8375pt x 582.175pt>
+<cronograma_parte_1.png, id=473, 1294.8375pt x 582.175pt>
 File: cronograma_parte_1.png Graphic file (type png)
 
 <use cronograma_parte_1.png>
-Package pdftex.def Info: cronograma_parte_1.png used on input line 262.
+Package pdftex.def Info: cronograma_parte_1.png used on input line 252.
 (pdftex.def)             Requested size: 459.66064pt x 206.66913pt.
 
-Overfull \hbox (15.79765pt too wide) in paragraph at lines 262--263
+Overfull \hbox (15.79765pt too wide) in paragraph at lines 252--253
  [][] 
  []
 
-<cronograma_parte_2.png, id=474, 1146.2825pt x 591.20876pt>
+<cronograma_parte_2.png, id=475, 1146.2825pt x 591.20876pt>
 File: cronograma_parte_2.png Graphic file (type png)
 
 <use cronograma_parte_2.png>
-Package pdftex.def Info: cronograma_parte_2.png used on input line 266.
+Package pdftex.def Info: cronograma_parte_2.png used on input line 256.
 (pdftex.def)             Requested size: 458.50488pt x 236.47931pt.
 
-Overfull \hbox (14.64189pt too wide) in paragraph at lines 266--267
+Overfull \hbox (14.64189pt too wide) in paragraph at lines 256--257
  [][] 
  []
 
@@ -651,14 +660,14 @@ lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/cron
 ograma_parte_1.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softw
 are3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trab
 ajo_latex_2/cronograma_parte_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-<Desarrollo_1.png, id=485, 344.03531pt x 335.00156pt>
+<Desarrollo_1.png, id=486, 344.03531pt x 335.00156pt>
 File: Desarrollo_1.png Graphic file (type png)
  <use Desarrollo_1.png>
-Package pdftex.def Info: Desarrollo_1.png used on input line 279.
+Package pdftex.def Info: Desarrollo_1.png used on input line 269.
 (pdftex.def)             Requested size: 292.4314pt x 284.75266pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -668,22 +677,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto telec
 are/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Desarro
 llo_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--309
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--309
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--309
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
@@ -691,10 +700,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--309
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-<Tabla1.png, id=496, 539.01375pt x 503.8825pt>
+<Tabla1.png, id=497, 539.01375pt x 503.8825pt>
 File: Tabla1.png Graphic file (type png)
  <use Tabla1.png>
-Package pdftex.def Info: Tabla1.png used on input line 312.
+Package pdftex.def Info: Tabla1.png used on input line 302.
 (pdftex.def)             Requested size: 296.45847pt x 277.13623pt.
  [26 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Tab
@@ -702,40 +711,40 @@ la1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-Overfull \hbox (20.22047pt too wide) in paragraph at lines 334--335
+Overfull \hbox (20.22047pt too wide) in paragraph at lines 324--325
 \OT1/cmr/m/n/12 EL COM-POR-TAMIENTO DE UN PA-CIENTE DI-AG-NOS-TI-CADO CON TRANS
 TORNO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 403
+Underfull \vbox (badness 10000) detected at line 393
  []
 
 [28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 479
+Underfull \vbox (badness 10000) detected at line 469
  []
 
 [30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 545
+Underfull \vbox (badness 10000) detected at line 535
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
@@ -743,89 +752,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 563--564
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-Underfull \vbox (badness 10000) detected at line 620
+Underfull \vbox (badness 10000) detected at line 610
  []
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 624--625
+Underfull \hbox (badness 10000) in paragraph at lines 614--615
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 682
+Underfull \vbox (badness 10000) detected at line 672
  []
 
 [35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 750
+Underfull \vbox (badness 10000) detected at line 740
  []
 
 [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 775--776
+Underfull \hbox (badness 10000) in paragraph at lines 765--766
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 834
+Underfull \vbox (badness 10000) detected at line 824
  []
 
-[39] [40] <diseno1.png, id=719, 412.9026pt x 262.581pt>
+[39] [40] <diseno1.png, id=720, 412.9026pt x 262.581pt>
 File: diseno1.png Graphic file (type png)
  <use diseno1.png>
-Package pdftex.def Info: diseno1.png used on input line 882.
+Package pdftex.def Info: diseno1.png used on input line 872.
 (pdftex.def)             Requested size: 330.32251pt x 210.06506pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-<diseno2.png, id=729, 933.4875pt x 621.32124pt>
+<diseno2.png, id=730, 933.4875pt x 621.32124pt>
 File: diseno2.png Graphic file (type png)
  <use diseno2.png>
-Package pdftex.def Info: diseno2.png used on input line 892.
+Package pdftex.def Info: diseno2.png used on input line 882.
 (pdftex.def)             Requested size: 280.04842pt x 186.39781pt.
  [42 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
 eno1.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proye
 cto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_
-2/diseno2.png>] <diseno_3.png, id=734, 367.3725pt x 272.51813pt>
+2/diseno2.png>] <diseno_3.png, id=735, 367.3725pt x 272.51813pt>
 File: diseno_3.png Graphic file (type png)
  <use diseno_3.png>
-Package pdftex.def Info: diseno_3.png used on input line 924.
+Package pdftex.def Info: diseno_3.png used on input line 914.
 (pdftex.def)             Requested size: 367.37158pt x 272.51746pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-<diseno4.png, id=744, 301.125pt x 168.63pt>
+<diseno4.png, id=745, 301.125pt x 168.63pt>
 File: diseno4.png Graphic file (type png)
  <use diseno4.png>
-Package pdftex.def Info: diseno4.png used on input line 938.
+Package pdftex.def Info: diseno4.png used on input line 928.
 (pdftex.def)             Requested size: 301.12425pt x 168.62958pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno_3.png>] <diseno5.png, id=752, 521.95pt x 394.47375pt>
+eno_3.png>] <diseno5.png, id=753, 521.95pt x 394.47375pt>
 File: diseno5.png Graphic file (type png)
  <use diseno5.png>
-Package pdftex.def Info: diseno5.png used on input line 947.
+Package pdftex.def Info: diseno5.png used on input line 937.
 (pdftex.def)             Requested size: 339.26347pt x 256.40489pt.
  [45 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
 eno4.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proye
 cto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_
-2/diseno5.png>] <diseno6.png, id=758, 290.08376pt x 486.81876pt>
+2/diseno5.png>] <diseno6.png, id=759, 290.08376pt x 486.81876pt>
 File: diseno6.png Graphic file (type png)
  <use diseno6.png>
-Package pdftex.def Info: diseno6.png used on input line 962.
+Package pdftex.def Info: diseno6.png used on input line 952.
 (pdftex.def)             Requested size: 188.5522pt x 316.42844pt.
 
-Overfull \hbox (10.6438pt too wide) in paragraph at lines 977--978
+Overfull \hbox (10.6438pt too wide) in paragraph at lines 967--968
 [][] 
  []
 
@@ -835,43 +844,43 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [46 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
 eno6.png>]
-<diseno7.png, id=768, 188.20313pt x 145.29282pt>
+<diseno7.png, id=769, 188.20313pt x 145.29282pt>
 File: diseno7.png Graphic file (type png)
  <use diseno7.png>
-Package pdftex.def Info: diseno7.png used on input line 985.
+Package pdftex.def Info: diseno7.png used on input line 975.
 (pdftex.def)             Requested size: 131.74127pt x 101.70427pt.
 
-<diseno8.png, id=769, 188.20313pt x 146.04562pt>
+<diseno8.png, id=770, 188.20313pt x 146.04562pt>
 File: diseno8.png Graphic file (type png)
  <use diseno8.png>
-Package pdftex.def Info: diseno8.png used on input line 991.
+Package pdftex.def Info: diseno8.png used on input line 981.
 (pdftex.def)             Requested size: 207.02406pt x 160.65065pt.
 
-<diseno9.png, id=770, 225.84375pt x 111.41624pt>
+<diseno9.png, id=771, 225.84375pt x 111.41624pt>
 File: diseno9.png Graphic file (type png)
  <use diseno9.png>
-Package pdftex.def Info: diseno9.png used on input line 998.
+Package pdftex.def Info: diseno9.png used on input line 988.
 (pdftex.def)             Requested size: 158.08954pt x 77.99083pt.
  [47 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
 eno7.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proye
 cto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_
-2/diseno8.png>] <diseno10.png, id=777, 297.36093pt x 115.18031pt>
+2/diseno8.png>] <diseno10.png, id=778, 297.36093pt x 115.18031pt>
 File: diseno10.png Graphic file (type png)
  <use diseno10.png>
-Package pdftex.def Info: diseno10.png used on input line 1004.
+Package pdftex.def Info: diseno10.png used on input line 994.
 (pdftex.def)             Requested size: 208.15123pt x 80.62564pt.
 
-<diseno12.png, id=778, 197.73875pt x 239.89626pt>
+<diseno12.png, id=779, 197.73875pt x 239.89626pt>
 File: diseno12.png Graphic file (type png)
  <use diseno12.png>
-Package pdftex.def Info: diseno12.png used on input line 1010.
+Package pdftex.def Info: diseno12.png used on input line 1000.
 (pdftex.def)             Requested size: 138.41617pt x 167.92622pt.
 
-<diseno13.png, id=779, 275.0275pt x 195.73125pt>
+<diseno13.png, id=780, 275.0275pt x 195.73125pt>
 File: diseno13.png Graphic file (type png)
  <use diseno13.png>
-Package pdftex.def Info: diseno13.png used on input line 1017.
+Package pdftex.def Info: diseno13.png used on input line 1007.
 (pdftex.def)             Requested size: 192.51793pt x 137.01093pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -882,23 +891,23 @@ eno9.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proye
 cto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_
 2/diseno10.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3
 /proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_
-latex_2/diseno12.png>] <diseno14.png, id=786, 150.5625pt x 143.03438pt>
+latex_2/diseno12.png>] <diseno14.png, id=787, 150.5625pt x 143.03438pt>
 File: diseno14.png Graphic file (type png)
 
 <use diseno14.png>
-Package pdftex.def Info: diseno14.png used on input line 1023.
+Package pdftex.def Info: diseno14.png used on input line 1013.
 (pdftex.def)             Requested size: 150.56212pt x 143.03401pt.
- <diseno15.png, id=787, 334.24875pt x 188.705pt>
+ <diseno15.png, id=788, 334.24875pt x 188.705pt>
 File: diseno15.png Graphic file (type png)
 
 <use diseno15.png>
-Package pdftex.def Info: diseno15.png used on input line 1029.
+Package pdftex.def Info: diseno15.png used on input line 1019.
 (pdftex.def)             Requested size: 233.97252pt x 132.09259pt.
- <diseno16.png, id=788, 634.37pt x 583.17876pt>
+ <diseno16.png, id=789, 634.37pt x 583.17876pt>
 File: diseno16.png Graphic file (type png)
 
 <use diseno16.png>
-Package pdftex.def Info: diseno16.png used on input line 1035.
+Package pdftex.def Info: diseno16.png used on input line 1025.
 (pdftex.def)             Requested size: 317.18422pt x 291.58867pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -909,27 +918,27 @@ eno13.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proy
 ecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex
 _2/diseno14.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software
 3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo
-_latex_2/diseno15.png>] <diseno17.png, id=795, 679.53876pt x 495.8525pt>
+_latex_2/diseno15.png>] <diseno17.png, id=796, 679.53876pt x 495.8525pt>
 File: diseno17.png Graphic file (type png)
 
 <use diseno17.png>
-Package pdftex.def Info: diseno17.png used on input line 1041.
+Package pdftex.def Info: diseno17.png used on input line 1031.
 (pdftex.def)             Requested size: 339.76855pt x 247.92564pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno16.png>] <diseno18.png, id=800, 591.20876pt x 239.89626pt>
+eno16.png>] <diseno18.png, id=801, 591.20876pt x 239.89626pt>
 File: diseno18.png Graphic file (type png)
  <use diseno18.png>
-Package pdftex.def Info: diseno18.png used on input line 1047.
+Package pdftex.def Info: diseno18.png used on input line 1037.
 (pdftex.def)             Requested size: 295.60365pt x 119.94783pt.
 
-<diseno19.png, id=801, 597.23125pt x 335.2525pt>
+<diseno19.png, id=802, 597.23125pt x 335.2525pt>
 File: diseno19.png Graphic file (type png)
  <use diseno19.png>
-Package pdftex.def Info: diseno19.png used on input line 1053.
+Package pdftex.def Info: diseno19.png used on input line 1043.
 (pdftex.def)             Requested size: 298.61488pt x 167.62584pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -938,10 +947,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
 eno17.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proy
 ecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex
-_2/diseno18.png>] <diseno20.png, id=806, 578.16pt x 475.7775pt>
+_2/diseno18.png>] <diseno20.png, id=807, 578.16pt x 475.7775pt>
 File: diseno20.png Graphic file (type png)
  <use diseno20.png>
-Package pdftex.def Info: diseno20.png used on input line 1059.
+Package pdftex.def Info: diseno20.png used on input line 1049.
 (pdftex.def)             Requested size: 289.07928pt x 237.88815pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -950,72 +959,72 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
 eno19.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proy
 ecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex
-_2/diseno20.png>] <implementacion1.png, id=811, 188.20313pt x 192.72pt>
+_2/diseno20.png>] <implementacion1.png, id=812, 188.20313pt x 192.72pt>
 File: implementacion1.png Graphic file (type png)
 
 <use implementacion1.png>
-Package pdftex.def Info: implementacion1.png used on input line 1071.
+Package pdftex.def Info: implementacion1.png used on input line 1061.
 (pdftex.def)             Requested size: 188.20265pt x 192.71951pt.
 
-<implementacion2.png, id=812, 1014.03844pt x 467.49657pt>
+<implementacion2.png, id=813, 1014.03844pt x 467.49657pt>
 File: implementacion2.png Graphic file (type png)
 
 <use implementacion2.png>
-Package pdftex.def Info: implementacion2.png used on input line 1079.
+Package pdftex.def Info: implementacion2.png used on input line 1069.
 (pdftex.def)             Requested size: 304.21388pt x 140.25005pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
-lementacion1.png>] <implementacion3.png, id=818, 602.25pt x 489.32813pt>
+lementacion1.png>] <implementacion3.png, id=819, 602.25pt x 489.32813pt>
 File: implementacion3.png Graphic file (type png)
 
 <use implementacion3.png>
-Package pdftex.def Info: implementacion3.png used on input line 1087.
+Package pdftex.def Info: implementacion3.png used on input line 1077.
 (pdftex.def)             Requested size: 398.33858pt x 323.65941pt.
  [54 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
 lementacion2.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softwar
 e3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabaj
 o_latex_2/implementacion3.png>]
-<implementacion4.png, id=825, 730.22812pt x 437.38406pt>
+<implementacion4.png, id=826, 730.22812pt x 437.38406pt>
 File: implementacion4.png Graphic file (type png)
 
 <use implementacion4.png>
-Package pdftex.def Info: implementacion4.png used on input line 1095.
+Package pdftex.def Info: implementacion4.png used on input line 1085.
 (pdftex.def)             Requested size: 398.33858pt x 238.59315pt.
 
-<implementacion5.png, id=826, 1005.7575pt x 461.47406pt>
+<implementacion5.png, id=827, 1005.7575pt x 461.47406pt>
 File: implementacion5.png Graphic file (type png)
 
 <use implementacion5.png>
-Package pdftex.def Info: implementacion5.png used on input line 1103.
+Package pdftex.def Info: implementacion5.png used on input line 1093.
 (pdftex.def)             Requested size: 398.33858pt x 182.76962pt.
  [55 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
 lementacion4.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softwar
 e3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabaj
 o_latex_2/implementacion5.png>]
-<implementacion6.png, id=834, 1017.8025pt x 475.7775pt>
+<implementacion6.png, id=835, 1017.8025pt x 475.7775pt>
 File: implementacion6.png Graphic file (type png)
 
 <use implementacion6.png>
-Package pdftex.def Info: implementacion6.png used on input line 1111.
+Package pdftex.def Info: implementacion6.png used on input line 1101.
 (pdftex.def)             Requested size: 398.33858pt x 186.20584pt.
 
-<implementacion7.png, id=835, 950.80219pt x 469.755pt>
+<implementacion7.png, id=836, 950.80219pt x 469.755pt>
 File: implementacion7.png Graphic file (type png)
 
 <use implementacion7.png>
-Package pdftex.def Info: implementacion7.png used on input line 1119.
+Package pdftex.def Info: implementacion7.png used on input line 1109.
 (pdftex.def)             Requested size: 398.33858pt x 196.80116pt.
 
-<implementacion8.png, id=836, 960.58875pt x 441.90094pt>
+<implementacion8.png, id=837, 960.58875pt x 441.90094pt>
 File: implementacion8.png Graphic file (type png)
 
 <use implementacion8.png>
-Package pdftex.def Info: implementacion8.png used on input line 1127.
+Package pdftex.def Info: implementacion8.png used on input line 1117.
 (pdftex.def)             Requested size: 398.33858pt x 183.25061pt.
 
 Underfull \vbox (badness 1184) has occurred while \output is active []
@@ -1024,19 +1033,19 @@ Underfull \vbox (badness 1184) has occurred while \output is active []
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
 lementacion6.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softwar
 e3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabaj
-o_latex_2/implementacion7.png>] <implementacion9.png, id=843, 981.6675pt x 298.
+o_latex_2/implementacion7.png>] <implementacion9.png, id=844, 981.6675pt x 298.
 86656pt>
 File: implementacion9.png Graphic file (type png)
 
 <use implementacion9.png>
-Package pdftex.def Info: implementacion9.png used on input line 1135.
+Package pdftex.def Info: implementacion9.png used on input line 1125.
 (pdftex.def)             Requested size: 398.33858pt x 121.27286pt.
 
-<implementacion10.png, id=844, 305.14pt x 257.96375pt>
+<implementacion10.png, id=845, 305.14pt x 257.96375pt>
 File: implementacion10.png Graphic file (type png)
 
 <use implementacion10.png>
-Package pdftex.def Info: implementacion10.png used on input line 1145.
+Package pdftex.def Info: implementacion10.png used on input line 1135.
 (pdftex.def)             Requested size: 244.11232pt x 206.37126pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1046,7 +1055,7 @@ elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
 lementacion8.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softwar
 e3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabaj
 o_latex_2/implementacion9.png>]
-Overfull \hbox (5.27402pt too wide) in paragraph at lines 1175--1176
+Overfull \hbox (5.27402pt too wide) in paragraph at lines 1165--1166
 \OT1/cmr/m/n/12 El pro-totipo Tele-care se probo pro-gre-si-va-mente du-rante 
 el de-sar-rollo y la im-ple-mentacion,
  []
@@ -1057,32 +1066,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [58 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
 lementacion10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1181--1184
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1174
 
  []
 
-<Pruebas-hardware-1.png, id=860, 444.15938pt x 350.81062pt>
+<Pruebas-hardware-1.png, id=861, 444.15938pt x 350.81062pt>
 File: Pruebas-hardware-1.png Graphic file (type png)
 
 <use Pruebas-hardware-1.png>
-Package pdftex.def Info: Pruebas-hardware-1.png used on input line 1191.
+Package pdftex.def Info: Pruebas-hardware-1.png used on input line 1181.
 (pdftex.def)             Requested size: 222.07913pt x 175.40488pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
-<Pruebas-hardware-2.png, id=865, 443.40656pt x 319.1925pt>
+<Pruebas-hardware-2.png, id=866, 443.40656pt x 319.1925pt>
 File: Pruebas-hardware-2.png Graphic file (type png)
 
 <use Pruebas-hardware-2.png>
-Package pdftex.def Info: Pruebas-hardware-2.png used on input line 1200.
+Package pdftex.def Info: Pruebas-hardware-2.png used on input line 1190.
 (pdftex.def)             Requested size: 221.70273pt x 159.59586pt.
 
-<Pruebas-hardware-3.png, id=866, 443.40656pt x 290.58563pt>
+<Pruebas-hardware-3.png, id=867, 443.40656pt x 290.58563pt>
 File: Pruebas-hardware-3.png Graphic file (type png)
 
 <use Pruebas-hardware-3.png>
-Package pdftex.def Info: Pruebas-hardware-3.png used on input line 1209.
+Package pdftex.def Info: Pruebas-hardware-3.png used on input line 1199.
 (pdftex.def)             Requested size: 221.70273pt x 145.29245pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1092,11 +1101,11 @@ elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
 ebas-hardware-1.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Soft
 ware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tra
 bajo_latex_2/Pruebas-hardware-2.png>]
-<Pruebas-hardware-4.png, id=871, 443.40656pt x 318.43968pt>
+<Pruebas-hardware-4.png, id=872, 443.40656pt x 318.43968pt>
 File: Pruebas-hardware-4.png Graphic file (type png)
 
 <use Pruebas-hardware-4.png>
-Package pdftex.def Info: Pruebas-hardware-4.png used on input line 1218.
+Package pdftex.def Info: Pruebas-hardware-4.png used on input line 1208.
 (pdftex.def)             Requested size: 221.70273pt x 159.21945pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1106,34 +1115,34 @@ elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
 ebas-hardware-3.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Soft
 ware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tra
 bajo_latex_2/Pruebas-hardware-4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1233--1234
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1224
 
  []
 
-<Pruebas-hardware-5.png, id=877, 348.55219pt x 266.49562pt>
+<Pruebas-hardware-5.png, id=878, 348.55219pt x 266.49562pt>
 File: Pruebas-hardware-5.png Graphic file (type png)
 
 <use Pruebas-hardware-5.png>
-Package pdftex.def Info: Pruebas-hardware-5.png used on input line 1241.
+Package pdftex.def Info: Pruebas-hardware-5.png used on input line 1231.
 (pdftex.def)             Requested size: 243.98485pt x 186.54565pt.
 
-<Pruebas-hardware-6.png, id=878, 443.40656pt x 252.19218pt>
+<Pruebas-hardware-6.png, id=879, 443.40656pt x 252.19218pt>
 File: Pruebas-hardware-6.png Graphic file (type png)
 
 <use Pruebas-hardware-6.png>
-Package pdftex.def Info: Pruebas-hardware-6.png used on input line 1250.
+Package pdftex.def Info: Pruebas-hardware-6.png used on input line 1240.
 (pdftex.def)             Requested size: 310.38248pt x 176.53331pt.
 
 Underfull \vbox (badness 2096) has occurred while \output is active []
 
  [62 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-5.png>] <Pruebas-hardware-7.png, id=883, 306.39468pt x 317.68687p
+ebas-hardware-5.png>] <Pruebas-hardware-7.png, id=884, 306.39468pt x 317.68687p
 t>
 File: Pruebas-hardware-7.png Graphic file (type png)
 
 <use Pruebas-hardware-7.png>
-Package pdftex.def Info: Pruebas-hardware-7.png used on input line 1259.
+Package pdftex.def Info: Pruebas-hardware-7.png used on input line 1249.
 (pdftex.def)             Requested size: 214.47481pt x 222.37927pt.
 
 Underfull \vbox (badness 2698) has occurred while \output is active []
@@ -1143,54 +1152,54 @@ elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
 ebas-hardware-6.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Soft
 ware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tra
 bajo_latex_2/Pruebas-hardware-7.png>]
-<Pruebas-hardware-8.png, id=888, 216.05719pt x 328.97906pt>
+<Pruebas-hardware-8.png, id=889, 216.05719pt x 328.97906pt>
 File: Pruebas-hardware-8.png Graphic file (type png)
 
 <use Pruebas-hardware-8.png>
-Package pdftex.def Info: Pruebas-hardware-8.png used on input line 1269.
+Package pdftex.def Info: Pruebas-hardware-8.png used on input line 1259.
 (pdftex.def)             Requested size: 129.6353pt x 197.38895pt.
 
-<Pruebas-hardware-9.png, id=889, 443.40656pt x 225.09094pt>
+<Pruebas-hardware-9.png, id=890, 443.40656pt x 225.09094pt>
 File: Pruebas-hardware-9.png Graphic file (type png)
 
 <use Pruebas-hardware-9.png>
-Package pdftex.def Info: Pruebas-hardware-9.png used on input line 1279.
+Package pdftex.def Info: Pruebas-hardware-9.png used on input line 1269.
 (pdftex.def)             Requested size: 354.72572pt x 180.07298pt.
  [64 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
 ebas-hardware-8.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Soft
 ware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tra
 bajo_latex_2/Pruebas-hardware-9.png>]
-<Pruebas-hardware-10.png, id=894, 443.40656pt x 292.09125pt>
+<Pruebas-hardware-10.png, id=895, 443.40656pt x 292.09125pt>
 File: Pruebas-hardware-10.png Graphic file (type png)
 
 <use Pruebas-hardware-10.png>
-Package pdftex.def Info: Pruebas-hardware-10.png used on input line 1289.
+Package pdftex.def Info: Pruebas-hardware-10.png used on input line 1279.
 (pdftex.def)             Requested size: 354.72572pt x 233.6733pt.
 
-<Pruebas-hardware-13.png, id=896, 438.13687pt x 109.1578pt>
+<Pruebas-hardware-13.png, id=897, 438.13687pt x 109.1578pt>
 File: Pruebas-hardware-13.png Graphic file (type png)
 
 <use Pruebas-hardware-13.png>
-Package pdftex.def Info: Pruebas-hardware-13.png used on input line 1303.
+Package pdftex.def Info: Pruebas-hardware-13.png used on input line 1293.
 (pdftex.def)             Requested size: 350.50996pt x 87.32635pt.
  [65 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
 ebas-hardware-10.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Sof
 tware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tr
 abajo_latex_2/Pruebas-hardware-13.png>]
-<Pruebas-hardware-11.png, id=902, 443.40656pt x 194.22563pt>
+<Pruebas-hardware-11.png, id=903, 443.40656pt x 194.22563pt>
 File: Pruebas-hardware-11.png Graphic file (type png)
 
 <use Pruebas-hardware-11.png>
-Package pdftex.def Info: Pruebas-hardware-11.png used on input line 1317.
+Package pdftex.def Info: Pruebas-hardware-11.png used on input line 1307.
 (pdftex.def)             Requested size: 376.89735pt x 165.09254pt.
 
-<Pruebas-hardware-12.png, id=903, 443.40656pt x 235.63031pt>
+<Pruebas-hardware-12.png, id=904, 443.40656pt x 235.63031pt>
 File: Pruebas-hardware-12.png Graphic file (type png)
 
 <use Pruebas-hardware-12.png>
-Package pdftex.def Info: Pruebas-hardware-12.png used on input line 1326.
+Package pdftex.def Info: Pruebas-hardware-12.png used on input line 1316.
 (pdftex.def)             Requested size: 376.89735pt x 200.2867pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1198,7 +1207,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [66 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
 ebas-hardware-11.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1336--1347
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1337
 
  []
 
@@ -1207,33 +1216,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [67 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-12.png>] <Pruebas-aceptacion-1.png, id=913, 365.86688pt x 441.148
+ebas-hardware-12.png>] <Pruebas-aceptacion-1.png, id=914, 365.86688pt x 441.148
 13pt>
 File: Pruebas-aceptacion-1.png Graphic file (type png)
 
 <use Pruebas-aceptacion-1.png>
-Package pdftex.def Info: Pruebas-aceptacion-1.png used on input line 1350.
+Package pdftex.def Info: Pruebas-aceptacion-1.png used on input line 1340.
 (pdftex.def)             Requested size: 182.93298pt x 220.57352pt.
 
-<Pruebas-aceptacion-2.png, id=914, 716.6775pt x 469.755pt>
+<Pruebas-aceptacion-2.png, id=915, 716.6775pt x 469.755pt>
 File: Pruebas-aceptacion-2.png Graphic file (type png)
 
 <use Pruebas-aceptacion-2.png>
-Package pdftex.def Info: Pruebas-aceptacion-2.png used on input line 1355.
+Package pdftex.def Info: Pruebas-aceptacion-2.png used on input line 1345.
 (pdftex.def)             Requested size: 358.33788pt x 234.87692pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1356
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1346
 
  []
 
-<Pruebas-aceptacion-3.png, id=915, 443.40656pt x 165.61874pt>
+<Pruebas-aceptacion-3.png, id=916, 443.40656pt x 165.61874pt>
 File: Pruebas-aceptacion-3.png Graphic file (type png)
 
 <use Pruebas-aceptacion-3.png>
-Package pdftex.def Info: Pruebas-aceptacion-3.png used on input line 1360.
+Package pdftex.def Info: Pruebas-aceptacion-3.png used on input line 1350.
 (pdftex.def)             Requested size: 284.52756pt x 106.28119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1357--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1347--1351
 
  []
 
@@ -1245,36 +1254,36 @@ elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
 ebas-aceptacion-1.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/So
 ftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/T
 rabajo_latex_2/Pruebas-aceptacion-2.png>]
-<Pruebas-aceptacion-4.png, id=920, 443.40656pt x 246.1697pt>
+<Pruebas-aceptacion-4.png, id=921, 443.40656pt x 246.1697pt>
 File: Pruebas-aceptacion-4.png Graphic file (type png)
 
 <use Pruebas-aceptacion-4.png>
-Package pdftex.def Info: Pruebas-aceptacion-4.png used on input line 1365.
+Package pdftex.def Info: Pruebas-aceptacion-4.png used on input line 1355.
 (pdftex.def)             Requested size: 284.52756pt x 157.9725pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1362--1366
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1356
 
  []
 
-<Pruebas-aceptacion-5.png, id=921, 443.40656pt x 219.06844pt>
+<Pruebas-aceptacion-5.png, id=922, 443.40656pt x 219.06844pt>
 File: Pruebas-aceptacion-5.png Graphic file (type png)
 
 <use Pruebas-aceptacion-5.png>
-Package pdftex.def Info: Pruebas-aceptacion-5.png used on input line 1370.
+Package pdftex.def Info: Pruebas-aceptacion-5.png used on input line 1360.
 (pdftex.def)             Requested size: 284.52756pt x 140.58104pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1367--1371
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1361
 
  []
 
-<Pruebas-aceptacion-6.png, id=922, 443.40656pt x 382.42876pt>
+<Pruebas-aceptacion-6.png, id=923, 443.40656pt x 382.42876pt>
 File: Pruebas-aceptacion-6.png Graphic file (type png)
 
 <use Pruebas-aceptacion-6.png>
-Package pdftex.def Info: Pruebas-aceptacion-6.png used on input line 1375.
+Package pdftex.def Info: Pruebas-aceptacion-6.png used on input line 1365.
 (pdftex.def)             Requested size: 284.52756pt x 245.41296pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1376
+Underfull \hbox (badness 10000) in paragraph at lines 1362--1366
 
  []
 
@@ -1285,19 +1294,19 @@ tware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tr
 abajo_latex_2/Pruebas-aceptacion-4.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/
 NovenoSemestre/Software3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/T
 rabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-5.png>]
-<Pruebas-aceptacion-7.png, id=927, 342.5297pt x 325.96782pt>
+<Pruebas-aceptacion-7.png, id=928, 342.5297pt x 325.96782pt>
 File: Pruebas-aceptacion-7.png Graphic file (type png)
 
 <use Pruebas-aceptacion-7.png>
-Package pdftex.def Info: Pruebas-aceptacion-7.png used on input line 1381.
+Package pdftex.def Info: Pruebas-aceptacion-7.png used on input line 1371.
 (pdftex.def)             Requested size: 284.52756pt x 270.79195pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1378--1382
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1384--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1374--1375
 
  []
 
@@ -1306,28 +1315,28 @@ lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
 bas-aceptacion-6.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Sof
 tware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tr
 abajo_latex_2/Pruebas-aceptacion-7.png>]
-<Pruebas-aceptacion-8.png, id=932, 227.34938pt x 229.60782pt>
+<Pruebas-aceptacion-8.png, id=933, 227.34938pt x 229.60782pt>
 File: Pruebas-aceptacion-8.png Graphic file (type png)
 
 <use Pruebas-aceptacion-8.png>
-Package pdftex.def Info: Pruebas-aceptacion-8.png used on input line 1388.
+Package pdftex.def Info: Pruebas-aceptacion-8.png used on input line 1378.
 (pdftex.def)             Requested size: 227.34882pt x 229.60725pt.
 
-<Pruebas-aceptacion-9.png, id=933, 204.765pt x 229.60782pt>
+<Pruebas-aceptacion-9.png, id=934, 204.765pt x 229.60782pt>
 File: Pruebas-aceptacion-9.png Graphic file (type png)
 
 <use Pruebas-aceptacion-9.png>
-Package pdftex.def Info: Pruebas-aceptacion-9.png used on input line 1393.
+Package pdftex.def Info: Pruebas-aceptacion-9.png used on input line 1383.
 (pdftex.def)             Requested size: 204.76448pt x 229.60725pt.
 
-<Pruebas-aceptacion-10.png, id=934, 443.40656pt x 169.38281pt>
+<Pruebas-aceptacion-10.png, id=935, 443.40656pt x 169.38281pt>
 File: Pruebas-aceptacion-10.png Graphic file (type png)
 
 <use Pruebas-aceptacion-10.png>
-Package pdftex.def Info: Pruebas-aceptacion-10.png used on input line 1399.
+Package pdftex.def Info: Pruebas-aceptacion-10.png used on input line 1389.
 (pdftex.def)             Requested size: 284.52756pt x 108.69667pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1396--1400
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1390
 
  []
 
@@ -1336,36 +1345,36 @@ lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
 bas-aceptacion-8.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Sof
 tware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tr
 abajo_latex_2/Pruebas-aceptacion-9.png>]
-<Pruebas-aceptacion-11.png, id=939, 387.69844pt x 116.68594pt>
+<Pruebas-aceptacion-11.png, id=940, 387.69844pt x 116.68594pt>
 File: Pruebas-aceptacion-11.png Graphic file (type png)
 
 <use Pruebas-aceptacion-11.png>
-Package pdftex.def Info: Pruebas-aceptacion-11.png used on input line 1405.
+Package pdftex.def Info: Pruebas-aceptacion-11.png used on input line 1395.
 (pdftex.def)             Requested size: 284.52756pt x 85.63582pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1406
+Underfull \hbox (badness 10000) in paragraph at lines 1392--1396
 
  []
 
-<Pruebas-aceptacion-12.png, id=940, 407.27156pt x 213.04594pt>
+<Pruebas-aceptacion-12.png, id=941, 407.27156pt x 213.04594pt>
 File: Pruebas-aceptacion-12.png Graphic file (type png)
 
 <use Pruebas-aceptacion-12.png>
-Package pdftex.def Info: Pruebas-aceptacion-12.png used on input line 1410.
+Package pdftex.def Info: Pruebas-aceptacion-12.png used on input line 1400.
 (pdftex.def)             Requested size: 284.52756pt x 148.84506pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1407--1411
+Underfull \hbox (badness 10000) in paragraph at lines 1397--1401
 
  []
 
-<Pruebas-aceptacion-13.png, id=941, 443.40656pt x 175.40532pt>
+<Pruebas-aceptacion-13.png, id=942, 443.40656pt x 175.40532pt>
 File: Pruebas-aceptacion-13.png Graphic file (type png)
 
 <use Pruebas-aceptacion-13.png>
-Package pdftex.def Info: Pruebas-aceptacion-13.png used on input line 1429.
+Package pdftex.def Info: Pruebas-aceptacion-13.png used on input line 1419.
 (pdftex.def)             Requested size: 443.40547pt x 175.40488pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1414--1430
+Underfull \hbox (badness 10000) in paragraph at lines 1404--1420
 
  []
 
@@ -1376,42 +1385,42 @@ ftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/T
 rabajo_latex_2/Pruebas-aceptacion-11.png> <D:/disco_d/CESAR01122011/INGESISTEMA
 S/NovenoSemestre/Software3/proyecto telecare/Trabajo de Grado/trabajo_grado_git
 /Trabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-12.png>]
-<Pruebas-aceptacion-14.png, id=946, 392.21532pt x 425.33907pt>
+<Pruebas-aceptacion-14.png, id=947, 392.21532pt x 425.33907pt>
 File: Pruebas-aceptacion-14.png Graphic file (type png)
 
 <use Pruebas-aceptacion-14.png>
-Package pdftex.def Info: Pruebas-aceptacion-14.png used on input line 1434.
+Package pdftex.def Info: Pruebas-aceptacion-14.png used on input line 1424.
 (pdftex.def)             Requested size: 392.21436pt x 425.33801pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-aceptacion-13.png>] <Pruebas-aceptacion-17.png, id=952, 398.99063pt x 432.
+ebas-aceptacion-13.png>] <Pruebas-aceptacion-17.png, id=953, 398.99063pt x 432.
 86719pt>
 File: Pruebas-aceptacion-17.png Graphic file (type png)
 
 <use Pruebas-aceptacion-17.png>
-Package pdftex.def Info: Pruebas-aceptacion-17.png used on input line 1439.
+Package pdftex.def Info: Pruebas-aceptacion-17.png used on input line 1429.
 (pdftex.def)             Requested size: 359.08824pt x 389.57686pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
 elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-aceptacion-14.png>] <Pruebas-aceptacion-18.png, id=957, 395.97937pt x 188.
+ebas-aceptacion-14.png>] <Pruebas-aceptacion-18.png, id=958, 395.97937pt x 188.
 95593pt>
 File: Pruebas-aceptacion-18.png Graphic file (type png)
 
 <use Pruebas-aceptacion-18.png>
-Package pdftex.def Info: Pruebas-aceptacion-18.png used on input line 1444.
+Package pdftex.def Info: Pruebas-aceptacion-18.png used on input line 1434.
 (pdftex.def)             Requested size: 316.78392pt x 151.16493pt.
 
-<Pruebas-aceptacion-19.png, id=958, 399.74344pt x 335.75438pt>
+<Pruebas-aceptacion-19.png, id=959, 399.74344pt x 335.75438pt>
 File: Pruebas-aceptacion-19.png Graphic file (type png)
 
 <use Pruebas-aceptacion-19.png>
-Package pdftex.def Info: Pruebas-aceptacion-19.png used on input line 1448.
+Package pdftex.def Info: Pruebas-aceptacion-19.png used on input line 1438.
 (pdftex.def)             Requested size: 279.81848pt x 235.02646pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1421,23 +1430,23 @@ elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
 ebas-aceptacion-17.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/S
 oftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/
 Trabajo_latex_2/Pruebas-aceptacion-18.png>]
-<Pruebas-aceptacion-20.png, id=963, 371.88937pt x 264.23718pt>
+<Pruebas-aceptacion-20.png, id=964, 371.88937pt x 264.23718pt>
 File: Pruebas-aceptacion-20.png Graphic file (type png)
 
 <use Pruebas-aceptacion-20.png>
-Package pdftex.def Info: Pruebas-aceptacion-20.png used on input line 1453.
+Package pdftex.def Info: Pruebas-aceptacion-20.png used on input line 1443.
 (pdftex.def)             Requested size: 284.52756pt x 202.16899pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1450--1454
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1444
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 1457.
+(hyperref)                removing `\\' on input line 1447.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1457--1467
+Underfull \hbox (badness 10000) in paragraph at lines 1447--1457
 
  []
 
@@ -1446,32 +1455,32 @@ lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
 bas-aceptacion-19.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/So
 ftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/T
 rabajo_latex_2/Pruebas-aceptacion-20.png>]
-<Pruebas-aceptacion-21.png, id=968, 172.39406pt x 153.57375pt>
+<Pruebas-aceptacion-21.png, id=969, 172.39406pt x 153.57375pt>
 File: Pruebas-aceptacion-21.png Graphic file (type png)
 
 <use Pruebas-aceptacion-21.png>
-Package pdftex.def Info: Pruebas-aceptacion-21.png used on input line 1470.
+Package pdftex.def Info: Pruebas-aceptacion-21.png used on input line 1460.
 (pdftex.def)             Requested size: 172.39363pt x 153.57336pt.
 
-<Pruebas-aceptacion-22.png, id=969, 443.40656pt x 198.7425pt>
+<Pruebas-aceptacion-22.png, id=970, 443.40656pt x 198.7425pt>
 File: Pruebas-aceptacion-22.png Graphic file (type png)
 
 <use Pruebas-aceptacion-22.png>
-Package pdftex.def Info: Pruebas-aceptacion-22.png used on input line 1475.
+Package pdftex.def Info: Pruebas-aceptacion-22.png used on input line 1465.
 (pdftex.def)             Requested size: 284.52756pt x 127.53743pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1472--1476
+Underfull \hbox (badness 10000) in paragraph at lines 1462--1466
 
  []
 
-<Pruebas-aceptacion-23.png, id=970, 439.6425pt x 114.4275pt>
+<Pruebas-aceptacion-23.png, id=971, 439.6425pt x 114.4275pt>
 File: Pruebas-aceptacion-23.png Graphic file (type png)
 
 <use Pruebas-aceptacion-23.png>
-Package pdftex.def Info: Pruebas-aceptacion-23.png used on input line 1480.
+Package pdftex.def Info: Pruebas-aceptacion-23.png used on input line 1470.
 (pdftex.def)             Requested size: 284.52756pt x 74.05746pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1477--1481
+Underfull \hbox (badness 10000) in paragraph at lines 1467--1471
 
  []
 
@@ -1480,41 +1489,41 @@ lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
 bas-aceptacion-21.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/So
 ftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/T
 rabajo_latex_2/Pruebas-aceptacion-22.png>]
-<Pruebas-aceptacion-24.png, id=975, 443.40656pt x 295.85532pt>
+<Pruebas-aceptacion-24.png, id=976, 443.40656pt x 295.85532pt>
 File: Pruebas-aceptacion-24.png Graphic file (type png)
 
 <use Pruebas-aceptacion-24.png>
-Package pdftex.def Info: Pruebas-aceptacion-24.png used on input line 1485.
+Package pdftex.def Info: Pruebas-aceptacion-24.png used on input line 1475.
 (pdftex.def)             Requested size: 284.52756pt x 189.85687pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1482--1486
+Underfull \hbox (badness 10000) in paragraph at lines 1472--1476
 
  []
 
-<Pruebas-aceptacion-25.png, id=976, 443.40656pt x 242.40562pt>
+<Pruebas-aceptacion-25.png, id=977, 443.40656pt x 242.40562pt>
 File: Pruebas-aceptacion-25.png Graphic file (type png)
 
 <use Pruebas-aceptacion-25.png>
-Package pdftex.def Info: Pruebas-aceptacion-25.png used on input line 1490.
+Package pdftex.def Info: Pruebas-aceptacion-25.png used on input line 1480.
 (pdftex.def)             Requested size: 284.52756pt x 155.55702pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1487--1491
+Underfull \hbox (badness 10000) in paragraph at lines 1477--1481
 
  []
 
-<Pruebas-aceptacion-26.png, id=977, 345.54094pt x 241.65282pt>
+<Pruebas-aceptacion-26.png, id=978, 345.54094pt x 241.65282pt>
 File: Pruebas-aceptacion-26.png Graphic file (type png)
 
 <use Pruebas-aceptacion-26.png>
-Package pdftex.def Info: Pruebas-aceptacion-26.png used on input line 1496.
+Package pdftex.def Info: Pruebas-aceptacion-26.png used on input line 1486.
 (pdftex.def)             Requested size: 449.20316pt x 314.14862pt.
 
-Overfull \hbox (5.34016pt too wide) in paragraph at lines 1496--1497
+Overfull \hbox (5.34016pt too wide) in paragraph at lines 1486--1487
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1492--1498
+Underfull \hbox (badness 10000) in paragraph at lines 1482--1488
 
  []
 
@@ -1546,27 +1555,27 @@ ulary/, 2013.
 ) [83
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1551.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1541.
  [84
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1551.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1541.
 
 ("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
 are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
 is.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1551.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1551.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1541.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1541.
 
 Package rerunfilecheck Info: File `upbthesis.out' has not changed.
 (rerunfilecheck)             Checksum: 075B209F7C4E0420D959F48D0A13EE11;2789.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1551.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1541.
  ) 
 Here is how much of TeX's memory you used:
- 7506 strings out of 493921
- 110778 string characters out of 3147283
- 227988 words of memory out of 3000000
- 10282 multiletter control sequences out of 15000+200000
+ 7511 strings out of 493921
+ 110862 string characters out of 3147283
+ 227989 words of memory out of 3000000
+ 10286 multiletter control sequences out of 15000+200000
  9276 words of font info for 36 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
  34i,12n,35p,1177b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1581,9 +1590,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on upbthesis.pdf (84 pages, 5461394 bytes).
+Output written on upbthesis.pdf (84 pages, 5492613 bytes).
 PDF statistics:
- 1102 PDF objects out of 1200 (max. 8388607)
+ 1103 PDF objects out of 1200 (max. 8388607)
  355 named destinations out of 1000 (max. 500000)
- 639 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 644 words of extra memory for PDF output out of 10000 (max. 10000000)
 

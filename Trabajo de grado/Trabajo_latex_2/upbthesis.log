@@ -1,19 +1,9 @@
-<<<<<<< .mine
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.20)  30 AUG 2015 15:08
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.4)  30 AUG 2015 15:47
->>>>>>> .r7
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.20)  30 AUG 2015 19:08
 entering extended mode
 **upbthesis.tex
 
-<<<<<<< .mine
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.tex"
-=======
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.tex"
->>>>>>> .r7
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -26,37 +16,18 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-<<<<<<< .mine
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.cls"
-=======
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.cls"
->>>>>>> .r7
 Document Class: upbthesis 2010/01/27 v1.1 UPB LaTeX Thesis class
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
->>>>>>> .r7
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-<<<<<<< .mine
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
-=======
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
->>>>>>> .r7
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
->>>>>>> .r7
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \c@tracingmulticols=\count79
 \mult@box=\box26
@@ -114,63 +85,31 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \abovecaptionskip=\skip43
 \belowcaptionskip=\skip44
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
->>>>>>> .r7
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
->>>>>>> .r7
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
->>>>>>> .r7
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
->>>>>>> .r7
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
->>>>>>> .r7
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
->>>>>>> .r7
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
->>>>>>> .r7
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
->>>>>>> .r7
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count95
@@ -178,24 +117,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen110
 \Gin@req@width=\dimen111
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
->>>>>>> .r7
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count96
 \float@exts=\toks17
 \float@box=\box52
 \@float@everytoks=\toks18
 \@floatcapt=\box53
-<<<<<<< .mine
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
-=======
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
->>>>>>> .r7
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen112
 \extrarowheight=\dimen113
@@ -203,11 +133,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip45
 \backup@length=\skip46
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
->>>>>>> .r7
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip47
 \LTright=\skip48
@@ -225,29 +151,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count101
 \LT@p@ftn=\toks20
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
->>>>>>> .r7
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks21
-<<<<<<< .mine
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
-=======
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
->>>>>>> .r7
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
->>>>>>> .r7
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks22
 \symAMSa=\mathgroup4
@@ -255,44 +168,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
->>>>>>> .r7
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
->>>>>>> .r7
 Package: amstext 2000/06/29 v2.01
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
->>>>>>> .r7
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks23
 \ex@=\dimen115
 ))
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
->>>>>>> .r7
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen116
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
->>>>>>> .r7
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count102
@@ -333,44 +226,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
->>>>>>> .r7
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-<<<<<<< .mine
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-=======
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
->>>>>>> .r7
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
-<<<<<<< .mine
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
-=======
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
->>>>>>> .r7
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
->>>>>>> .r7
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-<<<<<<< .mine
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-=======
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
->>>>>>> .r7
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -384,37 +254,20 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-<<<<<<< .mine
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
-=======
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
->>>>>>> .r7
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks28
 \minrowclearance=\skip54
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
->>>>>>> .r7
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
->>>>>>> .r7
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
->>>>>>> .r7
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -455,45 +308,25 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
->>>>>>> .r7
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
->>>>>>> .r7
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
->>>>>>> .r7
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen124
 \Hy@linkcounter=\count114
 \Hy@pagecounter=\count115
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
->>>>>>> .r7
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count116
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
->>>>>>> .r7
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -504,13 +337,8 @@ Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count117
-<<<<<<< .mine
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
-=======
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
->>>>>>> .r7
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -535,20 +363,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
->>>>>>> .r7
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count122
 \c@bookmark@seq@number=\count123
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
->>>>>>> .r7
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -557,14 +377,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 23.
 
-<<<<<<< .mine
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.aux")
-=======
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.aux")
->>>>>>> .r7
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
@@ -579,12 +393,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
-<<<<<<< .mine
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-=======
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
->>>>>>> .r7
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
 \scratchdimen=\dimen128
@@ -600,18 +410,10 @@ LaTeX Font Info:    ... okay on input line 36.
 )
 \AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring ON on input line 36.
-<<<<<<< .mine
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-=======
- ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
->>>>>>> .r7
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-<<<<<<< .mine
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
->>>>>>> .r7
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count130
@@ -620,35 +422,17 @@ LaTeX Info: Redefining \ref on input line 36.
 LaTeX Info: Redefining \pageref on input line 36.
 LaTeX Info: Redefining \nameref on input line 36.
 
-<<<<<<< .mine
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.out")
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.out")
-=======
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.out")
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.out")
->>>>>>> .r7
 \@outlinefile=\write3
 LaTeX Font Info:    Try loading font information for U+msa on input line 42.
-<<<<<<< .mine
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-=======
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
->>>>>>> .r7
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 42.
-<<<<<<< .mine
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-=======
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
->>>>>>> .r7
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -661,25 +445,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 57--62
->>>>>>> .r7
 
  []
 
 [5
 
 ]
-<<<<<<< .mine
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.toc"
-=======
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.toc"
->>>>>>> .r7
 Underfull \vbox (badness 6252) has occurred while \output is active []
 
  [6
@@ -688,14 +462,8 @@ Underfull \vbox (badness 6252) has occurred while \output is active []
 \tf@toc=\write4
 
 [7] [8]
-<<<<<<< .mine
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.lof"
-=======
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.lof"
->>>>>>> .r7
 Underfull \vbox (badness 1112) has occurred while \output is active []
 
  [9
@@ -707,45 +475,26 @@ Underfull \vbox (badness 4518) has occurred while \output is active []
 \tf@lof=\write5
 
 [11]
-<<<<<<< .mine
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.lot")
-=======
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.lot")
->>>>>>> .r7
 \tf@lot=\write6
  [12
 
 ]
-<<<<<<< .mine
-Overfull \hbox (2.04672pt too wide) in paragraph at lines 75--87
-=======
 Overfull \hbox (2.04672pt too wide) in paragraph at lines 70--77
->>>>>>> .r7
 \OT1/cmr/m/n/12 TARJETA DE ADQUISICI[]ON DE DATOS: Dis-pos-i-tivo electronico 
 en-car-gado de recibir
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 75--87
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 70--77
->>>>>>> .r7
 
  []
 
 [13
 
 ]
-<<<<<<< .mine
-[14]
-Overfull \hbox (3.25258pt too wide) in paragraph at lines 93--96
-=======
 Overfull \hbox (3.25258pt too wide) in paragraph at lines 83--86
->>>>>>> .r7
 \OT1/cmr/m/n/12 TAMIENTO DE UN PA-CIENTE DI-AG-NOS-TI-CADO CON TRASTORNO OB-SES
 IVO
  []
@@ -760,57 +509,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 [16] [17
 
-<<<<<<< .mine
-] <objetivos.png, id=449, 459.21562pt x 605.26125pt>
+
+] <objetivos.png, id=449, 462.22687pt x 618.05907pt>
 File: objetivos.png Graphic file (type png)
-=======
->>>>>>> .r7
 
-<<<<<<< .mine
-<use objetivos.png>
-Package pdftex.def Info: objetivos.png used on input line 126.
-(pdftex.def)             Requested size: 321.44873pt x 423.67998pt.
- [18
-=======
-] <objetivos.png, id=449, 459.21562pt x 605.26125pt>
-File: objetivos.png Graphic file (type png)
->>>>>>> .r7
-
-<<<<<<< .mine
- <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_latex_2
-/objetivos.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 140.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-=======
 <use objetivos.png>
 Package pdftex.def Info: objetivos.png used on input line 124.
-(pdftex.def)             Requested size: 321.44873pt x 423.67998pt.
+(pdftex.def)             Requested size: 323.5566pt x 432.6384pt.
  [18
 
- <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto telec
-are/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/objetiv
-os.png>]
+ <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_latex_2
+/objetivos.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
->>>>>>> .r7
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-<<<<<<< .mine
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
-=======
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
->>>>>>> .r7
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
->>>>>>> .r7
 
  []
 
@@ -820,56 +539,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [19
 
 ]
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
->>>>>>> .r7
 
  []
 
@@ -877,83 +572,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-<<<<<<< .mine
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 244--244
-=======
 Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
->>>>>>> .r7
 []|\OT1/cmr/m/n/12 $1.584.736| 
  []
 
 
-<<<<<<< .mine
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 244--244
-=======
 Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
->>>>>>> .r7
 []|\OT1/cmr/m/n/12 $1.500.000| 
  []
 
 
-<<<<<<< .mine
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 244--244
-=======
 Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
->>>>>>> .r7
 []|\OT1/cmr/m/n/12 $1.500.000| 
  []
 
 
-<<<<<<< .mine
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 244--244
-=======
 Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
->>>>>>> .r7
 []|\OT1/cmr/m/n/12 $1.600.000| 
  []
 
 
-<<<<<<< .mine
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 244--244
-=======
 Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
->>>>>>> .r7
 []|\OT1/cmr/m/n/12 $3.740.000| 
  []
 
 
-<<<<<<< .mine
-Overfull \hbox (8.00264pt too wide) in paragraph at lines 244--244
-=======
 Overfull \hbox (8.00264pt too wide) in paragraph at lines 242--242
->>>>>>> .r7
 []|\OT1/cmr/m/n/12 $6.184.000| 
  []
 
 
-<<<<<<< .mine
-Overfull \hbox (4.73878pt too wide) in paragraph at lines 244--244
-=======
 Overfull \hbox (4.73878pt too wide) in paragraph at lines 242--242
->>>>>>> .r7
 []|\OT1/cmr/m/n/12 $3.135392| 
  []
 
 
-<<<<<<< .mine
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 244--244
-=======
 Overfull \hbox (2.49666pt too wide) in paragraph at lines 242--242
->>>>>>> .r7
 []|\OT1/cmr/m/n/12 $13.059.392| 
  []
 
 
-<<<<<<< .mine
-Overfull \hbox (4.06073pt too wide) in paragraph at lines 244--245
-=======
 Overfull \hbox (4.06073pt too wide) in paragraph at lines 242--243
->>>>>>> .r7
  [] 
  []
 
@@ -965,18 +624,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: cronograma_parte_1.png Graphic file (type png)
 
 <use cronograma_parte_1.png>
-<<<<<<< .mine
-Package pdftex.def Info: cronograma_parte_1.png used on input line 254.
-=======
 Package pdftex.def Info: cronograma_parte_1.png used on input line 252.
->>>>>>> .r7
 (pdftex.def)             Requested size: 459.66064pt x 206.66913pt.
 
-<<<<<<< .mine
-Overfull \hbox (15.79765pt too wide) in paragraph at lines 254--255
-=======
 Overfull \hbox (15.79765pt too wide) in paragraph at lines 252--253
->>>>>>> .r7
  [][] 
  []
 
@@ -984,18 +635,10 @@ Overfull \hbox (15.79765pt too wide) in paragraph at lines 252--253
 File: cronograma_parte_2.png Graphic file (type png)
 
 <use cronograma_parte_2.png>
-<<<<<<< .mine
-Package pdftex.def Info: cronograma_parte_2.png used on input line 258.
-=======
 Package pdftex.def Info: cronograma_parte_2.png used on input line 256.
->>>>>>> .r7
 (pdftex.def)             Requested size: 458.50488pt x 236.47931pt.
 
-<<<<<<< .mine
-Overfull \hbox (14.64189pt too wide) in paragraph at lines 258--259
-=======
 Overfull \hbox (14.64189pt too wide) in paragraph at lines 256--257
->>>>>>> .r7
  [][] 
  []
 
@@ -1003,73 +646,41 @@ Overfull \hbox (14.64189pt too wide) in paragraph at lines 256--257
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-<<<<<<< .mine
 [23 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_late
 x_2/cronograma_parte_1.png> <D:/documentos/telecare/Telecare/github/trunk/Traba
 jo de grado/Trabajo_latex_2/cronograma_parte_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-=======
-[23 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto te
-lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/cron
-ograma_parte_1.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softw
-are3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trab
-ajo_latex_2/cronograma_parte_2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 263--264
->>>>>>> .r7
 
  []
 
 <Desarrollo_1.png, id=486, 344.03531pt x 335.00156pt>
 File: Desarrollo_1.png Graphic file (type png)
  <use Desarrollo_1.png>
-<<<<<<< .mine
-Package pdftex.def Info: Desarrollo_1.png used on input line 271.
-=======
 Package pdftex.def Info: Desarrollo_1.png used on input line 269.
->>>>>>> .r7
 (pdftex.def)             Requested size: 292.4314pt x 284.75266pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24
 
-<<<<<<< .mine
  <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_latex_2
 /Desarrollo_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-=======
- <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto telec
-are/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Desarro
-llo_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 282--283
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 298--301
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 296--299
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 298--301
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 296--299
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 298--301
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 296--299
->>>>>>> .r7
 
  []
 
@@ -1080,89 +691,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Tabla1.png, id=497, 539.01375pt x 503.8825pt>
 File: Tabla1.png Graphic file (type png)
  <use Tabla1.png>
-<<<<<<< .mine
-Package pdftex.def Info: Tabla1.png used on input line 304.
-=======
 Package pdftex.def Info: Tabla1.png used on input line 302.
->>>>>>> .r7
 (pdftex.def)             Requested size: 296.45847pt x 277.13623pt.
-<<<<<<< .mine
  [26 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Tabla1.png>]
-=======
- [26 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Tab
-la1.png>]
->>>>>>> .r7
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<<<<<<< .mine
-Overfull \hbox (20.22047pt too wide) in paragraph at lines 326--327
-=======
 Overfull \hbox (20.22047pt too wide) in paragraph at lines 324--325
->>>>>>> .r7
 \OT1/cmr/m/n/12 EL COM-POR-TAMIENTO DE UN PA-CIENTE DI-AG-NOS-TI-CADO CON TRANS
 TORNO
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 326--327
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \vbox (badness 10000) detected at line 395
-=======
 Underfull \vbox (badness 10000) detected at line 393
->>>>>>> .r7
  []
 
 [28] [29]
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 410--411
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \vbox (badness 10000) detected at line 471
-=======
 Underfull \vbox (badness 10000) detected at line 469
->>>>>>> .r7
  []
 
 [30] [31]
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 472--473
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \vbox (badness 10000) detected at line 537
-=======
 Underfull \vbox (badness 10000) detected at line 535
->>>>>>> .r7
  []
 
 [32]
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 553--554
->>>>>>> .r7
 
  []
 
@@ -1170,72 +739,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 553--554
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-<<<<<<< .mine
-Underfull \vbox (badness 10000) detected at line 612
-=======
 Underfull \vbox (badness 10000) detected at line 610
->>>>>>> .r7
  []
 
 [34]
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 614--615
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \vbox (badness 10000) detected at line 674
-=======
 Underfull \vbox (badness 10000) detected at line 672
->>>>>>> .r7
  []
 
 [35] [36]
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 689--690
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 687--688
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \vbox (badness 10000) detected at line 742
-=======
 Underfull \vbox (badness 10000) detected at line 740
->>>>>>> .r7
  []
 
 [37] [38]
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 767--768
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 765--766
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \vbox (badness 10000) detected at line 826
-=======
 Underfull \vbox (badness 10000) detected at line 824
->>>>>>> .r7
  []
 
 [39] [40] <diseno1.png, id=720, 412.9026pt x 262.581pt>
 File: diseno1.png Graphic file (type png)
  <use diseno1.png>
-<<<<<<< .mine
-Package pdftex.def Info: diseno1.png used on input line 874.
-=======
 Package pdftex.def Info: diseno1.png used on input line 872.
->>>>>>> .r7
 (pdftex.def)             Requested size: 330.32251pt x 210.06506pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1244,33 +781,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <diseno2.png, id=730, 933.4875pt x 621.32124pt>
 File: diseno2.png Graphic file (type png)
  <use diseno2.png>
-<<<<<<< .mine
-Package pdftex.def Info: diseno2.png used on input line 884.
-=======
 Package pdftex.def Info: diseno2.png used on input line 882.
->>>>>>> .r7
 (pdftex.def)             Requested size: 280.04842pt x 186.39781pt.
-<<<<<<< .mine
  [42 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/diseno1.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grad
 o/Trabajo_latex_2/diseno2.png>] <diseno_3.png, id=735, 367.3725pt x 272.51813pt
 >
-=======
- [42 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno1.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proye
-cto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_
-2/diseno2.png>] <diseno_3.png, id=735, 367.3725pt x 272.51813pt>
->>>>>>> .r7
 File: diseno_3.png Graphic file (type png)
-<<<<<<< .mine
 
 <use diseno_3.png>
-Package pdftex.def Info: diseno_3.png used on input line 916.
-=======
- <use diseno_3.png>
 Package pdftex.def Info: diseno_3.png used on input line 914.
->>>>>>> .r7
 (pdftex.def)             Requested size: 367.37158pt x 272.51746pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1279,476 +799,230 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <diseno4.png, id=745, 301.125pt x 168.63pt>
 File: diseno4.png Graphic file (type png)
  <use diseno4.png>
-<<<<<<< .mine
-Package pdftex.def Info: diseno4.png used on input line 930.
-=======
 Package pdftex.def Info: diseno4.png used on input line 928.
->>>>>>> .r7
 (pdftex.def)             Requested size: 301.12425pt x 168.62958pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [44 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/diseno_3.png>] <diseno5.png, id=753, 521.95pt x 394.47375pt>
-=======
- [44 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno_3.png>] <diseno5.png, id=753, 521.95pt x 394.47375pt>
->>>>>>> .r7
 File: diseno5.png Graphic file (type png)
-<<<<<<< .mine
  <use diseno5.png>
-Package pdftex.def Info: diseno5.png used on input line 939.
+Package pdftex.def Info: diseno5.png used on input line 937.
 (pdftex.def)             Requested size: 339.26347pt x 256.40489pt.
 
 [45 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_late
 x_2/diseno4.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado
 /Trabajo_latex_2/diseno5.png>]
 <diseno6.png, id=759, 290.08376pt x 486.81876pt>
-=======
- <use diseno5.png>
-Package pdftex.def Info: diseno5.png used on input line 937.
-(pdftex.def)             Requested size: 339.26347pt x 256.40489pt.
- [45 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno4.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proye
-cto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_
-2/diseno5.png>] <diseno6.png, id=759, 290.08376pt x 486.81876pt>
->>>>>>> .r7
 File: diseno6.png Graphic file (type png)
  <use diseno6.png>
-<<<<<<< .mine
-Package pdftex.def Info: diseno6.png used on input line 954.
-=======
 Package pdftex.def Info: diseno6.png used on input line 952.
->>>>>>> .r7
 (pdftex.def)             Requested size: 188.5522pt x 316.42844pt.
 
-<<<<<<< .mine
-Overfull \hbox (10.6438pt too wide) in paragraph at lines 969--970
-=======
 Overfull \hbox (10.6438pt too wide) in paragraph at lines 967--968
->>>>>>> .r7
 [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [46 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/diseno6.png>] <diseno7.png, id=769, 188.20313pt x 145.29282pt>
-=======
- [46 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno6.png>]
-<diseno7.png, id=769, 188.20313pt x 145.29282pt>
->>>>>>> .r7
 File: diseno7.png Graphic file (type png)
-<<<<<<< .mine
- <use diseno7.png>
-Package pdftex.def Info: diseno7.png used on input line 977.
-(pdftex.def)             Requested size: 131.74127pt x 101.70427pt.
-=======
  <use diseno7.png>
 Package pdftex.def Info: diseno7.png used on input line 975.
 (pdftex.def)             Requested size: 131.74127pt x 101.70427pt.
->>>>>>> .r7
 
 <diseno8.png, id=770, 188.20313pt x 146.04562pt>
 File: diseno8.png Graphic file (type png)
-<<<<<<< .mine
- <use diseno8.png>
-Package pdftex.def Info: diseno8.png used on input line 983.
-(pdftex.def)             Requested size: 207.02406pt x 160.65065pt.
-=======
  <use diseno8.png>
 Package pdftex.def Info: diseno8.png used on input line 981.
 (pdftex.def)             Requested size: 207.02406pt x 160.65065pt.
->>>>>>> .r7
 
 <diseno9.png, id=771, 225.84375pt x 111.41624pt>
 File: diseno9.png Graphic file (type png)
-<<<<<<< .mine
- <use diseno9.png>
-Package pdftex.def Info: diseno9.png used on input line 990.
-=======
  <use diseno9.png>
 Package pdftex.def Info: diseno9.png used on input line 988.
->>>>>>> .r7
 (pdftex.def)             Requested size: 158.08954pt x 77.99083pt.
-<<<<<<< .mine
  [47 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/diseno7.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grad
 o/Trabajo_latex_2/diseno8.png>] <diseno10.png, id=778, 297.36093pt x 115.18031p
 t>
-=======
- [47 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno7.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proye
-cto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_
-2/diseno8.png>] <diseno10.png, id=778, 297.36093pt x 115.18031pt>
->>>>>>> .r7
 File: diseno10.png Graphic file (type png)
-<<<<<<< .mine
 
 <use diseno10.png>
-Package pdftex.def Info: diseno10.png used on input line 996.
-=======
- <use diseno10.png>
 Package pdftex.def Info: diseno10.png used on input line 994.
->>>>>>> .r7
 (pdftex.def)             Requested size: 208.15123pt x 80.62564pt.
  <diseno12.png, id=779, 197.73875pt x 239.89626pt>
 File: diseno12.png Graphic file (type png)
 
-<<<<<<< .mine
 <use diseno12.png>
-Package pdftex.def Info: diseno12.png used on input line 1002.
-=======
-<diseno12.png, id=779, 197.73875pt x 239.89626pt>
-File: diseno12.png Graphic file (type png)
- <use diseno12.png>
 Package pdftex.def Info: diseno12.png used on input line 1000.
->>>>>>> .r7
 (pdftex.def)             Requested size: 138.41617pt x 167.92622pt.
  <diseno13.png, id=780, 275.0275pt x 195.73125pt>
 File: diseno13.png Graphic file (type png)
 
-<<<<<<< .mine
 <use diseno13.png>
-Package pdftex.def Info: diseno13.png used on input line 1009.
-=======
-<diseno13.png, id=780, 275.0275pt x 195.73125pt>
-File: diseno13.png Graphic file (type png)
- <use diseno13.png>
 Package pdftex.def Info: diseno13.png used on input line 1007.
->>>>>>> .r7
 (pdftex.def)             Requested size: 192.51793pt x 137.01093pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [48 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/diseno9.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grad
 o/Trabajo_latex_2/diseno10.png> <D:/documentos/telecare/Telecare/github/trunk/T
 rabajo de grado/Trabajo_latex_2/diseno12.png>]
 <diseno14.png, id=787, 150.5625pt x 143.03438pt>
-=======
- [48 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno9.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proye
-cto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_
-2/diseno10.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3
-/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_
-latex_2/diseno12.png>] <diseno14.png, id=787, 150.5625pt x 143.03438pt>
->>>>>>> .r7
 File: diseno14.png Graphic file (type png)
-<<<<<<< .mine
  <use diseno14.png>
-Package pdftex.def Info: diseno14.png used on input line 1015.
-=======
-
-<use diseno14.png>
 Package pdftex.def Info: diseno14.png used on input line 1013.
->>>>>>> .r7
 (pdftex.def)             Requested size: 150.56212pt x 143.03401pt.
- <diseno15.png, id=788, 334.24875pt x 188.705pt>
-File: diseno15.png Graphic file (type png)
 
-<<<<<<< .mine
 <diseno15.png, id=788, 334.24875pt x 188.705pt>
 File: diseno15.png Graphic file (type png)
  <use diseno15.png>
-Package pdftex.def Info: diseno15.png used on input line 1021.
-=======
-<use diseno15.png>
 Package pdftex.def Info: diseno15.png used on input line 1019.
->>>>>>> .r7
 (pdftex.def)             Requested size: 233.97252pt x 132.09259pt.
- <diseno16.png, id=789, 634.37pt x 583.17876pt>
-File: diseno16.png Graphic file (type png)
 
-<<<<<<< .mine
 <diseno16.png, id=789, 634.37pt x 583.17876pt>
 File: diseno16.png Graphic file (type png)
  <use diseno16.png>
-Package pdftex.def Info: diseno16.png used on input line 1027.
-=======
-<use diseno16.png>
 Package pdftex.def Info: diseno16.png used on input line 1025.
->>>>>>> .r7
 (pdftex.def)             Requested size: 317.18422pt x 291.58867pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [49 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/diseno13.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo de gra
 do/Trabajo_latex_2/diseno14.png> <D:/documentos/telecare/Telecare/github/trunk/
 Trabajo de grado/Trabajo_latex_2/diseno15.png>]
 <diseno17.png, id=796, 679.53876pt x 495.8525pt>
-=======
- [49 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno13.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proy
-ecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex
-_2/diseno14.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software
-3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo
-_latex_2/diseno15.png>] <diseno17.png, id=796, 679.53876pt x 495.8525pt>
->>>>>>> .r7
 File: diseno17.png Graphic file (type png)
-<<<<<<< .mine
  <use diseno17.png>
-Package pdftex.def Info: diseno17.png used on input line 1033.
-=======
-
-<use diseno17.png>
 Package pdftex.def Info: diseno17.png used on input line 1031.
->>>>>>> .r7
 (pdftex.def)             Requested size: 339.76855pt x 247.92564pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [50 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/diseno16.png>] <diseno18.png, id=801, 591.20876pt x 239.89626pt>
-=======
- [50 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno16.png>] <diseno18.png, id=801, 591.20876pt x 239.89626pt>
->>>>>>> .r7
 File: diseno18.png Graphic file (type png)
-<<<<<<< .mine
- <use diseno18.png>
-Package pdftex.def Info: diseno18.png used on input line 1039.
-(pdftex.def)             Requested size: 295.60365pt x 119.94783pt.
-=======
  <use diseno18.png>
 Package pdftex.def Info: diseno18.png used on input line 1037.
 (pdftex.def)             Requested size: 295.60365pt x 119.94783pt.
->>>>>>> .r7
 
 <diseno19.png, id=802, 597.23125pt x 335.2525pt>
 File: diseno19.png Graphic file (type png)
-<<<<<<< .mine
- <use diseno19.png>
-Package pdftex.def Info: diseno19.png used on input line 1045.
-=======
  <use diseno19.png>
 Package pdftex.def Info: diseno19.png used on input line 1043.
->>>>>>> .r7
 (pdftex.def)             Requested size: 298.61488pt x 167.62584pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [51 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/diseno17.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo de gra
 do/Trabajo_latex_2/diseno18.png>] <diseno20.png, id=807, 578.16pt x 475.7775pt>
-=======
- [51 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno17.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proy
-ecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex
-_2/diseno18.png>] <diseno20.png, id=807, 578.16pt x 475.7775pt>
->>>>>>> .r7
 File: diseno20.png Graphic file (type png)
-<<<<<<< .mine
 
 <use diseno20.png>
-Package pdftex.def Info: diseno20.png used on input line 1051.
-=======
- <use diseno20.png>
 Package pdftex.def Info: diseno20.png used on input line 1049.
->>>>>>> .r7
 (pdftex.def)             Requested size: 289.07928pt x 237.88815pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [52 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/diseno19.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo de gra
 do/Trabajo_latex_2/diseno20.png>] <implementacion1.png, id=812, 188.20313pt x 1
 92.72pt>
-=======
- [52 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/dis
-eno19.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proy
-ecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex
-_2/diseno20.png>] <implementacion1.png, id=812, 188.20313pt x 192.72pt>
->>>>>>> .r7
 File: implementacion1.png Graphic file (type png)
 
 <use implementacion1.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion1.png used on input line 1063.
-=======
 Package pdftex.def Info: implementacion1.png used on input line 1061.
->>>>>>> .r7
 (pdftex.def)             Requested size: 188.20265pt x 192.71951pt.
 
 <implementacion2.png, id=813, 1014.03844pt x 467.49657pt>
 File: implementacion2.png Graphic file (type png)
 
 <use implementacion2.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion2.png used on input line 1071.
-=======
 Package pdftex.def Info: implementacion2.png used on input line 1069.
->>>>>>> .r7
 (pdftex.def)             Requested size: 304.21388pt x 140.25005pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [53 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/implementacion1.png>] <implementacion3.png, id=819, 602.25pt x 489.32813pt
 >
-=======
- [53 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
-lementacion1.png>] <implementacion3.png, id=819, 602.25pt x 489.32813pt>
->>>>>>> .r7
 File: implementacion3.png Graphic file (type png)
 
 <use implementacion3.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion3.png used on input line 1079.
-=======
 Package pdftex.def Info: implementacion3.png used on input line 1077.
->>>>>>> .r7
 (pdftex.def)             Requested size: 398.33858pt x 323.65941pt.
-<<<<<<< .mine
  [54 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/implementacion2.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo
  de grado/Trabajo_latex_2/implementacion3.png>]
 <implementacion4.png, id=826, 730.22812pt x 437.38406pt>
-=======
- [54 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
-lementacion2.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softwar
-e3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabaj
-o_latex_2/implementacion3.png>]
-<implementacion4.png, id=826, 730.22812pt x 437.38406pt>
->>>>>>> .r7
 File: implementacion4.png Graphic file (type png)
 
 <use implementacion4.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion4.png used on input line 1087.
-=======
 Package pdftex.def Info: implementacion4.png used on input line 1085.
->>>>>>> .r7
 (pdftex.def)             Requested size: 398.33858pt x 238.59315pt.
 
 <implementacion5.png, id=827, 1005.7575pt x 461.47406pt>
 File: implementacion5.png Graphic file (type png)
 
 <use implementacion5.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion5.png used on input line 1095.
-=======
 Package pdftex.def Info: implementacion5.png used on input line 1093.
->>>>>>> .r7
 (pdftex.def)             Requested size: 398.33858pt x 182.76962pt.
-<<<<<<< .mine
  [55 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/implementacion4.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo
  de grado/Trabajo_latex_2/implementacion5.png>]
 <implementacion6.png, id=835, 1017.8025pt x 475.7775pt>
-=======
- [55 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
-lementacion4.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softwar
-e3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabaj
-o_latex_2/implementacion5.png>]
-<implementacion6.png, id=835, 1017.8025pt x 475.7775pt>
->>>>>>> .r7
 File: implementacion6.png Graphic file (type png)
 
 <use implementacion6.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion6.png used on input line 1103.
-=======
 Package pdftex.def Info: implementacion6.png used on input line 1101.
->>>>>>> .r7
 (pdftex.def)             Requested size: 398.33858pt x 186.20584pt.
 
 <implementacion7.png, id=836, 950.80219pt x 469.755pt>
 File: implementacion7.png Graphic file (type png)
 
 <use implementacion7.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion7.png used on input line 1111.
-=======
 Package pdftex.def Info: implementacion7.png used on input line 1109.
->>>>>>> .r7
 (pdftex.def)             Requested size: 398.33858pt x 196.80116pt.
 
 <implementacion8.png, id=837, 960.58875pt x 441.90094pt>
 File: implementacion8.png Graphic file (type png)
 
 <use implementacion8.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion8.png used on input line 1119.
-=======
 Package pdftex.def Info: implementacion8.png used on input line 1117.
->>>>>>> .r7
 (pdftex.def)             Requested size: 398.33858pt x 183.25061pt.
 
 Underfull \vbox (badness 1184) has occurred while \output is active []
 
-<<<<<<< .mine
  [56 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/implementacion6.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo
  de grado/Trabajo_latex_2/implementacion7.png>]
 <implementacion9.png, id=844, 981.6675pt x 298.86656pt>
-=======
- [56 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
-lementacion6.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softwar
-e3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabaj
-o_latex_2/implementacion7.png>] <implementacion9.png, id=844, 981.6675pt x 298.
-86656pt>
->>>>>>> .r7
 File: implementacion9.png Graphic file (type png)
 
 <use implementacion9.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion9.png used on input line 1127.
-=======
 Package pdftex.def Info: implementacion9.png used on input line 1125.
->>>>>>> .r7
 (pdftex.def)             Requested size: 398.33858pt x 121.27286pt.
 
 <implementacion10.png, id=845, 305.14pt x 257.96375pt>
 File: implementacion10.png Graphic file (type png)
 
 <use implementacion10.png>
-<<<<<<< .mine
-Package pdftex.def Info: implementacion10.png used on input line 1137.
-=======
 Package pdftex.def Info: implementacion10.png used on input line 1135.
->>>>>>> .r7
 (pdftex.def)             Requested size: 244.11232pt x 206.37126pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [57 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/implementacion8.png> <D:/documentos/telecare/Telecare/github/trunk/Trabajo
  de grado/Trabajo_latex_2/implementacion9.png>]
-Overfull \hbox (5.27402pt too wide) in paragraph at lines 1167--1168
-=======
- [57 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
-lementacion8.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Softwar
-e3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabaj
-o_latex_2/implementacion9.png>]
 Overfull \hbox (5.27402pt too wide) in paragraph at lines 1165--1166
->>>>>>> .r7
 \OT1/cmr/m/n/12 El pro-totipo Tele-care se probo pro-gre-si-va-mente du-rante 
 el de-sar-rollo y la im-ple-mentacion,
  []
@@ -1756,16 +1030,9 @@ el de-sar-rollo y la im-ple-mentacion,
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [58 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/implementacion10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1173--1176
-=======
- [58 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/imp
-lementacion10.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1171--1174
->>>>>>> .r7
 
  []
 
@@ -1773,11 +1040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1171--1174
 File: Pruebas-hardware-1.png Graphic file (type png)
 
 <use Pruebas-hardware-1.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-1.png used on input line 1183.
-=======
 Package pdftex.def Info: Pruebas-hardware-1.png used on input line 1181.
->>>>>>> .r7
 (pdftex.def)             Requested size: 222.07913pt x 175.40488pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1787,64 +1050,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: Pruebas-hardware-2.png Graphic file (type png)
 
 <use Pruebas-hardware-2.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-2.png used on input line 1192.
-=======
 Package pdftex.def Info: Pruebas-hardware-2.png used on input line 1190.
->>>>>>> .r7
 (pdftex.def)             Requested size: 221.70273pt x 159.59586pt.
 
 <Pruebas-hardware-3.png, id=867, 443.40656pt x 290.58563pt>
 File: Pruebas-hardware-3.png Graphic file (type png)
 
 <use Pruebas-hardware-3.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-3.png used on input line 1201.
-=======
 Package pdftex.def Info: Pruebas-hardware-3.png used on input line 1199.
->>>>>>> .r7
 (pdftex.def)             Requested size: 221.70273pt x 145.29245pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [60 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-hardware-1.png> <D:/documentos/telecare/Telecare/github/trunk/Trab
 ajo de grado/Trabajo_latex_2/Pruebas-hardware-2.png>]
 <Pruebas-hardware-4.png, id=872, 443.40656pt x 318.43968pt>
-=======
- [60 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-1.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Soft
-ware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tra
-bajo_latex_2/Pruebas-hardware-2.png>]
-<Pruebas-hardware-4.png, id=872, 443.40656pt x 318.43968pt>
->>>>>>> .r7
 File: Pruebas-hardware-4.png Graphic file (type png)
 
 <use Pruebas-hardware-4.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-4.png used on input line 1210.
-=======
 Package pdftex.def Info: Pruebas-hardware-4.png used on input line 1208.
->>>>>>> .r7
 (pdftex.def)             Requested size: 221.70273pt x 159.21945pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [61 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-hardware-3.png> <D:/documentos/telecare/Telecare/github/trunk/Trab
 ajo de grado/Trabajo_latex_2/Pruebas-hardware-4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
-=======
- [61 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-3.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Soft
-ware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tra
-bajo_latex_2/Pruebas-hardware-4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1223--1224
->>>>>>> .r7
 
  []
 
@@ -1852,202 +1085,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 1223--1224
 File: Pruebas-hardware-5.png Graphic file (type png)
 
 <use Pruebas-hardware-5.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-5.png used on input line 1233.
-=======
 Package pdftex.def Info: Pruebas-hardware-5.png used on input line 1231.
->>>>>>> .r7
 (pdftex.def)             Requested size: 243.98485pt x 186.54565pt.
 
 <Pruebas-hardware-6.png, id=879, 443.40656pt x 252.19218pt>
 File: Pruebas-hardware-6.png Graphic file (type png)
 
 <use Pruebas-hardware-6.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-6.png used on input line 1242.
-=======
 Package pdftex.def Info: Pruebas-hardware-6.png used on input line 1240.
->>>>>>> .r7
 (pdftex.def)             Requested size: 310.38248pt x 176.53331pt.
 
 Underfull \vbox (badness 2096) has occurred while \output is active []
 
-<<<<<<< .mine
  [62 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-hardware-5.png>] <Pruebas-hardware-7.png, id=884, 306.39468pt x 31
 7.68687pt>
-=======
- [62 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-5.png>] <Pruebas-hardware-7.png, id=884, 306.39468pt x 317.68687p
-t>
->>>>>>> .r7
 File: Pruebas-hardware-7.png Graphic file (type png)
 
 <use Pruebas-hardware-7.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-7.png used on input line 1251.
-=======
 Package pdftex.def Info: Pruebas-hardware-7.png used on input line 1249.
->>>>>>> .r7
 (pdftex.def)             Requested size: 214.47481pt x 222.37927pt.
 
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
-<<<<<<< .mine
  [63 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-hardware-6.png> <D:/documentos/telecare/Telecare/github/trunk/Trab
 ajo de grado/Trabajo_latex_2/Pruebas-hardware-7.png>]
 <Pruebas-hardware-8.png, id=889, 216.05719pt x 328.97906pt>
-=======
- [63 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-6.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Soft
-ware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tra
-bajo_latex_2/Pruebas-hardware-7.png>]
-<Pruebas-hardware-8.png, id=889, 216.05719pt x 328.97906pt>
->>>>>>> .r7
 File: Pruebas-hardware-8.png Graphic file (type png)
 
 <use Pruebas-hardware-8.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-8.png used on input line 1261.
-=======
 Package pdftex.def Info: Pruebas-hardware-8.png used on input line 1259.
->>>>>>> .r7
 (pdftex.def)             Requested size: 129.6353pt x 197.38895pt.
 
 <Pruebas-hardware-9.png, id=890, 443.40656pt x 225.09094pt>
 File: Pruebas-hardware-9.png Graphic file (type png)
 
 <use Pruebas-hardware-9.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-9.png used on input line 1271.
-=======
 Package pdftex.def Info: Pruebas-hardware-9.png used on input line 1269.
->>>>>>> .r7
 (pdftex.def)             Requested size: 354.72572pt x 180.07298pt.
-<<<<<<< .mine
  [64 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-hardware-8.png> <D:/documentos/telecare/Telecare/github/trunk/Trab
 ajo de grado/Trabajo_latex_2/Pruebas-hardware-9.png>] <Pruebas-hardware-10.png,
  id=895, 443.40656pt x 292.09125pt>
-=======
- [64 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-8.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Soft
-ware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tra
-bajo_latex_2/Pruebas-hardware-9.png>]
-<Pruebas-hardware-10.png, id=895, 443.40656pt x 292.09125pt>
->>>>>>> .r7
 File: Pruebas-hardware-10.png Graphic file (type png)
 
 <use Pruebas-hardware-10.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-10.png used on input line 1281.
-=======
 Package pdftex.def Info: Pruebas-hardware-10.png used on input line 1279.
->>>>>>> .r7
 (pdftex.def)             Requested size: 354.72572pt x 233.6733pt.
 
 <Pruebas-hardware-13.png, id=897, 438.13687pt x 109.1578pt>
 File: Pruebas-hardware-13.png Graphic file (type png)
 
 <use Pruebas-hardware-13.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-13.png used on input line 1295.
-=======
 Package pdftex.def Info: Pruebas-hardware-13.png used on input line 1293.
->>>>>>> .r7
 (pdftex.def)             Requested size: 350.50996pt x 87.32635pt.
-<<<<<<< .mine
  [65 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-hardware-10.png> <D:/documentos/telecare/Telecare/github/trunk/Tra
 bajo de grado/Trabajo_latex_2/Pruebas-hardware-13.png>] <Pruebas-hardware-11.pn
 g, id=903, 443.40656pt x 194.22563pt>
-=======
- [65 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-10.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Sof
-tware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tr
-abajo_latex_2/Pruebas-hardware-13.png>]
-<Pruebas-hardware-11.png, id=903, 443.40656pt x 194.22563pt>
->>>>>>> .r7
 File: Pruebas-hardware-11.png Graphic file (type png)
 
 <use Pruebas-hardware-11.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-11.png used on input line 1309.
-=======
 Package pdftex.def Info: Pruebas-hardware-11.png used on input line 1307.
->>>>>>> .r7
 (pdftex.def)             Requested size: 376.89735pt x 165.09254pt.
 
 <Pruebas-hardware-12.png, id=904, 443.40656pt x 235.63031pt>
 File: Pruebas-hardware-12.png Graphic file (type png)
 
 <use Pruebas-hardware-12.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-hardware-12.png used on input line 1318.
-=======
 Package pdftex.def Info: Pruebas-hardware-12.png used on input line 1316.
->>>>>>> .r7
 (pdftex.def)             Requested size: 376.89735pt x 200.2867pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [66 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-hardware-11.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1328--1339
-=======
- [66 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-11.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1326--1337
->>>>>>> .r7
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [67 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-hardware-12.png>]
 <Pruebas-aceptacion-1.png, id=914, 365.86688pt x 441.14813pt>
-=======
- [67 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-hardware-12.png>] <Pruebas-aceptacion-1.png, id=914, 365.86688pt x 441.148
-13pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-1.png Graphic file (type png)
 
 <use Pruebas-aceptacion-1.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-1.png used on input line 1342.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-1.png used on input line 1340.
->>>>>>> .r7
 (pdftex.def)             Requested size: 182.93298pt x 220.57352pt.
 
 <Pruebas-aceptacion-2.png, id=915, 716.6775pt x 469.755pt>
 File: Pruebas-aceptacion-2.png Graphic file (type png)
 
 <use Pruebas-aceptacion-2.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-2.png used on input line 1347.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-2.png used on input line 1345.
->>>>>>> .r7
 (pdftex.def)             Requested size: 358.33788pt x 234.87692pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1344--1348
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1342--1346
->>>>>>> .r7
 
  []
 
@@ -2055,52 +1192,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 1342--1346
 File: Pruebas-aceptacion-3.png Graphic file (type png)
 
 <use Pruebas-aceptacion-3.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-3.png used on input line 1352.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-3.png used on input line 1350.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 106.28119pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1349--1353
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1347--1351
->>>>>>> .r7
 
  []
 
 
 Underfull \vbox (badness 4156) has occurred while \output is active []
 
-<<<<<<< .mine
  [68 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-aceptacion-1.png> <D:/documentos/telecare/Telecare/github/trunk/Tr
 abajo de grado/Trabajo_latex_2/Pruebas-aceptacion-2.png>]
 <Pruebas-aceptacion-4.png, id=921, 443.40656pt x 246.1697pt>
-=======
- [68 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-aceptacion-1.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/So
-ftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/T
-rabajo_latex_2/Pruebas-aceptacion-2.png>]
-<Pruebas-aceptacion-4.png, id=921, 443.40656pt x 246.1697pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-4.png Graphic file (type png)
 
 <use Pruebas-aceptacion-4.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-4.png used on input line 1357.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-4.png used on input line 1355.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 157.9725pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1358
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1352--1356
->>>>>>> .r7
 
  []
 
@@ -2108,18 +1220,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1352--1356
 File: Pruebas-aceptacion-5.png Graphic file (type png)
 
 <use Pruebas-aceptacion-5.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-5.png used on input line 1362.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-5.png used on input line 1360.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 140.58104pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1359--1363
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1357--1361
->>>>>>> .r7
 
  []
 
@@ -2127,145 +1231,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 1357--1361
 File: Pruebas-aceptacion-6.png Graphic file (type png)
 
 <use Pruebas-aceptacion-6.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-6.png used on input line 1367.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-6.png used on input line 1365.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 245.41296pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1364--1368
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1362--1366
->>>>>>> .r7
 
  []
 
-<<<<<<< .mine
 [69 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_late
 x_2/Pruebas-aceptacion-3.png> <D:/documentos/telecare/Telecare/github/trunk/Tra
 bajo de grado/Trabajo_latex_2/Pruebas-aceptacion-4.png> <D:/documentos/telecare
 /Telecare/github/trunk/Trabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-5.pn
 g>] <Pruebas-aceptacion-7.png, id=928, 342.5297pt x 325.96782pt>
-=======
-[69 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto te
-lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
-bas-aceptacion-3.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Sof
-tware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tr
-abajo_latex_2/Pruebas-aceptacion-4.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/
-NovenoSemestre/Software3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/T
-rabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-5.png>]
-<Pruebas-aceptacion-7.png, id=928, 342.5297pt x 325.96782pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-7.png Graphic file (type png)
 
 <use Pruebas-aceptacion-7.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-7.png used on input line 1373.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-7.png used on input line 1371.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 270.79195pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1374
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1368--1372
->>>>>>> .r7
 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1376--1377
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1374--1375
->>>>>>> .r7
 
  []
 
-<<<<<<< .mine
 [70 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_late
 x_2/Pruebas-aceptacion-6.png> <D:/documentos/telecare/Telecare/github/trunk/Tra
 bajo de grado/Trabajo_latex_2/Pruebas-aceptacion-7.png>]
 <Pruebas-aceptacion-8.png, id=933, 227.34938pt x 229.60782pt>
-=======
-[70 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto te
-lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
-bas-aceptacion-6.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Sof
-tware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tr
-abajo_latex_2/Pruebas-aceptacion-7.png>]
-<Pruebas-aceptacion-8.png, id=933, 227.34938pt x 229.60782pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-8.png Graphic file (type png)
 
 <use Pruebas-aceptacion-8.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-8.png used on input line 1380.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-8.png used on input line 1378.
->>>>>>> .r7
 (pdftex.def)             Requested size: 227.34882pt x 229.60725pt.
 
 <Pruebas-aceptacion-9.png, id=934, 204.765pt x 229.60782pt>
 File: Pruebas-aceptacion-9.png Graphic file (type png)
 
 <use Pruebas-aceptacion-9.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-9.png used on input line 1385.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-9.png used on input line 1383.
->>>>>>> .r7
 (pdftex.def)             Requested size: 204.76448pt x 229.60725pt.
 
 <Pruebas-aceptacion-10.png, id=935, 443.40656pt x 169.38281pt>
 File: Pruebas-aceptacion-10.png Graphic file (type png)
 
 <use Pruebas-aceptacion-10.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-10.png used on input line 1391.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-10.png used on input line 1389.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 108.69667pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1388--1392
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1386--1390
->>>>>>> .r7
 
  []
 
-<<<<<<< .mine
 [71 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_late
 x_2/Pruebas-aceptacion-8.png> <D:/documentos/telecare/Telecare/github/trunk/Tra
 bajo de grado/Trabajo_latex_2/Pruebas-aceptacion-9.png>]
 <Pruebas-aceptacion-11.png, id=940, 387.69844pt x 116.68594pt>
-=======
-[71 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto te
-lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
-bas-aceptacion-8.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Sof
-tware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Tr
-abajo_latex_2/Pruebas-aceptacion-9.png>]
-<Pruebas-aceptacion-11.png, id=940, 387.69844pt x 116.68594pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-11.png Graphic file (type png)
 
 <use Pruebas-aceptacion-11.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-11.png used on input line 1397.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-11.png used on input line 1395.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 85.63582pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1394--1398
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1392--1396
->>>>>>> .r7
 
  []
 
@@ -2273,18 +1304,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1392--1396
 File: Pruebas-aceptacion-12.png Graphic file (type png)
 
 <use Pruebas-aceptacion-12.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-12.png used on input line 1402.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-12.png used on input line 1400.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 148.84506pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1399--1403
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1397--1401
->>>>>>> .r7
 
  []
 
@@ -2292,191 +1315,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 1397--1401
 File: Pruebas-aceptacion-13.png Graphic file (type png)
 
 <use Pruebas-aceptacion-13.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-13.png used on input line 1421.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-13.png used on input line 1419.
->>>>>>> .r7
 (pdftex.def)             Requested size: 443.40547pt x 175.40488pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1406--1422
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1404--1420
->>>>>>> .r7
 
  []
 
-<<<<<<< .mine
 [72 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_late
 x_2/Pruebas-aceptacion-10.png> <D:/documentos/telecare/Telecare/github/trunk/Tr
 abajo de grado/Trabajo_latex_2/Pruebas-aceptacion-11.png> <D:/documentos/teleca
 re/Telecare/github/trunk/Trabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-12
 .png>] <Pruebas-aceptacion-14.png, id=947, 392.21532pt x 425.33907pt>
-=======
-[72 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto te
-lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
-bas-aceptacion-10.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/So
-ftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/T
-rabajo_latex_2/Pruebas-aceptacion-11.png> <D:/disco_d/CESAR01122011/INGESISTEMA
-S/NovenoSemestre/Software3/proyecto telecare/Trabajo de Grado/trabajo_grado_git
-/Trabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-12.png>]
-<Pruebas-aceptacion-14.png, id=947, 392.21532pt x 425.33907pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-14.png Graphic file (type png)
 
 <use Pruebas-aceptacion-14.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-14.png used on input line 1426.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-14.png used on input line 1424.
->>>>>>> .r7
 (pdftex.def)             Requested size: 392.21436pt x 425.33801pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [73 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-aceptacion-13.png>]
 <Pruebas-aceptacion-17.png, id=953, 398.99063pt x 432.86719pt>
-=======
- [73 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-aceptacion-13.png>] <Pruebas-aceptacion-17.png, id=953, 398.99063pt x 432.
-86719pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-17.png Graphic file (type png)
 
 <use Pruebas-aceptacion-17.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-17.png used on input line 1431.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-17.png used on input line 1429.
->>>>>>> .r7
 (pdftex.def)             Requested size: 359.08824pt x 389.57686pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [74 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-aceptacion-14.png>]
 <Pruebas-aceptacion-18.png, id=958, 395.97937pt x 188.95593pt>
-=======
- [74 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-aceptacion-14.png>] <Pruebas-aceptacion-18.png, id=958, 395.97937pt x 188.
-95593pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-18.png Graphic file (type png)
 
 <use Pruebas-aceptacion-18.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-18.png used on input line 1436.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-18.png used on input line 1434.
->>>>>>> .r7
 (pdftex.def)             Requested size: 316.78392pt x 151.16493pt.
 
 <Pruebas-aceptacion-19.png, id=959, 399.74344pt x 335.75438pt>
 File: Pruebas-aceptacion-19.png Graphic file (type png)
 
 <use Pruebas-aceptacion-19.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-19.png used on input line 1440.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-19.png used on input line 1438.
->>>>>>> .r7
 (pdftex.def)             Requested size: 279.81848pt x 235.02646pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< .mine
  [75 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_lat
 ex_2/Pruebas-aceptacion-17.png> <D:/documentos/telecare/Telecare/github/trunk/T
 rabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-18.png>]
 <Pruebas-aceptacion-20.png, id=964, 371.88937pt x 264.23718pt>
-=======
- [75 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto t
-elecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pru
-ebas-aceptacion-17.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/S
-oftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/
-Trabajo_latex_2/Pruebas-aceptacion-18.png>]
-<Pruebas-aceptacion-20.png, id=964, 371.88937pt x 264.23718pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-20.png Graphic file (type png)
 
 <use Pruebas-aceptacion-20.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-20.png used on input line 1445.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-20.png used on input line 1443.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 202.16899pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1442--1446
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1440--1444
->>>>>>> .r7
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-<<<<<<< .mine
-(hyperref)                removing `\\' on input line 1449.
-=======
 (hyperref)                removing `\\' on input line 1447.
->>>>>>> .r7
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1449--1459
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1447--1457
->>>>>>> .r7
 
  []
 
-<<<<<<< .mine
 [76 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_late
 x_2/Pruebas-aceptacion-19.png> <D:/documentos/telecare/Telecare/github/trunk/Tr
 abajo de grado/Trabajo_latex_2/Pruebas-aceptacion-20.png>]
 <Pruebas-aceptacion-21.png, id=969, 172.39406pt x 153.57375pt>
-=======
-[76 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto te
-lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
-bas-aceptacion-19.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/So
-ftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/T
-rabajo_latex_2/Pruebas-aceptacion-20.png>]
-<Pruebas-aceptacion-21.png, id=969, 172.39406pt x 153.57375pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-21.png Graphic file (type png)
 
 <use Pruebas-aceptacion-21.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-21.png used on input line 1462.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-21.png used on input line 1460.
->>>>>>> .r7
 (pdftex.def)             Requested size: 172.39363pt x 153.57336pt.
 
 <Pruebas-aceptacion-22.png, id=970, 443.40656pt x 198.7425pt>
 File: Pruebas-aceptacion-22.png Graphic file (type png)
 
 <use Pruebas-aceptacion-22.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-22.png used on input line 1467.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-22.png used on input line 1465.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 127.53743pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1464--1468
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1462--1466
->>>>>>> .r7
 
  []
 
@@ -2484,49 +1412,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1462--1466
 File: Pruebas-aceptacion-23.png Graphic file (type png)
 
 <use Pruebas-aceptacion-23.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-23.png used on input line 1472.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-23.png used on input line 1470.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 74.05746pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1469--1473
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1467--1471
->>>>>>> .r7
 
  []
 
-<<<<<<< .mine
 [77 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_late
 x_2/Pruebas-aceptacion-21.png> <D:/documentos/telecare/Telecare/github/trunk/Tr
 abajo de grado/Trabajo_latex_2/Pruebas-aceptacion-22.png>]
 <Pruebas-aceptacion-24.png, id=976, 443.40656pt x 295.85532pt>
-=======
-[77 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto te
-lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
-bas-aceptacion-21.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/So
-ftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/T
-rabajo_latex_2/Pruebas-aceptacion-22.png>]
-<Pruebas-aceptacion-24.png, id=976, 443.40656pt x 295.85532pt>
->>>>>>> .r7
 File: Pruebas-aceptacion-24.png Graphic file (type png)
 
 <use Pruebas-aceptacion-24.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-24.png used on input line 1477.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-24.png used on input line 1475.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 189.85687pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1474--1478
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1472--1476
->>>>>>> .r7
 
  []
 
@@ -2534,18 +1437,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1472--1476
 File: Pruebas-aceptacion-25.png Graphic file (type png)
 
 <use Pruebas-aceptacion-25.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-25.png used on input line 1482.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-25.png used on input line 1480.
->>>>>>> .r7
 (pdftex.def)             Requested size: 284.52756pt x 155.55702pt.
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1479--1483
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1477--1481
->>>>>>> .r7
 
  []
 
@@ -2553,49 +1448,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1477--1481
 File: Pruebas-aceptacion-26.png Graphic file (type png)
 
 <use Pruebas-aceptacion-26.png>
-<<<<<<< .mine
-Package pdftex.def Info: Pruebas-aceptacion-26.png used on input line 1488.
-=======
 Package pdftex.def Info: Pruebas-aceptacion-26.png used on input line 1486.
->>>>>>> .r7
 (pdftex.def)             Requested size: 449.20316pt x 314.14862pt.
 
-<<<<<<< .mine
-Overfull \hbox (5.34016pt too wide) in paragraph at lines 1488--1489
-=======
 Overfull \hbox (5.34016pt too wide) in paragraph at lines 1486--1487
->>>>>>> .r7
  [][] 
  []
 
 
-<<<<<<< .mine
-Underfull \hbox (badness 10000) in paragraph at lines 1484--1490
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 1482--1488
->>>>>>> .r7
 
  []
 
-<<<<<<< .mine
 [78 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Trabajo_late
 x_2/Pruebas-aceptacion-23.png> <D:/documentos/telecare/Telecare/github/trunk/Tr
 abajo de grado/Trabajo_latex_2/Pruebas-aceptacion-24.png> <D:/documentos/teleca
 re/Telecare/github/trunk/Trabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-25
 .png>] [79 <D:/documentos/telecare/Telecare/github/trunk/Trabajo de grado/Traba
 jo_latex_2/Pruebas-aceptacion-26.png>] [80
-=======
-[78 <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto te
-lecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Prue
-bas-aceptacion-23.png> <D:/disco_d/CESAR01122011/INGESISTEMAS/NovenoSemestre/So
-ftware3/proyecto telecare/Trabajo de Grado/trabajo_grado_git/Trabajo de grado/T
-rabajo_latex_2/Pruebas-aceptacion-24.png> <D:/disco_d/CESAR01122011/INGESISTEMA
-S/NovenoSemestre/Software3/proyecto telecare/Trabajo de Grado/trabajo_grado_git
-/Trabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-25.png>] [79 <D:/disco_d/C
-ESAR01122011/INGESISTEMAS/NovenoSemestre/Software3/proyecto telecare/Trabajo de
- Grado/trabajo_grado_git/Trabajo de grado/Trabajo_latex_2/Pruebas-aceptacion-26
-.png>] [80
->>>>>>> .r7
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2603,14 +1473,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [81
 
 ]
-<<<<<<< .mine
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.bbl" [82]
-=======
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.bbl" [82]
->>>>>>> .r7
 Overfull \hbox (10.67952pt too wide) in paragraph at lines 17--21
 \OT1/cmr/m/n/12 http://www.scotland.gov.uk/Topics/Health/care/EandA/SharedVocab
 ulary/, 2013. 
@@ -2619,53 +1483,26 @@ ulary/, 2013.
 ) [83
 
 ]
-<<<<<<< .mine
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1543.
-=======
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1541.
->>>>>>> .r7
  [84
 
 ]
-<<<<<<< .mine
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1543.
-=======
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1541.
->>>>>>> .r7
 
-<<<<<<< .mine
 ("D:\documentos\telecare\Telecare\github\trunk\Trabajo de grado\Trabajo_latex_2
 \upbthesis.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1543.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1543.
-=======
-("D:\disco_d\CESAR01122011\INGESISTEMAS\NovenoSemestre\Software3\proyecto telec
-are\Trabajo de Grado\trabajo_grado_git\Trabajo de grado\Trabajo_latex_2\upbthes
-is.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1541.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1541.
->>>>>>> .r7
 
 Package rerunfilecheck Info: File `upbthesis.out' has not changed.
 (rerunfilecheck)             Checksum: 075B209F7C4E0420D959F48D0A13EE11;2789.
-<<<<<<< .mine
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1543.
-=======
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1541.
->>>>>>> .r7
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< .mine
  7511 strings out of 493921
  110001 string characters out of 3144870
  227989 words of memory out of 3000000
  10286 multiletter control sequences out of 15000+200000
-=======
- 7511 strings out of 493921
- 110862 string characters out of 3147283
- 227989 words of memory out of 3000000
- 10286 multiletter control sequences out of 15000+200000
->>>>>>> .r7
  9276 words of font info for 36 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
  34i,12n,35p,1177b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2675,21 +1512,12 @@ st, replaced by a fixed one
 pdfTeX warning (dest): name{section*.9} has been referenced but does not exist,
  replaced by a fixed one
 
-<<<<<<< .mine
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on upbthesis.pdf (84 pages, 5468147 bytes).
-=======
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on upbthesis.pdf (84 pages, 5492613 bytes).
->>>>>>> .r7
+Output written on upbthesis.pdf (84 pages, 5470472 bytes).
 PDF statistics:
  1103 PDF objects out of 1200 (max. 8388607)
  355 named destinations out of 1000 (max. 500000)

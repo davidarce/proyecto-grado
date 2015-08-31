@@ -1,45 +1,45 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Metodolog\IeC {\'\i }a de desarrollo del proyecto software}}{24}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Tabla relaci\'on comportamiento-sensor.}}{26}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Arquitectura APEX}}{42}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Dise\~no de base de datos}}{42}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Dise\~no modulo de lectura.}}{44}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Representaci\'on de la distribuci\'on y la instalaci\'on de sensores en ba\~no de un paciente.}}{45}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Modelado de componente hardware}}{45}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Diagrama de flujo env\IeC {\'\i }o de datos obtenidos.}}{46}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Arduino Leonardo}}{47}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Conexi\'on y tipos de sensores.}}{47}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Celda de carga, determina el peso de una persona hasta 200 kg.}}{48}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Potenciometro lineal, Emular comportamiento.}}{48}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Sensor para determinar la estatura del paciente Fotosensor, emulado con un pulsador.}}{48}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Sensor de inundaci\'on.}}{49}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Seonsor de caudal.}}{49}{figure.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Montaje hardware implementado para de pruebas del sistema.}}{49}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (a).}}{50}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (b).}}{51}{figure.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (c).}}{51}{figure.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (d).}}{52}{figure.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (e).}}{52}{figure.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Login}}{53}{figure.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces inicio}}{54}{figure.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Lista Paginas}}{54}{figure.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Lista tablas}}{55}{figure.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces editor SQL}}{55}{figure.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Application Builder}}{56}{figure.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Pagina M\'edico}}{56}{figure.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Pagina Administrador}}{57}{figure.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Pagina Cuidador}}{57}{figure.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Estructura del c\'odigo fuente}}{58}{figure.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Conexi\'on de PC con la tarjeta de desarrollo Arduino}}{60}{figure.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Entorno de desarrollo Arduino Prueba de conexi\'on serial ene IDE}}{60}{figure.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Prueba de conexi\'on RS232 de la tarjeta de adquisici\'on con el servidor}}{61}{figure.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Detalle del protocolo enviado por la activaci\'on de sensores}}{61}{figure.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Logo Aplicaci\'on Telecare}}{62}{figure.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Secci\'on manejo de informaci\'on aplicaci\'on Telecare}}{63}{figure.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Mapa del sitio para usuario administrador }}{63}{figure.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Versi\'on y fecha de creaci\'on aplicaci\'on Telecare }}{64}{figure.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Secci\'on de ayuda aplicaci\'on Telecare }}{64}{figure.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Manejo de espacios aplicaci\'on Telecare }}{65}{figure.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Resultados recorrido cognitivo}}{65}{figure.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Implementaci\'on de miga de pan en la aplicaci\'on}}{66}{figure.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Contextualizaci\'on para opciones de actor m\'edico}}{67}{figure.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces Resultado Actividad paciente}}{79}{figure.45}
+\contentsline {figure}{\numberline {1}{\ignorespaces Metodolog\IeC {\'\i }a de desarrollo del proyecto software}}{20}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Tabla relaci\'on comportamiento-sensor.}}{22}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Arquitectura APEX}}{38}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Dise\~no de base de datos}}{38}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Dise\~no modulo de lectura.}}{40}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Representaci\'on de la distribuci\'on y la instalaci\'on de sensores en ba\~no de un paciente.}}{41}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Modelado de componente hardware}}{41}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagrama de flujo env\IeC {\'\i }o de datos obtenidos.}}{42}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Arduino Leonardo}}{43}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Conexi\'on y tipos de sensores.}}{43}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Celda de carga, determina el peso de una persona hasta 200 kg.}}{44}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Potenciometro lineal, Emular comportamiento.}}{44}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Sensor para determinar la estatura del paciente Fotosensor, emulado con un pulsador.}}{44}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Sensor de inundaci\'on.}}{45}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Seonsor de caudal.}}{45}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Montaje hardware implementado para de pruebas del sistema.}}{45}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (a).}}{46}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (b).}}{47}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (c).}}{47}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (d).}}{48}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces C\'odigo de la tarjeta de adquisici\'on (e).}}{48}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Login}}{49}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces inicio}}{50}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Lista Paginas}}{50}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Lista tablas}}{51}{figure.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces editor SQL}}{51}{figure.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Application Builder}}{52}{figure.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Pagina M\'edico}}{52}{figure.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Pagina Administrador}}{53}{figure.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Pagina Cuidador}}{53}{figure.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Estructura del c\'odigo fuente}}{54}{figure.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Conexi\'on de PC con la tarjeta de desarrollo Arduino}}{56}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Entorno de desarrollo Arduino Prueba de conexi\'on serial ene IDE}}{56}{figure.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Prueba de conexi\'on RS232 de la tarjeta de adquisici\'on con el servidor}}{57}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Detalle del protocolo enviado por la activaci\'on de sensores}}{57}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Logo Aplicaci\'on Telecare}}{58}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Secci\'on manejo de informaci\'on aplicaci\'on Telecare}}{59}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Mapa del sitio para usuario administrador }}{59}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Versi\'on y fecha de creaci\'on aplicaci\'on Telecare }}{60}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Secci\'on de ayuda aplicaci\'on Telecare }}{60}{figure.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Manejo de espacios aplicaci\'on Telecare }}{61}{figure.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Resultados recorrido cognitivo}}{61}{figure.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Implementaci\'on de miga de pan en la aplicaci\'on}}{62}{figure.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Contextualizaci\'on para opciones de actor m\'edico}}{63}{figure.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Resultado Actividad paciente}}{75}{figure.45}

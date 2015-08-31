@@ -1,0 +1,46 @@
+Trabajo de grado PROTOTIPO SISTEMA TELECARE PARA MONITOREAR EL COMPORTAMIENTO DE UN PACIENTE DIAGNOSTICADO CON TRASTORNO OBSESIVO COMPULSIVO
+Presentado como requisito para obtener el título de Ingeniero de Sistemas y Computación, por:
+Oscar David Arce serna
+Cesar Uriel Ochoa
+Jhon Fredy Galeano.
+
+
+(Recomendaciones: Este Trabajo es un prototipo de sistema telecare psiquiátrico)
+
+Contenido de carpetas:
+A continucacion se indica la estructura de carpetas y contenido:
+Carpeta Anexos:
+contenido
+*Diccionario de datos
+*Casos de uso
+*Fotos y vídeos que soportan las reuniones con el profesional de la salud, junto con la entrega y validaciones respectivas por éste.
+
+Carpeta Anteproyecto:
+*Documento con el anteproyecto presentado
+
+Carpeta Articulo:
+*Articulo del prototipo de sistema telecare psiquiátrico.
+
+Carpeta Documentacion:
+*Informe Final prototipo sistema telecare psiquiátrico
+
+Carpeta Implementacion:
+*Código fuente aplicación escritorio en JAVA
+*Código fuente microcontrolador ARDUINO
+
+Carpeta Instaladores:
+*Instaladores de la base de datos oracle 11g, Oracle APEX. documento de soporte para ejecutar scripts
+*Scripts de configuración para el sistema telecare
+*Datos parametricos para e sistema telecare
+
+Carpeta Manuales:
+*manual de instalación y configuración del sistema
+*manual de usuario
+
+Carpeta Presentacion proyecto:
+*Dispositivas para la presentación del proyecto
+
+Carpeta Pruebas de usablidad por expertos
+*pruebas usabilidad.
+
+
